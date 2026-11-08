@@ -1,0 +1,93 @@
+START mode=quick offline=1 workers=4
+OFFLINE_SOCKET_BLOCK_CONFIRMED
+Authority DOCX extracted: 10 tables, 25 physical blocks, 5 figure panels
+Forecast tables recalculated
+Daily premia tables recalculated
+Grid corrected decomposition recalculated
+Trading and order flow tables recalculated
+VaR and ES tables recalculated
+Computed cells: 1504
+       checked  matched  rate
+table                        
+1           48       48   1.0
+2          122      122   1.0
+3          324      324   1.0
+4           96       96   1.0
+5          300      300   1.0
+6          168      168   1.0
+7           98       98   1.0
+8           98       98   1.0
+9          106      106   1.0
+10         100      100   1.0
+MISMATCHES 0 UNMAPPED 0
+All three figures regenerated; underlying daily/monthly data saved.
+Table note checks: 40 scope discrepancies: 8
+       checked  matched      rate
+table                            
+1           48        0  0.000000
+2          122      122  1.000000
+3          324      324  1.000000
+4           96       96  1.000000
+5          300      210  0.700000
+6          168      168  1.000000
+7           98       98  1.000000
+8           98       98  1.000000
+9          106       42  0.396226
+10         100      100  1.000000
+MISMATCHES 202 UNMAPPED 0
+Table note checks: 40 scope discrepancies: 8
+Stated-definition mismatches: 202 historical version still retained separately.
+Time-cutoff audit complete: 120 specifications
+{
+  "mode": "quick",
+  "offline": true,
+  "wall_seconds": 40.54994112500572,
+  "python": "3.12.15 (main, Sep 30 2026, 22:04:19) [Clang 21.0.0 (clang-2100.3.34.2)]",
+  "platform": "macOS-27.2-arm64-arm-64bit",
+  "machine": "arm64",
+  "workers": 4,
+  "numeric_threads": 1,
+  "memory_budget_gb": 8.5,
+  "seeds": {
+    "forecasts": 20261007,
+    "stationary_bootstrap": 20261007,
+    "mcs": 20261007
+  },
+  "stages": [
+    {
+      "stage": "extract.py",
+      "seconds": 0.11132620899297763
+    },
+    {
+      "stage": "tables.py",
+      "seconds": 13.259022458005347
+    },
+    {
+      "stage": "verify.py",
+      "seconds": 4.402314332997776
+    },
+    {
+      "stage": "figures.py",
+      "seconds": 5.42208641700563
+    },
+    {
+      "stage": "notes.py",
+      "seconds": 8.051466917007929
+    },
+    {
+      "stage": "audit_inputs.py",
+      "seconds": 9.273844291994465
+    }
+  ],
+  "versions": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scipy": "1.18.1",
+    "statsmodels": "0.15.0",
+    "scikit-learn": "1.7.2",
+    "pyarrow": "21.0.0",
+    "matplotlib": "3.10.6",
+    "Pillow": "13.0.0"
+  }
+}
+FINISH mode=quick wall_seconds=41

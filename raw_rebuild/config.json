@@ -1,0 +1,30 @@
+{
+  "seed": 20261007,
+  "assets": [
+    "BTC",
+    "ETH"
+  ],
+  "end_date": "2026-10-06",
+  "monthly_end": "2026-09",
+  "rolling_windows": [
+    750,
+    1000,
+    1500
+  ],
+  "horizons": [
+    1,
+    7,
+    30
+  ],
+  "cost_bps": [
+    2,
+    5,
+    10
+  ],
+  "gate1_days": 1000,
+  "gate1_missing": 0.005,
+  "gate1_coverage": 0.95,
+  "alpha": 0.05,
+  "mcs_alpha": 0.1,
+  "bootstrap_reps": 1999
+}

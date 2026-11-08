@@ -1,0 +1,6 @@
+figure,protocol,same_underlying_data_as_generating_version,reason
+figure1_BTC.png,manuscript_as_stated,False,23-hour target replaces historical 24-hour input; see source_version for exact historical data replay
+figure1_ETH.png,manuscript_as_stated,False,23-hour target replaces historical 24-hour input; see source_version for exact historical data replay
+figure2_BTC.png,manuscript_as_stated,False,One-day term point changes under the stated 23-hour target
+figure2_ETH.png,manuscript_as_stated,False,One-day term point changes under the stated 23-hour target
+figure3.png,manuscript_as_stated,False,23-hour target replaces historical 24-hour input; see source_version for exact historical data replay

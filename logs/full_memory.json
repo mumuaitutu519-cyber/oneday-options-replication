@@ -1,0 +1,7 @@
+{
+  "peak_tree_rss_kib": 1370816,
+  "peak_tree_rss_gib": 1.30731201171875,
+  "process_count_including_controller": 6,
+  "reserved_budget_gb": 8.5,
+  "hard_limit_gb": 10
+}

@@ -1,0 +1,1978 @@
+[
+  {
+    "currency": "BTC",
+    "spec": "w500_log_hour8_h1",
+    "key": "BTC_w500_log_hour8_h1",
+    "kind": "main",
+    "window": 500,
+    "models": [
+      "HAR",
+      "HAR_S",
+      "HAR_J",
+      "HAR_Q",
+      "HAR_clock",
+      "HAR_DVOL",
+      "GB",
+      "LASSO",
+      "RF",
+      "IV_raw",
+      "IV_calibrated",
+      "IV_HAR",
+      "DVOL_calibrated",
+      "IV_GB",
+      "DVOL_raw"
+    ],
+    "risk": true,
+    "minimum": 120
+  },
+  {
+    "currency": "BTC",
+    "spec": "w365_log_hour8_h1",
+    "key": "BTC_w365_log_hour8_h1",
+    "kind": "main",
+    "window": 365,
+    "models": [
+      "HAR",
+      "HAR_S",
+      "HAR_J",
+      "HAR_Q",
+      "HAR_clock",
+      "HAR_DVOL",
+      "GB",
+      "LASSO",
+      "RF",
+      "IV_raw",
+      "IV_calibrated",
+      "IV_HAR",
+      "DVOL_calibrated",
+      "IV_GB",
+      "DVOL_raw"
+    ],
+    "risk": false,
+    "minimum": 120
+  },
+  {
+    "currency": "BTC",
+    "spec": "wexpanding_log_hour8_h1",
+    "key": "BTC_wexpanding_log_hour8_h1",
+    "kind": "main",
+    "window": "expanding",
+    "models": [
+      "HAR",
+      "HAR_S",
+      "HAR_J",
+      "HAR_Q",
+      "HAR_clock",
+      "HAR_DVOL",
+      "GB",
+      "LASSO",
+      "RF",
+      "IV_raw",
+      "IV_calibrated",
+      "IV_HAR",
+      "DVOL_calibrated",
+      "IV_GB",
+      "DVOL_raw"
+    ],
+    "risk": false,
+    "minimum": 120
+  },
+  {
+    "currency": "BTC",
+    "spec": "w1000_log_hour8_h1",
+    "key": "BTC_w1000_log_hour8_h1",
+    "kind": "R4",
+    "window": 1000,
+    "models": [
+      "HAR",
+      "HAR_S",
+      "HAR_J",
+      "HAR_Q",
+      "HAR_clock",
+      "HAR_DVOL",
+      "GB",
+      "IV_raw",
+      "IV_calibrated",
+      "IV_HAR",
+      "DVOL_calibrated",
+      "IV_GB",
+      "DVOL_raw"
+    ],
+    "risk": false,
+    "minimum": 200
+  },
+  {
+    "currency": "BTC",
+    "spec": "mark_w500_log_hour8_h1",
+    "key": "BTC_mark_w500_log_hour8_h1",
+    "kind": "mark",
+    "window": 500,
+    "models": [
+      "IV_raw",
+      "IV_calibrated",
+      "IV_HAR"
+    ],
+    "risk": false,
+    "minimum": 120
+  },
+  {
+    "currency": "BTC",
+    "spec": "bilateral_w500_log_hour8_h1",
+    "key": "BTC_bilateral_w500_log_hour8_h1",
+    "kind": "bilateral",
+    "window": 500,
+    "models": [
+      "IV_raw",
+      "IV_calibrated",
+      "IV_HAR"
+    ],
+    "risk": false,
+    "minimum": 120
+  },
+  {
+    "currency": "BTC",
+    "spec": "last15_w500_log_hour8_h1",
+    "key": "BTC_last15_w500_log_hour8_h1",
+    "kind": "last15",
+    "window": 500,
+    "models": [
+      "IV_raw",
+      "IV_calibrated",
+      "IV_HAR"
+    ],
+    "risk": false,
+    "minimum": 120
+  },
+  {
+    "currency": "BTC",
+    "spec": "band02_w500_log_hour8_h1",
+    "key": "BTC_band02_w500_log_hour8_h1",
+    "kind": "band02",
+    "window": 500,
+    "models": [
+      "IV_raw",
+      "IV_calibrated",
+      "IV_HAR"
+    ],
+    "risk": false,
+    "minimum": 120
+  },
+  {
+    "currency": "BTC",
+    "spec": "band10_w500_log_hour8_h1",
+    "key": "BTC_band10_w500_log_hour8_h1",
+    "kind": "band10",
+    "window": 500,
+    "models": [
+      "IV_raw",
+      "IV_calibrated",
+      "IV_HAR"
+    ],
+    "risk": false,
+    "minimum": 120
+  },
+  {
+    "currency": "BTC",
+    "spec": "weighted_w500_log_hour8_h1",
+    "key": "BTC_weighted_w500_log_hour8_h1",
+    "kind": "weighted",
+    "window": 500,
+    "models": [
+      "IV_raw",
+      "IV_calibrated",
+      "IV_HAR"
+    ],
+    "risk": false,
+    "minimum": 120
+  },
+  {
+    "currency": "BTC",
+    "spec": "dropmove1_w500_log_hour8_h1",
+    "key": "BTC_dropmove1_w500_log_hour8_h1",
+    "kind": "dropmove1",
+    "window": 500,
+    "models": [
+      "IV_raw",
+      "IV_calibrated",
+      "IV_HAR"
+    ],
+    "risk": false,
+    "minimum": 120
+  },
+  {
+    "currency": "BTC",
+    "spec": "placebo_lag1_w500_log_hour8_h1",
+    "key": "BTC_placebo_lag1_w500_log_hour8_h1",
+    "kind": "placebo_lag1",
+    "window": 500,
+    "models": [
+      "IV_raw",
+      "IV_calibrated",
+      "IV_HAR"
+    ],
+    "risk": false,
+    "minimum": 120
+  },
+  {
+    "currency": "BTC",
+    "spec": "rv_binance_spot_rv5",
+    "key": "BTC_rv_binance_spot_rv5",
+    "kind": "measurement",
+    "window": 500,
+    "models": [
+      "HAR",
+      "HAR_S",
+      "HAR_J",
+      "HAR_Q",
+      "HAR_clock",
+      "HAR_DVOL",
+      "GB",
+      "LASSO",
+      "RF",
+      "IV_raw",
+      "IV_calibrated",
+      "IV_HAR",
+      "DVOL_raw"
+    ],
+    "risk": false,
+    "minimum": 120
+  },
+  {
+    "currency": "BTC",
+    "spec": "rv_deribit_rv5",
+    "key": "BTC_rv_deribit_rv5",
+    "kind": "measurement",
+    "window": 500,
+    "models": [
+      "HAR",
+      "HAR_S",
+      "HAR_J",
+      "HAR_Q",
+      "HAR_clock",
+      "HAR_DVOL",
+      "GB",
+      "LASSO",
+      "RF",
+      "IV_raw",
+      "IV_calibrated",
+      "IV_HAR",
+      "DVOL_raw"
+    ],
+    "risk": false,
+    "minimum": 120
+  },
+  {
+    "currency": "BTC",
+    "spec": "rv_binance_perp_rv1",
+    "key": "BTC_rv_binance_perp_rv1",
+    "kind": "measurement",
+    "window": 500,
+    "models": [
+      "HAR",
+      "HAR_S",
+      "HAR_J",
+      "HAR_Q",
+      "HAR_clock",
+      "HAR_DVOL",
+      "GB",
+      "LASSO",
+      "RF",
+      "IV_raw",
+      "IV_calibrated",
+      "IV_HAR",
+      "DVOL_raw"
+    ],
+    "risk": false,
+    "minimum": 120
+  },
+  {
+    "currency": "BTC",
+    "spec": "rv_binance_perp_subsample",
+    "key": "BTC_rv_binance_perp_subsample",
+    "kind": "measurement",
+    "window": 500,
+    "models": [
+      "HAR",
+      "HAR_S",
+      "HAR_J",
+      "HAR_Q",
+      "HAR_clock",
+      "HAR_DVOL",
+      "GB",
+      "LASSO",
+      "RF",
+      "IV_raw",
+      "IV_calibrated",
+      "IV_HAR",
+      "DVOL_raw"
+    ],
+    "risk": false,
+    "minimum": 120
+  },
+  {
+    "currency": "BTC",
+    "spec": "rv_binance_perp_kernel",
+    "key": "BTC_rv_binance_perp_kernel",
+    "kind": "measurement",
+    "window": 500,
+    "models": [
+      "HAR",
+      "HAR_S",
+      "HAR_J",
+      "HAR_Q",
+      "HAR_clock",
+      "HAR_DVOL",
+      "GB",
+      "LASSO",
+      "RF",
+      "IV_raw",
+      "IV_calibrated",
+      "IV_HAR",
+      "DVOL_raw"
+    ],
+    "risk": false,
+    "minimum": 120
+  },
+  {
+    "currency": "BTC",
+    "spec": "rv_binance_perp_payoff",
+    "key": "BTC_rv_binance_perp_payoff",
+    "kind": "measurement",
+    "window": 500,
+    "models": [
+      "HAR",
+      "HAR_S",
+      "HAR_J",
+      "HAR_Q",
+      "HAR_clock",
+      "HAR_DVOL",
+      "GB",
+      "LASSO",
+      "RF",
+      "IV_raw",
+      "IV_calibrated",
+      "IV_HAR",
+      "DVOL_raw"
+    ],
+    "risk": false,
+    "minimum": 120
+  },
+  {
+    "currency": "BTC",
+    "spec": "matrix_h1_k1_w500_log",
+    "key": "BTC_matrix_h1_k1_w500_log",
+    "kind": "matrix",
+    "window": 500,
+    "models": [
+      "HAR",
+      "IV_raw",
+      "IV_calibrated",
+      "IV_HAR"
+    ],
+    "risk": false,
+    "minimum": 120
+  },
+  {
+    "currency": "BTC",
+    "spec": "matrix_h1_k2_w500_log",
+    "key": "BTC_matrix_h1_k2_w500_log",
+    "kind": "matrix",
+    "window": 500,
+    "models": [
+      "HAR",
+      "IV_raw",
+      "IV_calibrated",
+      "IV_HAR"
+    ],
+    "risk": false,
+    "minimum": 120
+  },
+  {
+    "currency": "BTC",
+    "spec": "matrix_h1_k3_w500_log",
+    "key": "BTC_matrix_h1_k3_w500_log",
+    "kind": "matrix",
+    "window": 500,
+    "models": [
+      "HAR",
+      "IV_raw",
+      "IV_calibrated",
+      "IV_HAR"
+    ],
+    "risk": false,
+    "minimum": 120
+  },
+  {
+    "currency": "BTC",
+    "spec": "matrix_h1_k7_w500_log",
+    "key": "BTC_matrix_h1_k7_w500_log",
+    "kind": "matrix",
+    "window": 500,
+    "models": [
+      "HAR",
+      "IV_raw",
+      "IV_calibrated",
+      "IV_HAR"
+    ],
+    "risk": false,
+    "minimum": 120
+  },
+  {
+    "currency": "BTC",
+    "spec": "matrix_h1_k14_w500_log",
+    "key": "BTC_matrix_h1_k14_w500_log",
+    "kind": "matrix",
+    "window": 500,
+    "models": [
+      "HAR",
+      "IV_raw",
+      "IV_calibrated",
+      "IV_HAR"
+    ],
+    "risk": false,
+    "minimum": 120
+  },
+  {
+    "currency": "BTC",
+    "spec": "matrix_h1_k30_w500_log",
+    "key": "BTC_matrix_h1_k30_w500_log",
+    "kind": "matrix",
+    "window": 500,
+    "models": [
+      "HAR",
+      "IV_raw",
+      "IV_calibrated",
+      "IV_HAR"
+    ],
+    "risk": false,
+    "minimum": 120
+  },
+  {
+    "currency": "BTC",
+    "spec": "matrix_h1_kDVOL_w500_log",
+    "key": "BTC_matrix_h1_kDVOL_w500_log",
+    "kind": "matrix",
+    "window": 500,
+    "models": [
+      "HAR",
+      "IV_raw",
+      "IV_calibrated",
+      "IV_HAR"
+    ],
+    "risk": false,
+    "minimum": 120
+  },
+  {
+    "currency": "BTC",
+    "spec": "matrix_h2_k1_w500_log",
+    "key": "BTC_matrix_h2_k1_w500_log",
+    "kind": "matrix",
+    "window": 500,
+    "models": [
+      "HAR",
+      "IV_raw",
+      "IV_calibrated",
+      "IV_HAR"
+    ],
+    "risk": false,
+    "minimum": 120
+  },
+  {
+    "currency": "BTC",
+    "spec": "matrix_h2_k2_w500_log",
+    "key": "BTC_matrix_h2_k2_w500_log",
+    "kind": "matrix",
+    "window": 500,
+    "models": [
+      "HAR",
+      "IV_raw",
+      "IV_calibrated",
+      "IV_HAR"
+    ],
+    "risk": false,
+    "minimum": 120
+  },
+  {
+    "currency": "BTC",
+    "spec": "matrix_h2_k3_w500_log",
+    "key": "BTC_matrix_h2_k3_w500_log",
+    "kind": "matrix",
+    "window": 500,
+    "models": [
+      "HAR",
+      "IV_raw",
+      "IV_calibrated",
+      "IV_HAR"
+    ],
+    "risk": false,
+    "minimum": 120
+  },
+  {
+    "currency": "BTC",
+    "spec": "matrix_h2_k7_w500_log",
+    "key": "BTC_matrix_h2_k7_w500_log",
+    "kind": "matrix",
+    "window": 500,
+    "models": [
+      "HAR",
+      "IV_raw",
+      "IV_calibrated",
+      "IV_HAR"
+    ],
+    "risk": false,
+    "minimum": 120
+  },
+  {
+    "currency": "BTC",
+    "spec": "matrix_h2_k14_w500_log",
+    "key": "BTC_matrix_h2_k14_w500_log",
+    "kind": "matrix",
+    "window": 500,
+    "models": [
+      "HAR",
+      "IV_raw",
+      "IV_calibrated",
+      "IV_HAR"
+    ],
+    "risk": false,
+    "minimum": 120
+  },
+  {
+    "currency": "BTC",
+    "spec": "matrix_h2_k30_w500_log",
+    "key": "BTC_matrix_h2_k30_w500_log",
+    "kind": "matrix",
+    "window": 500,
+    "models": [
+      "HAR",
+      "IV_raw",
+      "IV_calibrated",
+      "IV_HAR"
+    ],
+    "risk": false,
+    "minimum": 120
+  },
+  {
+    "currency": "BTC",
+    "spec": "matrix_h2_kDVOL_w500_log",
+    "key": "BTC_matrix_h2_kDVOL_w500_log",
+    "kind": "matrix",
+    "window": 500,
+    "models": [
+      "HAR",
+      "IV_raw",
+      "IV_calibrated",
+      "IV_HAR"
+    ],
+    "risk": false,
+    "minimum": 120
+  },
+  {
+    "currency": "BTC",
+    "spec": "matrix_h3_k1_w500_log",
+    "key": "BTC_matrix_h3_k1_w500_log",
+    "kind": "matrix",
+    "window": 500,
+    "models": [
+      "HAR",
+      "IV_raw",
+      "IV_calibrated",
+      "IV_HAR"
+    ],
+    "risk": false,
+    "minimum": 120
+  },
+  {
+    "currency": "BTC",
+    "spec": "matrix_h3_k2_w500_log",
+    "key": "BTC_matrix_h3_k2_w500_log",
+    "kind": "matrix",
+    "window": 500,
+    "models": [
+      "HAR",
+      "IV_raw",
+      "IV_calibrated",
+      "IV_HAR"
+    ],
+    "risk": false,
+    "minimum": 120
+  },
+  {
+    "currency": "BTC",
+    "spec": "matrix_h3_k3_w500_log",
+    "key": "BTC_matrix_h3_k3_w500_log",
+    "kind": "matrix",
+    "window": 500,
+    "models": [
+      "HAR",
+      "IV_raw",
+      "IV_calibrated",
+      "IV_HAR"
+    ],
+    "risk": false,
+    "minimum": 120
+  },
+  {
+    "currency": "BTC",
+    "spec": "matrix_h3_k7_w500_log",
+    "key": "BTC_matrix_h3_k7_w500_log",
+    "kind": "matrix",
+    "window": 500,
+    "models": [
+      "HAR",
+      "IV_raw",
+      "IV_calibrated",
+      "IV_HAR"
+    ],
+    "risk": false,
+    "minimum": 120
+  },
+  {
+    "currency": "BTC",
+    "spec": "matrix_h3_k14_w500_log",
+    "key": "BTC_matrix_h3_k14_w500_log",
+    "kind": "matrix",
+    "window": 500,
+    "models": [
+      "HAR",
+      "IV_raw",
+      "IV_calibrated",
+      "IV_HAR"
+    ],
+    "risk": false,
+    "minimum": 120
+  },
+  {
+    "currency": "BTC",
+    "spec": "matrix_h3_k30_w500_log",
+    "key": "BTC_matrix_h3_k30_w500_log",
+    "kind": "matrix",
+    "window": 500,
+    "models": [
+      "HAR",
+      "IV_raw",
+      "IV_calibrated",
+      "IV_HAR"
+    ],
+    "risk": false,
+    "minimum": 120
+  },
+  {
+    "currency": "BTC",
+    "spec": "matrix_h3_kDVOL_w500_log",
+    "key": "BTC_matrix_h3_kDVOL_w500_log",
+    "kind": "matrix",
+    "window": 500,
+    "models": [
+      "HAR",
+      "IV_raw",
+      "IV_calibrated",
+      "IV_HAR"
+    ],
+    "risk": false,
+    "minimum": 120
+  },
+  {
+    "currency": "BTC",
+    "spec": "matrix_h7_k1_w500_log",
+    "key": "BTC_matrix_h7_k1_w500_log",
+    "kind": "matrix",
+    "window": 500,
+    "models": [
+      "HAR",
+      "IV_raw",
+      "IV_calibrated",
+      "IV_HAR"
+    ],
+    "risk": false,
+    "minimum": 120
+  },
+  {
+    "currency": "BTC",
+    "spec": "matrix_h7_k2_w500_log",
+    "key": "BTC_matrix_h7_k2_w500_log",
+    "kind": "matrix",
+    "window": 500,
+    "models": [
+      "HAR",
+      "IV_raw",
+      "IV_calibrated",
+      "IV_HAR"
+    ],
+    "risk": false,
+    "minimum": 120
+  },
+  {
+    "currency": "BTC",
+    "spec": "matrix_h7_k3_w500_log",
+    "key": "BTC_matrix_h7_k3_w500_log",
+    "kind": "matrix",
+    "window": 500,
+    "models": [
+      "HAR",
+      "IV_raw",
+      "IV_calibrated",
+      "IV_HAR"
+    ],
+    "risk": false,
+    "minimum": 120
+  },
+  {
+    "currency": "BTC",
+    "spec": "matrix_h7_k7_w500_log",
+    "key": "BTC_matrix_h7_k7_w500_log",
+    "kind": "matrix",
+    "window": 500,
+    "models": [
+      "HAR",
+      "IV_raw",
+      "IV_calibrated",
+      "IV_HAR"
+    ],
+    "risk": false,
+    "minimum": 120
+  },
+  {
+    "currency": "BTC",
+    "spec": "matrix_h7_k14_w500_log",
+    "key": "BTC_matrix_h7_k14_w500_log",
+    "kind": "matrix",
+    "window": 500,
+    "models": [
+      "HAR",
+      "IV_raw",
+      "IV_calibrated",
+      "IV_HAR"
+    ],
+    "risk": false,
+    "minimum": 120
+  },
+  {
+    "currency": "BTC",
+    "spec": "matrix_h7_k30_w500_log",
+    "key": "BTC_matrix_h7_k30_w500_log",
+    "kind": "matrix",
+    "window": 500,
+    "models": [
+      "HAR",
+      "IV_raw",
+      "IV_calibrated",
+      "IV_HAR"
+    ],
+    "risk": false,
+    "minimum": 120
+  },
+  {
+    "currency": "BTC",
+    "spec": "matrix_h7_kDVOL_w500_log",
+    "key": "BTC_matrix_h7_kDVOL_w500_log",
+    "kind": "matrix",
+    "window": 500,
+    "models": [
+      "HAR",
+      "IV_raw",
+      "IV_calibrated",
+      "IV_HAR"
+    ],
+    "risk": false,
+    "minimum": 120
+  },
+  {
+    "currency": "BTC",
+    "spec": "matrix_h14_k1_w500_log",
+    "key": "BTC_matrix_h14_k1_w500_log",
+    "kind": "matrix",
+    "window": 500,
+    "models": [
+      "HAR",
+      "IV_raw",
+      "IV_calibrated",
+      "IV_HAR"
+    ],
+    "risk": false,
+    "minimum": 120
+  },
+  {
+    "currency": "BTC",
+    "spec": "matrix_h14_k2_w500_log",
+    "key": "BTC_matrix_h14_k2_w500_log",
+    "kind": "matrix",
+    "window": 500,
+    "models": [
+      "HAR",
+      "IV_raw",
+      "IV_calibrated",
+      "IV_HAR"
+    ],
+    "risk": false,
+    "minimum": 120
+  },
+  {
+    "currency": "BTC",
+    "spec": "matrix_h14_k3_w500_log",
+    "key": "BTC_matrix_h14_k3_w500_log",
+    "kind": "matrix",
+    "window": 500,
+    "models": [
+      "HAR",
+      "IV_raw",
+      "IV_calibrated",
+      "IV_HAR"
+    ],
+    "risk": false,
+    "minimum": 120
+  },
+  {
+    "currency": "BTC",
+    "spec": "matrix_h14_k7_w500_log",
+    "key": "BTC_matrix_h14_k7_w500_log",
+    "kind": "matrix",
+    "window": 500,
+    "models": [
+      "HAR",
+      "IV_raw",
+      "IV_calibrated",
+      "IV_HAR"
+    ],
+    "risk": false,
+    "minimum": 120
+  },
+  {
+    "currency": "BTC",
+    "spec": "matrix_h14_k14_w500_log",
+    "key": "BTC_matrix_h14_k14_w500_log",
+    "kind": "matrix",
+    "window": 500,
+    "models": [
+      "HAR",
+      "IV_raw",
+      "IV_calibrated",
+      "IV_HAR"
+    ],
+    "risk": false,
+    "minimum": 120
+  },
+  {
+    "currency": "BTC",
+    "spec": "matrix_h14_k30_w500_log",
+    "key": "BTC_matrix_h14_k30_w500_log",
+    "kind": "matrix",
+    "window": 500,
+    "models": [
+      "HAR",
+      "IV_raw",
+      "IV_calibrated",
+      "IV_HAR"
+    ],
+    "risk": false,
+    "minimum": 120
+  },
+  {
+    "currency": "BTC",
+    "spec": "matrix_h14_kDVOL_w500_log",
+    "key": "BTC_matrix_h14_kDVOL_w500_log",
+    "kind": "matrix",
+    "window": 500,
+    "models": [
+      "HAR",
+      "IV_raw",
+      "IV_calibrated",
+      "IV_HAR"
+    ],
+    "risk": false,
+    "minimum": 120
+  },
+  {
+    "currency": "BTC",
+    "spec": "matrix_h30_k1_w500_log",
+    "key": "BTC_matrix_h30_k1_w500_log",
+    "kind": "matrix",
+    "window": 500,
+    "models": [
+      "HAR",
+      "IV_raw",
+      "IV_calibrated",
+      "IV_HAR"
+    ],
+    "risk": false,
+    "minimum": 120
+  },
+  {
+    "currency": "BTC",
+    "spec": "matrix_h30_k2_w500_log",
+    "key": "BTC_matrix_h30_k2_w500_log",
+    "kind": "matrix",
+    "window": 500,
+    "models": [
+      "HAR",
+      "IV_raw",
+      "IV_calibrated",
+      "IV_HAR"
+    ],
+    "risk": false,
+    "minimum": 120
+  },
+  {
+    "currency": "BTC",
+    "spec": "matrix_h30_k3_w500_log",
+    "key": "BTC_matrix_h30_k3_w500_log",
+    "kind": "matrix",
+    "window": 500,
+    "models": [
+      "HAR",
+      "IV_raw",
+      "IV_calibrated",
+      "IV_HAR"
+    ],
+    "risk": false,
+    "minimum": 120
+  },
+  {
+    "currency": "BTC",
+    "spec": "matrix_h30_k7_w500_log",
+    "key": "BTC_matrix_h30_k7_w500_log",
+    "kind": "matrix",
+    "window": 500,
+    "models": [
+      "HAR",
+      "IV_raw",
+      "IV_calibrated",
+      "IV_HAR"
+    ],
+    "risk": false,
+    "minimum": 120
+  },
+  {
+    "currency": "BTC",
+    "spec": "matrix_h30_k14_w500_log",
+    "key": "BTC_matrix_h30_k14_w500_log",
+    "kind": "matrix",
+    "window": 500,
+    "models": [
+      "HAR",
+      "IV_raw",
+      "IV_calibrated",
+      "IV_HAR"
+    ],
+    "risk": false,
+    "minimum": 120
+  },
+  {
+    "currency": "BTC",
+    "spec": "matrix_h30_k30_w500_log",
+    "key": "BTC_matrix_h30_k30_w500_log",
+    "kind": "matrix",
+    "window": 500,
+    "models": [
+      "HAR",
+      "IV_raw",
+      "IV_calibrated",
+      "IV_HAR"
+    ],
+    "risk": false,
+    "minimum": 120
+  },
+  {
+    "currency": "BTC",
+    "spec": "matrix_h30_kDVOL_w500_log",
+    "key": "BTC_matrix_h30_kDVOL_w500_log",
+    "kind": "matrix",
+    "window": 500,
+    "models": [
+      "HAR",
+      "IV_raw",
+      "IV_calibrated",
+      "IV_HAR"
+    ],
+    "risk": false,
+    "minimum": 120
+  },
+  {
+    "currency": "ETH",
+    "spec": "w500_log_hour8_h1",
+    "key": "ETH_w500_log_hour8_h1",
+    "kind": "main",
+    "window": 500,
+    "models": [
+      "HAR",
+      "HAR_S",
+      "HAR_J",
+      "HAR_Q",
+      "HAR_clock",
+      "HAR_DVOL",
+      "GB",
+      "LASSO",
+      "RF",
+      "IV_raw",
+      "IV_calibrated",
+      "IV_HAR",
+      "DVOL_calibrated",
+      "IV_GB",
+      "DVOL_raw"
+    ],
+    "risk": true,
+    "minimum": 120
+  },
+  {
+    "currency": "ETH",
+    "spec": "w365_log_hour8_h1",
+    "key": "ETH_w365_log_hour8_h1",
+    "kind": "main",
+    "window": 365,
+    "models": [
+      "HAR",
+      "HAR_S",
+      "HAR_J",
+      "HAR_Q",
+      "HAR_clock",
+      "HAR_DVOL",
+      "GB",
+      "LASSO",
+      "RF",
+      "IV_raw",
+      "IV_calibrated",
+      "IV_HAR",
+      "DVOL_calibrated",
+      "IV_GB",
+      "DVOL_raw"
+    ],
+    "risk": false,
+    "minimum": 120
+  },
+  {
+    "currency": "ETH",
+    "spec": "wexpanding_log_hour8_h1",
+    "key": "ETH_wexpanding_log_hour8_h1",
+    "kind": "main",
+    "window": "expanding",
+    "models": [
+      "HAR",
+      "HAR_S",
+      "HAR_J",
+      "HAR_Q",
+      "HAR_clock",
+      "HAR_DVOL",
+      "GB",
+      "LASSO",
+      "RF",
+      "IV_raw",
+      "IV_calibrated",
+      "IV_HAR",
+      "DVOL_calibrated",
+      "IV_GB",
+      "DVOL_raw"
+    ],
+    "risk": false,
+    "minimum": 120
+  },
+  {
+    "currency": "ETH",
+    "spec": "w1000_log_hour8_h1",
+    "key": "ETH_w1000_log_hour8_h1",
+    "kind": "R4",
+    "window": 1000,
+    "models": [
+      "HAR",
+      "HAR_S",
+      "HAR_J",
+      "HAR_Q",
+      "HAR_clock",
+      "HAR_DVOL",
+      "GB",
+      "IV_raw",
+      "IV_calibrated",
+      "IV_HAR",
+      "DVOL_calibrated",
+      "IV_GB",
+      "DVOL_raw"
+    ],
+    "risk": false,
+    "minimum": 200
+  },
+  {
+    "currency": "ETH",
+    "spec": "mark_w500_log_hour8_h1",
+    "key": "ETH_mark_w500_log_hour8_h1",
+    "kind": "mark",
+    "window": 500,
+    "models": [
+      "IV_raw",
+      "IV_calibrated",
+      "IV_HAR"
+    ],
+    "risk": false,
+    "minimum": 120
+  },
+  {
+    "currency": "ETH",
+    "spec": "bilateral_w500_log_hour8_h1",
+    "key": "ETH_bilateral_w500_log_hour8_h1",
+    "kind": "bilateral",
+    "window": 500,
+    "models": [
+      "IV_raw",
+      "IV_calibrated",
+      "IV_HAR"
+    ],
+    "risk": false,
+    "minimum": 120
+  },
+  {
+    "currency": "ETH",
+    "spec": "last15_w500_log_hour8_h1",
+    "key": "ETH_last15_w500_log_hour8_h1",
+    "kind": "last15",
+    "window": 500,
+    "models": [
+      "IV_raw",
+      "IV_calibrated",
+      "IV_HAR"
+    ],
+    "risk": false,
+    "minimum": 120
+  },
+  {
+    "currency": "ETH",
+    "spec": "band02_w500_log_hour8_h1",
+    "key": "ETH_band02_w500_log_hour8_h1",
+    "kind": "band02",
+    "window": 500,
+    "models": [
+      "IV_raw",
+      "IV_calibrated",
+      "IV_HAR"
+    ],
+    "risk": false,
+    "minimum": 120
+  },
+  {
+    "currency": "ETH",
+    "spec": "band10_w500_log_hour8_h1",
+    "key": "ETH_band10_w500_log_hour8_h1",
+    "kind": "band10",
+    "window": 500,
+    "models": [
+      "IV_raw",
+      "IV_calibrated",
+      "IV_HAR"
+    ],
+    "risk": false,
+    "minimum": 120
+  },
+  {
+    "currency": "ETH",
+    "spec": "weighted_w500_log_hour8_h1",
+    "key": "ETH_weighted_w500_log_hour8_h1",
+    "kind": "weighted",
+    "window": 500,
+    "models": [
+      "IV_raw",
+      "IV_calibrated",
+      "IV_HAR"
+    ],
+    "risk": false,
+    "minimum": 120
+  },
+  {
+    "currency": "ETH",
+    "spec": "dropmove1_w500_log_hour8_h1",
+    "key": "ETH_dropmove1_w500_log_hour8_h1",
+    "kind": "dropmove1",
+    "window": 500,
+    "models": [
+      "IV_raw",
+      "IV_calibrated",
+      "IV_HAR"
+    ],
+    "risk": false,
+    "minimum": 120
+  },
+  {
+    "currency": "ETH",
+    "spec": "placebo_lag1_w500_log_hour8_h1",
+    "key": "ETH_placebo_lag1_w500_log_hour8_h1",
+    "kind": "placebo_lag1",
+    "window": 500,
+    "models": [
+      "IV_raw",
+      "IV_calibrated",
+      "IV_HAR"
+    ],
+    "risk": false,
+    "minimum": 120
+  },
+  {
+    "currency": "ETH",
+    "spec": "rv_binance_spot_rv5",
+    "key": "ETH_rv_binance_spot_rv5",
+    "kind": "measurement",
+    "window": 500,
+    "models": [
+      "HAR",
+      "HAR_S",
+      "HAR_J",
+      "HAR_Q",
+      "HAR_clock",
+      "HAR_DVOL",
+      "GB",
+      "LASSO",
+      "RF",
+      "IV_raw",
+      "IV_calibrated",
+      "IV_HAR",
+      "DVOL_raw"
+    ],
+    "risk": false,
+    "minimum": 120
+  },
+  {
+    "currency": "ETH",
+    "spec": "rv_deribit_rv5",
+    "key": "ETH_rv_deribit_rv5",
+    "kind": "measurement",
+    "window": 500,
+    "models": [
+      "HAR",
+      "HAR_S",
+      "HAR_J",
+      "HAR_Q",
+      "HAR_clock",
+      "HAR_DVOL",
+      "GB",
+      "LASSO",
+      "RF",
+      "IV_raw",
+      "IV_calibrated",
+      "IV_HAR",
+      "DVOL_raw"
+    ],
+    "risk": false,
+    "minimum": 120
+  },
+  {
+    "currency": "ETH",
+    "spec": "rv_binance_perp_rv1",
+    "key": "ETH_rv_binance_perp_rv1",
+    "kind": "measurement",
+    "window": 500,
+    "models": [
+      "HAR",
+      "HAR_S",
+      "HAR_J",
+      "HAR_Q",
+      "HAR_clock",
+      "HAR_DVOL",
+      "GB",
+      "LASSO",
+      "RF",
+      "IV_raw",
+      "IV_calibrated",
+      "IV_HAR",
+      "DVOL_raw"
+    ],
+    "risk": false,
+    "minimum": 120
+  },
+  {
+    "currency": "ETH",
+    "spec": "rv_binance_perp_subsample",
+    "key": "ETH_rv_binance_perp_subsample",
+    "kind": "measurement",
+    "window": 500,
+    "models": [
+      "HAR",
+      "HAR_S",
+      "HAR_J",
+      "HAR_Q",
+      "HAR_clock",
+      "HAR_DVOL",
+      "GB",
+      "LASSO",
+      "RF",
+      "IV_raw",
+      "IV_calibrated",
+      "IV_HAR",
+      "DVOL_raw"
+    ],
+    "risk": false,
+    "minimum": 120
+  },
+  {
+    "currency": "ETH",
+    "spec": "rv_binance_perp_kernel",
+    "key": "ETH_rv_binance_perp_kernel",
+    "kind": "measurement",
+    "window": 500,
+    "models": [
+      "HAR",
+      "HAR_S",
+      "HAR_J",
+      "HAR_Q",
+      "HAR_clock",
+      "HAR_DVOL",
+      "GB",
+      "LASSO",
+      "RF",
+      "IV_raw",
+      "IV_calibrated",
+      "IV_HAR",
+      "DVOL_raw"
+    ],
+    "risk": false,
+    "minimum": 120
+  },
+  {
+    "currency": "ETH",
+    "spec": "rv_binance_perp_payoff",
+    "key": "ETH_rv_binance_perp_payoff",
+    "kind": "measurement",
+    "window": 500,
+    "models": [
+      "HAR",
+      "HAR_S",
+      "HAR_J",
+      "HAR_Q",
+      "HAR_clock",
+      "HAR_DVOL",
+      "GB",
+      "LASSO",
+      "RF",
+      "IV_raw",
+      "IV_calibrated",
+      "IV_HAR",
+      "DVOL_raw"
+    ],
+    "risk": false,
+    "minimum": 120
+  },
+  {
+    "currency": "ETH",
+    "spec": "matrix_h1_k1_w500_log",
+    "key": "ETH_matrix_h1_k1_w500_log",
+    "kind": "matrix",
+    "window": 500,
+    "models": [
+      "HAR",
+      "IV_raw",
+      "IV_calibrated",
+      "IV_HAR"
+    ],
+    "risk": false,
+    "minimum": 120
+  },
+  {
+    "currency": "ETH",
+    "spec": "matrix_h1_k2_w500_log",
+    "key": "ETH_matrix_h1_k2_w500_log",
+    "kind": "matrix",
+    "window": 500,
+    "models": [
+      "HAR",
+      "IV_raw",
+      "IV_calibrated",
+      "IV_HAR"
+    ],
+    "risk": false,
+    "minimum": 120
+  },
+  {
+    "currency": "ETH",
+    "spec": "matrix_h1_k3_w500_log",
+    "key": "ETH_matrix_h1_k3_w500_log",
+    "kind": "matrix",
+    "window": 500,
+    "models": [
+      "HAR",
+      "IV_raw",
+      "IV_calibrated",
+      "IV_HAR"
+    ],
+    "risk": false,
+    "minimum": 120
+  },
+  {
+    "currency": "ETH",
+    "spec": "matrix_h1_k7_w500_log",
+    "key": "ETH_matrix_h1_k7_w500_log",
+    "kind": "matrix",
+    "window": 500,
+    "models": [
+      "HAR",
+      "IV_raw",
+      "IV_calibrated",
+      "IV_HAR"
+    ],
+    "risk": false,
+    "minimum": 120
+  },
+  {
+    "currency": "ETH",
+    "spec": "matrix_h1_k14_w500_log",
+    "key": "ETH_matrix_h1_k14_w500_log",
+    "kind": "matrix",
+    "window": 500,
+    "models": [
+      "HAR",
+      "IV_raw",
+      "IV_calibrated",
+      "IV_HAR"
+    ],
+    "risk": false,
+    "minimum": 120
+  },
+  {
+    "currency": "ETH",
+    "spec": "matrix_h1_k30_w500_log",
+    "key": "ETH_matrix_h1_k30_w500_log",
+    "kind": "matrix",
+    "window": 500,
+    "models": [
+      "HAR",
+      "IV_raw",
+      "IV_calibrated",
+      "IV_HAR"
+    ],
+    "risk": false,
+    "minimum": 120
+  },
+  {
+    "currency": "ETH",
+    "spec": "matrix_h1_kDVOL_w500_log",
+    "key": "ETH_matrix_h1_kDVOL_w500_log",
+    "kind": "matrix",
+    "window": 500,
+    "models": [
+      "HAR",
+      "IV_raw",
+      "IV_calibrated",
+      "IV_HAR"
+    ],
+    "risk": false,
+    "minimum": 120
+  },
+  {
+    "currency": "ETH",
+    "spec": "matrix_h2_k1_w500_log",
+    "key": "ETH_matrix_h2_k1_w500_log",
+    "kind": "matrix",
+    "window": 500,
+    "models": [
+      "HAR",
+      "IV_raw",
+      "IV_calibrated",
+      "IV_HAR"
+    ],
+    "risk": false,
+    "minimum": 120
+  },
+  {
+    "currency": "ETH",
+    "spec": "matrix_h2_k2_w500_log",
+    "key": "ETH_matrix_h2_k2_w500_log",
+    "kind": "matrix",
+    "window": 500,
+    "models": [
+      "HAR",
+      "IV_raw",
+      "IV_calibrated",
+      "IV_HAR"
+    ],
+    "risk": false,
+    "minimum": 120
+  },
+  {
+    "currency": "ETH",
+    "spec": "matrix_h2_k3_w500_log",
+    "key": "ETH_matrix_h2_k3_w500_log",
+    "kind": "matrix",
+    "window": 500,
+    "models": [
+      "HAR",
+      "IV_raw",
+      "IV_calibrated",
+      "IV_HAR"
+    ],
+    "risk": false,
+    "minimum": 120
+  },
+  {
+    "currency": "ETH",
+    "spec": "matrix_h2_k7_w500_log",
+    "key": "ETH_matrix_h2_k7_w500_log",
+    "kind": "matrix",
+    "window": 500,
+    "models": [
+      "HAR",
+      "IV_raw",
+      "IV_calibrated",
+      "IV_HAR"
+    ],
+    "risk": false,
+    "minimum": 120
+  },
+  {
+    "currency": "ETH",
+    "spec": "matrix_h2_k14_w500_log",
+    "key": "ETH_matrix_h2_k14_w500_log",
+    "kind": "matrix",
+    "window": 500,
+    "models": [
+      "HAR",
+      "IV_raw",
+      "IV_calibrated",
+      "IV_HAR"
+    ],
+    "risk": false,
+    "minimum": 120
+  },
+  {
+    "currency": "ETH",
+    "spec": "matrix_h2_k30_w500_log",
+    "key": "ETH_matrix_h2_k30_w500_log",
+    "kind": "matrix",
+    "window": 500,
+    "models": [
+      "HAR",
+      "IV_raw",
+      "IV_calibrated",
+      "IV_HAR"
+    ],
+    "risk": false,
+    "minimum": 120
+  },
+  {
+    "currency": "ETH",
+    "spec": "matrix_h2_kDVOL_w500_log",
+    "key": "ETH_matrix_h2_kDVOL_w500_log",
+    "kind": "matrix",
+    "window": 500,
+    "models": [
+      "HAR",
+      "IV_raw",
+      "IV_calibrated",
+      "IV_HAR"
+    ],
+    "risk": false,
+    "minimum": 120
+  },
+  {
+    "currency": "ETH",
+    "spec": "matrix_h3_k1_w500_log",
+    "key": "ETH_matrix_h3_k1_w500_log",
+    "kind": "matrix",
+    "window": 500,
+    "models": [
+      "HAR",
+      "IV_raw",
+      "IV_calibrated",
+      "IV_HAR"
+    ],
+    "risk": false,
+    "minimum": 120
+  },
+  {
+    "currency": "ETH",
+    "spec": "matrix_h3_k2_w500_log",
+    "key": "ETH_matrix_h3_k2_w500_log",
+    "kind": "matrix",
+    "window": 500,
+    "models": [
+      "HAR",
+      "IV_raw",
+      "IV_calibrated",
+      "IV_HAR"
+    ],
+    "risk": false,
+    "minimum": 120
+  },
+  {
+    "currency": "ETH",
+    "spec": "matrix_h3_k3_w500_log",
+    "key": "ETH_matrix_h3_k3_w500_log",
+    "kind": "matrix",
+    "window": 500,
+    "models": [
+      "HAR",
+      "IV_raw",
+      "IV_calibrated",
+      "IV_HAR"
+    ],
+    "risk": false,
+    "minimum": 120
+  },
+  {
+    "currency": "ETH",
+    "spec": "matrix_h3_k7_w500_log",
+    "key": "ETH_matrix_h3_k7_w500_log",
+    "kind": "matrix",
+    "window": 500,
+    "models": [
+      "HAR",
+      "IV_raw",
+      "IV_calibrated",
+      "IV_HAR"
+    ],
+    "risk": false,
+    "minimum": 120
+  },
+  {
+    "currency": "ETH",
+    "spec": "matrix_h3_k14_w500_log",
+    "key": "ETH_matrix_h3_k14_w500_log",
+    "kind": "matrix",
+    "window": 500,
+    "models": [
+      "HAR",
+      "IV_raw",
+      "IV_calibrated",
+      "IV_HAR"
+    ],
+    "risk": false,
+    "minimum": 120
+  },
+  {
+    "currency": "ETH",
+    "spec": "matrix_h3_k30_w500_log",
+    "key": "ETH_matrix_h3_k30_w500_log",
+    "kind": "matrix",
+    "window": 500,
+    "models": [
+      "HAR",
+      "IV_raw",
+      "IV_calibrated",
+      "IV_HAR"
+    ],
+    "risk": false,
+    "minimum": 120
+  },
+  {
+    "currency": "ETH",
+    "spec": "matrix_h3_kDVOL_w500_log",
+    "key": "ETH_matrix_h3_kDVOL_w500_log",
+    "kind": "matrix",
+    "window": 500,
+    "models": [
+      "HAR",
+      "IV_raw",
+      "IV_calibrated",
+      "IV_HAR"
+    ],
+    "risk": false,
+    "minimum": 120
+  },
+  {
+    "currency": "ETH",
+    "spec": "matrix_h7_k1_w500_log",
+    "key": "ETH_matrix_h7_k1_w500_log",
+    "kind": "matrix",
+    "window": 500,
+    "models": [
+      "HAR",
+      "IV_raw",
+      "IV_calibrated",
+      "IV_HAR"
+    ],
+    "risk": false,
+    "minimum": 120
+  },
+  {
+    "currency": "ETH",
+    "spec": "matrix_h7_k2_w500_log",
+    "key": "ETH_matrix_h7_k2_w500_log",
+    "kind": "matrix",
+    "window": 500,
+    "models": [
+      "HAR",
+      "IV_raw",
+      "IV_calibrated",
+      "IV_HAR"
+    ],
+    "risk": false,
+    "minimum": 120
+  },
+  {
+    "currency": "ETH",
+    "spec": "matrix_h7_k3_w500_log",
+    "key": "ETH_matrix_h7_k3_w500_log",
+    "kind": "matrix",
+    "window": 500,
+    "models": [
+      "HAR",
+      "IV_raw",
+      "IV_calibrated",
+      "IV_HAR"
+    ],
+    "risk": false,
+    "minimum": 120
+  },
+  {
+    "currency": "ETH",
+    "spec": "matrix_h7_k7_w500_log",
+    "key": "ETH_matrix_h7_k7_w500_log",
+    "kind": "matrix",
+    "window": 500,
+    "models": [
+      "HAR",
+      "IV_raw",
+      "IV_calibrated",
+      "IV_HAR"
+    ],
+    "risk": false,
+    "minimum": 120
+  },
+  {
+    "currency": "ETH",
+    "spec": "matrix_h7_k14_w500_log",
+    "key": "ETH_matrix_h7_k14_w500_log",
+    "kind": "matrix",
+    "window": 500,
+    "models": [
+      "HAR",
+      "IV_raw",
+      "IV_calibrated",
+      "IV_HAR"
+    ],
+    "risk": false,
+    "minimum": 120
+  },
+  {
+    "currency": "ETH",
+    "spec": "matrix_h7_k30_w500_log",
+    "key": "ETH_matrix_h7_k30_w500_log",
+    "kind": "matrix",
+    "window": 500,
+    "models": [
+      "HAR",
+      "IV_raw",
+      "IV_calibrated",
+      "IV_HAR"
+    ],
+    "risk": false,
+    "minimum": 120
+  },
+  {
+    "currency": "ETH",
+    "spec": "matrix_h7_kDVOL_w500_log",
+    "key": "ETH_matrix_h7_kDVOL_w500_log",
+    "kind": "matrix",
+    "window": 500,
+    "models": [
+      "HAR",
+      "IV_raw",
+      "IV_calibrated",
+      "IV_HAR"
+    ],
+    "risk": false,
+    "minimum": 120
+  },
+  {
+    "currency": "ETH",
+    "spec": "matrix_h14_k1_w500_log",
+    "key": "ETH_matrix_h14_k1_w500_log",
+    "kind": "matrix",
+    "window": 500,
+    "models": [
+      "HAR",
+      "IV_raw",
+      "IV_calibrated",
+      "IV_HAR"
+    ],
+    "risk": false,
+    "minimum": 120
+  },
+  {
+    "currency": "ETH",
+    "spec": "matrix_h14_k2_w500_log",
+    "key": "ETH_matrix_h14_k2_w500_log",
+    "kind": "matrix",
+    "window": 500,
+    "models": [
+      "HAR",
+      "IV_raw",
+      "IV_calibrated",
+      "IV_HAR"
+    ],
+    "risk": false,
+    "minimum": 120
+  },
+  {
+    "currency": "ETH",
+    "spec": "matrix_h14_k3_w500_log",
+    "key": "ETH_matrix_h14_k3_w500_log",
+    "kind": "matrix",
+    "window": 500,
+    "models": [
+      "HAR",
+      "IV_raw",
+      "IV_calibrated",
+      "IV_HAR"
+    ],
+    "risk": false,
+    "minimum": 120
+  },
+  {
+    "currency": "ETH",
+    "spec": "matrix_h14_k7_w500_log",
+    "key": "ETH_matrix_h14_k7_w500_log",
+    "kind": "matrix",
+    "window": 500,
+    "models": [
+      "HAR",
+      "IV_raw",
+      "IV_calibrated",
+      "IV_HAR"
+    ],
+    "risk": false,
+    "minimum": 120
+  },
+  {
+    "currency": "ETH",
+    "spec": "matrix_h14_k14_w500_log",
+    "key": "ETH_matrix_h14_k14_w500_log",
+    "kind": "matrix",
+    "window": 500,
+    "models": [
+      "HAR",
+      "IV_raw",
+      "IV_calibrated",
+      "IV_HAR"
+    ],
+    "risk": false,
+    "minimum": 120
+  },
+  {
+    "currency": "ETH",
+    "spec": "matrix_h14_k30_w500_log",
+    "key": "ETH_matrix_h14_k30_w500_log",
+    "kind": "matrix",
+    "window": 500,
+    "models": [
+      "HAR",
+      "IV_raw",
+      "IV_calibrated",
+      "IV_HAR"
+    ],
+    "risk": false,
+    "minimum": 120
+  },
+  {
+    "currency": "ETH",
+    "spec": "matrix_h14_kDVOL_w500_log",
+    "key": "ETH_matrix_h14_kDVOL_w500_log",
+    "kind": "matrix",
+    "window": 500,
+    "models": [
+      "HAR",
+      "IV_raw",
+      "IV_calibrated",
+      "IV_HAR"
+    ],
+    "risk": false,
+    "minimum": 120
+  },
+  {
+    "currency": "ETH",
+    "spec": "matrix_h30_k1_w500_log",
+    "key": "ETH_matrix_h30_k1_w500_log",
+    "kind": "matrix",
+    "window": 500,
+    "models": [
+      "HAR",
+      "IV_raw",
+      "IV_calibrated",
+      "IV_HAR"
+    ],
+    "risk": false,
+    "minimum": 120
+  },
+  {
+    "currency": "ETH",
+    "spec": "matrix_h30_k2_w500_log",
+    "key": "ETH_matrix_h30_k2_w500_log",
+    "kind": "matrix",
+    "window": 500,
+    "models": [
+      "HAR",
+      "IV_raw",
+      "IV_calibrated",
+      "IV_HAR"
+    ],
+    "risk": false,
+    "minimum": 120
+  },
+  {
+    "currency": "ETH",
+    "spec": "matrix_h30_k3_w500_log",
+    "key": "ETH_matrix_h30_k3_w500_log",
+    "kind": "matrix",
+    "window": 500,
+    "models": [
+      "HAR",
+      "IV_raw",
+      "IV_calibrated",
+      "IV_HAR"
+    ],
+    "risk": false,
+    "minimum": 120
+  },
+  {
+    "currency": "ETH",
+    "spec": "matrix_h30_k7_w500_log",
+    "key": "ETH_matrix_h30_k7_w500_log",
+    "kind": "matrix",
+    "window": 500,
+    "models": [
+      "HAR",
+      "IV_raw",
+      "IV_calibrated",
+      "IV_HAR"
+    ],
+    "risk": false,
+    "minimum": 120
+  },
+  {
+    "currency": "ETH",
+    "spec": "matrix_h30_k14_w500_log",
+    "key": "ETH_matrix_h30_k14_w500_log",
+    "kind": "matrix",
+    "window": 500,
+    "models": [
+      "HAR",
+      "IV_raw",
+      "IV_calibrated",
+      "IV_HAR"
+    ],
+    "risk": false,
+    "minimum": 120
+  },
+  {
+    "currency": "ETH",
+    "spec": "matrix_h30_k30_w500_log",
+    "key": "ETH_matrix_h30_k30_w500_log",
+    "kind": "matrix",
+    "window": 500,
+    "models": [
+      "HAR",
+      "IV_raw",
+      "IV_calibrated",
+      "IV_HAR"
+    ],
+    "risk": false,
+    "minimum": 120
+  },
+  {
+    "currency": "ETH",
+    "spec": "matrix_h30_kDVOL_w500_log",
+    "key": "ETH_matrix_h30_kDVOL_w500_log",
+    "kind": "matrix",
+    "window": 500,
+    "models": [
+      "HAR",
+      "IV_raw",
+      "IV_calibrated",
+      "IV_HAR"
+    ],
+    "risk": false,
+    "minimum": 120
+  }
+]

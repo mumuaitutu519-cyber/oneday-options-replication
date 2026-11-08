@@ -1,0 +1,542 @@
+file,bytes,purpose,tables_figures
+DATA_DICTIONARY.csv,367893,"Package documentation, environment or integrity metadata",T1-T10 F1-F3
+LICENSE_AND_SOURCES.md,870,"Package documentation, environment or integrity metadata",T1-T10 F1-F3
+PYTHON_VERSION.txt,100,"Package documentation, environment or integrity metadata",T1-T10 F1-F3
+README.md,4161,"Package documentation, environment or integrity metadata",T1-T10 F1-F3
+README_한국어.md,4369,"Package documentation, environment or integrity metadata",T1-T10 F1-F3
+code/as_stated.py,13535,"Final portable table, figure, model or verification program",T1-T10 F1-F3
+code/audit_inputs.py,1363,"Final portable table, figure, model or verification program",T1-T10 F1-F3
+code/common.py,2303,"Final portable table, figure, model or verification program",T1-T10 F1-F3
+code/estimate.py,2142,"Final portable table, figure, model or verification program",T1-T10 F1-F3
+code/extract.py,1735,"Final portable table, figure, model or verification program",T1-T10 F1-F3
+code/figures.py,5603,"Final portable table, figure, model or verification program",T1-T10 F1-F3
+code/forecast_core.py,2188,"Final portable table, figure, model or verification program",T1-T10 F1-F3
+code/model_engine.py,8237,"Final portable table, figure, model or verification program",T1-T10 F1-F3
+code/notes.py,5210,"Final portable table, figure, model or verification program",T1-T10 F1-F3
+code/old_model_engine.py,3820,"Final portable table, figure, model or verification program",T1-T10 F1-F3
+code/risk.py,1095,"Final portable table, figure, model or verification program",T1-T10 F1-F3
+code/run.py,1431,"Final portable table, figure, model or verification program",T1-T10 F1-F3
+code/sitecustomize.py,341,"Final portable table, figure, model or verification program",T1-T10 F1-F3
+code/tables.py,16924,"Final portable table, figure, model or verification program",T1-T10 F1-F3
+code/verify.py,10766,"Final portable table, figure, model or verification program",T1-T10 F1-F3
+data/atm_trade_daily_by_side.parquet,592978,Window ATM trade aggregates,T9
+data/decomposition_BTC.parquet,2237741,Daily decomposition or strike-grid integral input,T5 T6 T7
+data/decomposition_ETH.parquet,2003667,Daily decomposition or strike-grid integral input,T5 T6 T7
+data/expiry23_daily_BTC.parquet,288270,Daily variance observations for both target conventions,T1 T5 T9 F1 F2 F3
+data/expiry23_daily_ETH.parquet,269924,Daily variance observations for both target conventions,T1 T5 T9 F1 F2 F3
+data/features_BTC.parquet,511198,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/features_ETH.parquet,512339,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_cache/BTC_band02_w500_log_hour8_h1.parquet,105767,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_cache/BTC_band10_w500_log_hour8_h1.parquet,105756,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_cache/BTC_bilateral_w500_log_hour8_h1.parquet,105742,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_cache/BTC_dropmove1_w500_log_hour8_h1.parquet,103712,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_cache/BTC_last15_w500_log_hour8_h1.parquet,104771,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_cache/BTC_mark_w500_log_hour8_h1.parquet,105767,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_cache/BTC_matrix_h14_k14_w500_log.parquet,116788,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_cache/BTC_matrix_h14_k1_w500_log.parquet,118915,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_cache/BTC_matrix_h14_k2_w500_log.parquet,118850,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_cache/BTC_matrix_h14_k30_w500_log.parquet,110165,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_cache/BTC_matrix_h14_k3_w500_log.parquet,118851,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_cache/BTC_matrix_h14_k7_w500_log.parquet,118407,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_cache/BTC_matrix_h14_kDVOL_w500_log.parquet,114370,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_cache/BTC_matrix_h1_k14_w500_log.parquet,118633,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_cache/BTC_matrix_h1_k1_w500_log.parquet,120787,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_cache/BTC_matrix_h1_k2_w500_log.parquet,120733,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_cache/BTC_matrix_h1_k30_w500_log.parquet,112041,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_cache/BTC_matrix_h1_k3_w500_log.parquet,120706,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_cache/BTC_matrix_h1_k7_w500_log.parquet,120231,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_cache/BTC_matrix_h1_kDVOL_w500_log.parquet,116486,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_cache/BTC_matrix_h2_k14_w500_log.parquet,118519,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_cache/BTC_matrix_h2_k1_w500_log.parquet,120650,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_cache/BTC_matrix_h2_k2_w500_log.parquet,120568,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_cache/BTC_matrix_h2_k30_w500_log.parquet,111929,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_cache/BTC_matrix_h2_k3_w500_log.parquet,120552,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_cache/BTC_matrix_h2_k7_w500_log.parquet,120109,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_cache/BTC_matrix_h2_kDVOL_w500_log.parquet,116333,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_cache/BTC_matrix_h30_k14_w500_log.parquet,114564,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_cache/BTC_matrix_h30_k1_w500_log.parquet,116673,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_cache/BTC_matrix_h30_k2_w500_log.parquet,116611,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_cache/BTC_matrix_h30_k30_w500_log.parquet,107981,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_cache/BTC_matrix_h30_k3_w500_log.parquet,116614,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_cache/BTC_matrix_h30_k7_w500_log.parquet,116159,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_cache/BTC_matrix_h30_kDVOL_w500_log.parquet,111849,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_cache/BTC_matrix_h3_k14_w500_log.parquet,118383,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_cache/BTC_matrix_h3_k1_w500_log.parquet,120511,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_cache/BTC_matrix_h3_k2_w500_log.parquet,120464,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_cache/BTC_matrix_h3_k30_w500_log.parquet,111781,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_cache/BTC_matrix_h3_k3_w500_log.parquet,120454,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_cache/BTC_matrix_h3_k7_w500_log.parquet,119985,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_cache/BTC_matrix_h3_kDVOL_w500_log.parquet,116192,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_cache/BTC_matrix_h7_k14_w500_log.parquet,117766,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_cache/BTC_matrix_h7_k1_w500_log.parquet,119893,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_cache/BTC_matrix_h7_k2_w500_log.parquet,119822,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_cache/BTC_matrix_h7_k30_w500_log.parquet,111161,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_cache/BTC_matrix_h7_k3_w500_log.parquet,119853,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_cache/BTC_matrix_h7_k7_w500_log.parquet,119388,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_cache/BTC_matrix_h7_kDVOL_w500_log.parquet,115474,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_cache/BTC_placebo_lag1_w500_log_hour8_h1.parquet,105749,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_cache/BTC_rv_binance_perp_kernel.parquet,237644,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_cache/BTC_rv_binance_perp_payoff.parquet,247458,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_cache/BTC_rv_binance_perp_rv1.parquet,237735,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_cache/BTC_rv_binance_perp_subsample.parquet,237645,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_cache/BTC_rv_binance_spot_rv5.parquet,238027,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_cache/BTC_rv_deribit_rv5.parquet,268908,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_cache/BTC_w1000_log_hour8_h1.parquet,185991,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_cache/BTC_w365_log_hour8_h1.parquet,276315,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_cache/BTC_w500_log_hour8_h1.parquet,268502,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_cache/BTC_weighted_w500_log_hour8_h1.parquet,105727,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_cache/BTC_wexpanding_log_hour8_h1.parquet,276256,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_cache/ETH_band02_w500_log_hour8_h1.parquet,106850,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_cache/ETH_band10_w500_log_hour8_h1.parquet,106859,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_cache/ETH_bilateral_w500_log_hour8_h1.parquet,106761,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_cache/ETH_dropmove1_w500_log_hour8_h1.parquet,102205,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_cache/ETH_last15_w500_log_hour8_h1.parquet,105546,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_cache/ETH_mark_w500_log_hour8_h1.parquet,106888,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_cache/ETH_matrix_h14_k14_w500_log.parquet,114773,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_cache/ETH_matrix_h14_k1_w500_log.parquet,120531,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_cache/ETH_matrix_h14_k2_w500_log.parquet,120501,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_cache/ETH_matrix_h14_k30_w500_log.parquet,103086,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_cache/ETH_matrix_h14_k3_w500_log.parquet,120219,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_cache/ETH_matrix_h14_k7_w500_log.parquet,118653,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_cache/ETH_matrix_h14_kDVOL_w500_log.parquet,116419,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_cache/ETH_matrix_h1_k14_w500_log.parquet,116721,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_cache/ETH_matrix_h1_k1_w500_log.parquet,122525,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_cache/ETH_matrix_h1_k2_w500_log.parquet,122453,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_cache/ETH_matrix_h1_k30_w500_log.parquet,105320,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_cache/ETH_matrix_h1_k3_w500_log.parquet,122179,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_cache/ETH_matrix_h1_k7_w500_log.parquet,120580,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_cache/ETH_matrix_h1_kDVOL_w500_log.parquet,118612,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_cache/ETH_matrix_h2_k14_w500_log.parquet,116608,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_cache/ETH_matrix_h2_k1_w500_log.parquet,122419,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_cache/ETH_matrix_h2_k2_w500_log.parquet,122340,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_cache/ETH_matrix_h2_k30_w500_log.parquet,105194,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_cache/ETH_matrix_h2_k3_w500_log.parquet,122074,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_cache/ETH_matrix_h2_k7_w500_log.parquet,120491,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_cache/ETH_matrix_h2_kDVOL_w500_log.parquet,118482,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_cache/ETH_matrix_h30_k14_w500_log.parquet,112377,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_cache/ETH_matrix_h30_k1_w500_log.parquet,118314,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_cache/ETH_matrix_h30_k2_w500_log.parquet,118257,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_cache/ETH_matrix_h30_k30_w500_log.parquet,100493,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_cache/ETH_matrix_h30_k3_w500_log.parquet,117974,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_cache/ETH_matrix_h30_k7_w500_log.parquet,116409,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_cache/ETH_matrix_h30_kDVOL_w500_log.parquet,113887,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_cache/ETH_matrix_h3_k14_w500_log.parquet,116484,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_cache/ETH_matrix_h3_k1_w500_log.parquet,122294,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_cache/ETH_matrix_h3_k2_w500_log.parquet,122196,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_cache/ETH_matrix_h3_k30_w500_log.parquet,105059,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_cache/ETH_matrix_h3_k3_w500_log.parquet,121975,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_cache/ETH_matrix_h3_k7_w500_log.parquet,120363,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_cache/ETH_matrix_h3_kDVOL_w500_log.parquet,118361,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_cache/ETH_matrix_h7_k14_w500_log.parquet,115891,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_cache/ETH_matrix_h7_k1_w500_log.parquet,121672,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_cache/ETH_matrix_h7_k2_w500_log.parquet,121583,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_cache/ETH_matrix_h7_k30_w500_log.parquet,104361,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_cache/ETH_matrix_h7_k3_w500_log.parquet,121335,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_cache/ETH_matrix_h7_k7_w500_log.parquet,119764,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_cache/ETH_matrix_h7_kDVOL_w500_log.parquet,117658,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_cache/ETH_placebo_lag1_w500_log_hour8_h1.parquet,106877,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_cache/ETH_rv_binance_perp_kernel.parquet,244575,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_cache/ETH_rv_binance_perp_payoff.parquet,250583,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_cache/ETH_rv_binance_perp_rv1.parquet,244586,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_cache/ETH_rv_binance_perp_subsample.parquet,244535,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_cache/ETH_rv_binance_spot_rv5.parquet,255475,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_cache/ETH_rv_deribit_rv5.parquet,269567,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_cache/ETH_w1000_log_hour8_h1.parquet,189999,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_cache/ETH_w365_log_hour8_h1.parquet,283874,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_cache/ETH_w500_log_hour8_h1.parquet,276002,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_cache/ETH_weighted_w500_log_hour8_h1.parquet,106860,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_cache/ETH_wexpanding_log_hour8_h1.parquet,283921,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_inputs/BTC_band02_w500_log_hour8_h1.parquet,53777,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_inputs/BTC_band10_w500_log_hour8_h1.parquet,53853,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_inputs/BTC_bilateral_w500_log_hour8_h1.parquet,53799,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_inputs/BTC_dropmove1_w500_log_hour8_h1.parquet,51791,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_inputs/BTC_last15_w500_log_hour8_h1.parquet,52424,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_inputs/BTC_mark_w500_log_hour8_h1.parquet,53828,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_inputs/BTC_matrix_h14_k14_w500_log.parquet,103000,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_inputs/BTC_matrix_h14_k1_w500_log.parquet,105765,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_inputs/BTC_matrix_h14_k2_w500_log.parquet,105788,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_inputs/BTC_matrix_h14_k30_w500_log.parquet,97417,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_inputs/BTC_matrix_h14_k3_w500_log.parquet,105886,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_inputs/BTC_matrix_h14_k7_w500_log.parquet,105305,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_inputs/BTC_matrix_h14_kDVOL_w500_log.parquet,93107,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_inputs/BTC_matrix_h1_k14_w500_log.parquet,104798,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_inputs/BTC_matrix_h1_k1_w500_log.parquet,107577,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_inputs/BTC_matrix_h1_k2_w500_log.parquet,107616,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_inputs/BTC_matrix_h1_k30_w500_log.parquet,99247,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_inputs/BTC_matrix_h1_k3_w500_log.parquet,107696,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_inputs/BTC_matrix_h1_k7_w500_log.parquet,107123,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_inputs/BTC_matrix_h1_kDVOL_w500_log.parquet,94937,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_inputs/BTC_matrix_h2_k14_w500_log.parquet,104695,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_inputs/BTC_matrix_h2_k1_w500_log.parquet,107451,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_inputs/BTC_matrix_h2_k2_w500_log.parquet,107468,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_inputs/BTC_matrix_h2_k30_w500_log.parquet,99122,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_inputs/BTC_matrix_h2_k3_w500_log.parquet,107553,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_inputs/BTC_matrix_h2_k7_w500_log.parquet,106997,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_inputs/BTC_matrix_h2_kDVOL_w500_log.parquet,94804,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_inputs/BTC_matrix_h30_k14_w500_log.parquet,100837,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_inputs/BTC_matrix_h30_k1_w500_log.parquet,103601,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_inputs/BTC_matrix_h30_k2_w500_log.parquet,103619,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_inputs/BTC_matrix_h30_k30_w500_log.parquet,95268,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_inputs/BTC_matrix_h30_k3_w500_log.parquet,103694,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_inputs/BTC_matrix_h30_k7_w500_log.parquet,103138,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_inputs/BTC_matrix_h30_kDVOL_w500_log.parquet,90935,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_inputs/BTC_matrix_h3_k14_w500_log.parquet,104530,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_inputs/BTC_matrix_h3_k1_w500_log.parquet,107301,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_inputs/BTC_matrix_h3_k2_w500_log.parquet,107324,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_inputs/BTC_matrix_h3_k30_w500_log.parquet,98957,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_inputs/BTC_matrix_h3_k3_w500_log.parquet,107431,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_inputs/BTC_matrix_h3_k7_w500_log.parquet,106831,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_inputs/BTC_matrix_h3_kDVOL_w500_log.parquet,94636,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_inputs/BTC_matrix_h7_k14_w500_log.parquet,103946,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_inputs/BTC_matrix_h7_k1_w500_log.parquet,106717,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_inputs/BTC_matrix_h7_k2_w500_log.parquet,106741,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_inputs/BTC_matrix_h7_k30_w500_log.parquet,98363,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_inputs/BTC_matrix_h7_k3_w500_log.parquet,106830,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_inputs/BTC_matrix_h7_k7_w500_log.parquet,106263,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_inputs/BTC_matrix_h7_kDVOL_w500_log.parquet,94052,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_inputs/BTC_placebo_lag1_w500_log_hour8_h1.parquet,53837,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_inputs/BTC_rv_binance_perp_kernel.parquet,316697,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_inputs/BTC_rv_binance_perp_payoff.parquet,317178,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_inputs/BTC_rv_binance_perp_rv1.parquet,316694,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_inputs/BTC_rv_binance_perp_subsample.parquet,320514,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_inputs/BTC_rv_binance_spot_rv5.parquet,335615,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_inputs/BTC_rv_deribit_rv5.parquet,345338,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_inputs/BTC_w1000_log_hour8_h1.parquet,82642,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_inputs/BTC_w365_log_hour8_h1.parquet,16072,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_inputs/BTC_w500_log_hour8_h1.parquet,16072,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_inputs/BTC_weighted_w500_log_hour8_h1.parquet,38625,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_inputs/BTC_wexpanding_log_hour8_h1.parquet,16072,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_inputs/ETH_band02_w500_log_hour8_h1.parquet,52457,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_inputs/ETH_band10_w500_log_hour8_h1.parquet,53226,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_inputs/ETH_bilateral_w500_log_hour8_h1.parquet,51486,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_inputs/ETH_dropmove1_w500_log_hour8_h1.parquet,49129,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_inputs/ETH_last15_w500_log_hour8_h1.parquet,49041,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_inputs/ETH_mark_w500_log_hour8_h1.parquet,53116,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_inputs/ETH_matrix_h14_k14_w500_log.parquet,98960,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_inputs/ETH_matrix_h14_k1_w500_log.parquet,104570,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_inputs/ETH_matrix_h14_k2_w500_log.parquet,104257,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_inputs/ETH_matrix_h14_k30_w500_log.parquet,91382,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_inputs/ETH_matrix_h14_k3_w500_log.parquet,103869,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_inputs/ETH_matrix_h14_k7_w500_log.parquet,102400,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_inputs/ETH_matrix_h14_kDVOL_w500_log.parquet,93920,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_inputs/ETH_matrix_h1_k14_w500_log.parquet,100856,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_inputs/ETH_matrix_h1_k1_w500_log.parquet,106481,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_inputs/ETH_matrix_h1_k2_w500_log.parquet,106143,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_inputs/ETH_matrix_h1_k30_w500_log.parquet,93280,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_inputs/ETH_matrix_h1_k3_w500_log.parquet,105776,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_inputs/ETH_matrix_h1_k7_w500_log.parquet,104272,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_inputs/ETH_matrix_h1_kDVOL_w500_log.parquet,95840,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_inputs/ETH_matrix_h2_k14_w500_log.parquet,100732,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_inputs/ETH_matrix_h2_k1_w500_log.parquet,106364,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_inputs/ETH_matrix_h2_k2_w500_log.parquet,106037,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_inputs/ETH_matrix_h2_k30_w500_log.parquet,93153,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_inputs/ETH_matrix_h2_k3_w500_log.parquet,105661,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_inputs/ETH_matrix_h2_k7_w500_log.parquet,104157,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_inputs/ETH_matrix_h2_kDVOL_w500_log.parquet,95715,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_inputs/ETH_matrix_h30_k14_w500_log.parquet,96773,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_inputs/ETH_matrix_h30_k1_w500_log.parquet,102407,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_inputs/ETH_matrix_h30_k2_w500_log.parquet,102073,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_inputs/ETH_matrix_h30_k30_w500_log.parquet,89208,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_inputs/ETH_matrix_h30_k3_w500_log.parquet,101706,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_inputs/ETH_matrix_h30_k7_w500_log.parquet,100210,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_inputs/ETH_matrix_h30_kDVOL_w500_log.parquet,91758,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_inputs/ETH_matrix_h3_k14_w500_log.parquet,100607,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_inputs/ETH_matrix_h3_k1_w500_log.parquet,106244,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_inputs/ETH_matrix_h3_k2_w500_log.parquet,105896,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_inputs/ETH_matrix_h3_k30_w500_log.parquet,93032,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_inputs/ETH_matrix_h3_k3_w500_log.parquet,105553,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_inputs/ETH_matrix_h3_k7_w500_log.parquet,104057,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_inputs/ETH_matrix_h3_kDVOL_w500_log.parquet,95587,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_inputs/ETH_matrix_h7_k14_w500_log.parquet,100028,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_inputs/ETH_matrix_h7_k1_w500_log.parquet,105638,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_inputs/ETH_matrix_h7_k2_w500_log.parquet,105310,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_inputs/ETH_matrix_h7_k30_w500_log.parquet,92441,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_inputs/ETH_matrix_h7_k3_w500_log.parquet,104934,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_inputs/ETH_matrix_h7_k7_w500_log.parquet,103456,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_inputs/ETH_matrix_h7_kDVOL_w500_log.parquet,94994,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_inputs/ETH_placebo_lag1_w500_log_hour8_h1.parquet,53118,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_inputs/ETH_rv_binance_perp_kernel.parquet,316681,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_inputs/ETH_rv_binance_perp_payoff.parquet,317906,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_inputs/ETH_rv_binance_perp_rv1.parquet,316665,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_inputs/ETH_rv_binance_perp_subsample.parquet,320804,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_inputs/ETH_rv_binance_spot_rv5.parquet,339385,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_inputs/ETH_rv_deribit_rv5.parquet,345208,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_inputs/ETH_w1000_log_hour8_h1.parquet,83107,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_inputs/ETH_w365_log_hour8_h1.parquet,16072,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_inputs/ETH_w500_log_hour8_h1.parquet,16072,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_inputs/ETH_weighted_w500_log_hour8_h1.parquet,38186,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_inputs/ETH_wexpanding_log_hour8_h1.parquet,16072,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/forecast_specs.json,36544,Compressed forecast input or issued-forecast quick path,T2 T3 T4 T10
+data/numerical_grid_diagnostics_BTC.parquet,963439,Daily decomposition or strike-grid integral input,T5 T6 T7
+data/numerical_grid_diagnostics_ETH.parquet,761871,Daily decomposition or strike-grid integral input,T5 T6 T7
+data/premium_BTC.parquet,5652020,Daily variance observations for both target conventions,T1 T5 T9 F1 F2 F3
+data/premium_ETH.parquet,4681286,Daily variance observations for both target conventions,T1 T5 T9 F1 F2 F3
+data/risk_inputs_BTC.parquet,779027,Dated VaR/ES residual-quantile quick input,T10
+data/risk_inputs_ETH.parquet,801214,Dated VaR/ES residual-quantile quick input,T10
+data/straddle_daily_BTC.parquet,2069619,"Daily straddle P&L, eligibility or entry input",T8 T9
+data/straddle_daily_ETH.parquet,1886584,"Daily straddle P&L, eligibility or entry input",T8 T9
+data/strategy_availability_BTC.parquet,8561,"Daily straddle P&L, eligibility or entry input",T8 T9
+data/strategy_availability_ETH.parquet,7704,"Daily straddle P&L, eligibility or entry input",T8 T9
+data/strategy_entries_BTC.parquet,541542,"Daily straddle P&L, eligibility or entry input",T8 T9
+data/strategy_entries_ETH.parquet,469171,"Daily straddle P&L, eligibility or entry input",T8 T9
+data/trade_quality_BTC.parquet,73267,Window ATM trade aggregates,T9
+data/trade_quality_ETH.parquet,68507,Window ATM trade aggregates,T9
+logs/TEST_RECEIPT.json,633,Measured clean offline execution or resource evidence,T1-T10 F1-F3
+logs/archive_extraction_checks.json,205,Measured clean offline execution or resource evidence,T1-T10 F1-F3
+logs/clean_run.log,6537,Measured clean offline execution or resource evidence,T1-T10 F1-F3
+logs/clean_runtime.json,1108,Measured clean offline execution or resource evidence,T1-T10 F1-F3
+logs/full_final_protocol.log,11273,Measured clean offline execution or resource evidence,T1-T10 F1-F3
+logs/full_final_protocol_runtime.json,1025,Measured clean offline execution or resource evidence,T1-T10 F1-F3
+logs/full_memory.json,170,Measured clean offline execution or resource evidence,T1-T10 F1-F3
+logs/full_refit_from_zero.log,43910,Measured clean offline execution or resource evidence,T1-T10 F1-F3
+logs/full_refit_runtime.json,1027,Measured clean offline execution or resource evidence,T1-T10 F1-F3
+logs/full_refit_specification_timing.csv,6257,Measured clean offline execution or resource evidence,T1-T10 F1-F3
+logs/quick_final_runtime.json,1107,Measured clean offline execution or resource evidence,T1-T10 F1-F3
+logs/quick_final_thread_limited.log,2585,Measured clean offline execution or resource evidence,T1-T10 F1-F3
+output/FIGURE_COMPARISON.html,1498,"Recalculated figure, underlying data or side-by-side comparison",F1 F2 F3
+output/TABLE_1.csv,19300,Recalculated table; main stated-definition or historical source-version output,T1
+output/TABLE_1.md,1481,Recalculated table; main stated-definition or historical source-version output,T1
+output/TABLE_10.csv,24328,Recalculated table; main stated-definition or historical source-version output,T10
+output/TABLE_10.md,1697,Recalculated table; main stated-definition or historical source-version output,T10
+output/TABLE_2.csv,48106,Recalculated table; main stated-definition or historical source-version output,T2
+output/TABLE_2.md,2899,Recalculated table; main stated-definition or historical source-version output,T2
+output/TABLE_3.csv,105233,Recalculated table; main stated-definition or historical source-version output,T3
+output/TABLE_3.md,4781,Recalculated table; main stated-definition or historical source-version output,T3
+output/TABLE_4.csv,18265,Recalculated table; main stated-definition or historical source-version output,T4
+output/TABLE_4.md,1737,Recalculated table; main stated-definition or historical source-version output,T4
+output/TABLE_5.csv,91320,Recalculated table; main stated-definition or historical source-version output,T5
+output/TABLE_5.md,5741,Recalculated table; main stated-definition or historical source-version output,T5
+output/TABLE_6.csv,39364,Recalculated table; main stated-definition or historical source-version output,T6
+output/TABLE_6.md,2707,Recalculated table; main stated-definition or historical source-version output,T6
+output/TABLE_7.csv,21439,Recalculated table; main stated-definition or historical source-version output,T7
+output/TABLE_7.md,1691,Recalculated table; main stated-definition or historical source-version output,T7
+output/TABLE_8.csv,27850,Recalculated table; main stated-definition or historical source-version output,T8
+output/TABLE_8.md,2160,Recalculated table; main stated-definition or historical source-version output,T8
+output/TABLE_9.csv,34179,Recalculated table; main stated-definition or historical source-version output,T9
+output/TABLE_9.md,2222,Recalculated table; main stated-definition or historical source-version output,T9
+output/decomposition_daily.parquet,3845496,Inspectable recalculated statistics,T1-T10
+output/figure1_BTC.png,104948,"Recalculated figure, underlying data or side-by-side comparison",F1 F2 F3
+output/figure1_ETH.png,96721,"Recalculated figure, underlying data or side-by-side comparison",F1 F2 F3
+output/figure1_data.csv,8387,"Recalculated figure, underlying data or side-by-side comparison",F1 F2 F3
+output/figure2_BTC.png,43445,"Recalculated figure, underlying data or side-by-side comparison",F1 F2 F3
+output/figure2_ETH.png,44949,"Recalculated figure, underlying data or side-by-side comparison",F1 F2 F3
+output/figure2_data.csv,1604,"Recalculated figure, underlying data or side-by-side comparison",F1 F2 F3
+output/figure3.png,64500,"Recalculated figure, underlying data or side-by-side comparison",F1 F2 F3
+output/figure3_data.csv,495432,"Recalculated figure, underlying data or side-by-side comparison",F1 F2 F3
+output/recalculated_cells.json,341439,Inspectable recalculated statistics,T1-T10
+output/source_version/FIGURE_COMPARISON.html,1329,"Recalculated figure, underlying data or side-by-side comparison",F1 F2 F3
+output/source_version/TABLE_1.csv,11752,Recalculated table; main stated-definition or historical source-version output,T1
+output/source_version/TABLE_1.md,1481,Recalculated table; main stated-definition or historical source-version output,T1
+output/source_version/TABLE_10.csv,24328,Recalculated table; main stated-definition or historical source-version output,T10
+output/source_version/TABLE_10.md,1697,Recalculated table; main stated-definition or historical source-version output,T10
+output/source_version/TABLE_2.csv,48106,Recalculated table; main stated-definition or historical source-version output,T2
+output/source_version/TABLE_2.md,2899,Recalculated table; main stated-definition or historical source-version output,T2
+output/source_version/TABLE_3.csv,105233,Recalculated table; main stated-definition or historical source-version output,T3
+output/source_version/TABLE_3.md,4781,Recalculated table; main stated-definition or historical source-version output,T3
+output/source_version/TABLE_4.csv,18265,Recalculated table; main stated-definition or historical source-version output,T4
+output/source_version/TABLE_4.md,1737,Recalculated table; main stated-definition or historical source-version output,T4
+output/source_version/TABLE_5.csv,77420,Recalculated table; main stated-definition or historical source-version output,T5
+output/source_version/TABLE_5.md,5744,Recalculated table; main stated-definition or historical source-version output,T5
+output/source_version/TABLE_6.csv,39364,Recalculated table; main stated-definition or historical source-version output,T6
+output/source_version/TABLE_6.md,2707,Recalculated table; main stated-definition or historical source-version output,T6
+output/source_version/TABLE_7.csv,21439,Recalculated table; main stated-definition or historical source-version output,T7
+output/source_version/TABLE_7.md,1691,Recalculated table; main stated-definition or historical source-version output,T7
+output/source_version/TABLE_8.csv,27850,Recalculated table; main stated-definition or historical source-version output,T8
+output/source_version/TABLE_8.md,2160,Recalculated table; main stated-definition or historical source-version output,T8
+output/source_version/TABLE_9.csv,21959,Recalculated table; main stated-definition or historical source-version output,T9
+output/source_version/TABLE_9.md,2218,Recalculated table; main stated-definition or historical source-version output,T9
+output/source_version/figure1_BTC.png,105175,"Recalculated figure, underlying data or side-by-side comparison",F1 F2 F3
+output/source_version/figure1_ETH.png,98236,"Recalculated figure, underlying data or side-by-side comparison",F1 F2 F3
+output/source_version/figure1_data.csv,8375,"Recalculated figure, underlying data or side-by-side comparison",F1 F2 F3
+output/source_version/figure2_BTC.png,43879,"Recalculated figure, underlying data or side-by-side comparison",F1 F2 F3
+output/source_version/figure2_ETH.png,46279,"Recalculated figure, underlying data or side-by-side comparison",F1 F2 F3
+output/source_version/figure2_data.csv,1611,"Recalculated figure, underlying data or side-by-side comparison",F1 F2 F3
+output/source_version/figure3.png,64753,"Recalculated figure, underlying data or side-by-side comparison",F1 F2 F3
+output/source_version/figure3_data.csv,489777,"Recalculated figure, underlying data or side-by-side comparison",F1 F2 F3
+output/source_version/recalculated_cells.json,336480,Inspectable recalculated statistics,T1-T10
+output/source_version/table10_block24.md,847,Recalculated table; main stated-definition or historical source-version output,T10
+output/source_version/table10_block25.md,848,Recalculated table; main stated-definition or historical source-version output,T10
+output/source_version/table1_block1.md,742,Recalculated table; main stated-definition or historical source-version output,T1
+output/source_version/table1_block2.md,737,Recalculated table; main stated-definition or historical source-version output,T1
+output/source_version/table2_block3.md,1449,Recalculated table; main stated-definition or historical source-version output,T2
+output/source_version/table2_block4.md,1448,Recalculated table; main stated-definition or historical source-version output,T2
+output/source_version/table3_block5.md,4106,Recalculated table; main stated-definition or historical source-version output,T3
+output/source_version/table3_block6.md,673,Recalculated table; main stated-definition or historical source-version output,T3
+output/source_version/table4_block7.md,868,Recalculated table; main stated-definition or historical source-version output,T4
+output/source_version/table4_block8.md,867,Recalculated table; main stated-definition or historical source-version output,T4
+output/source_version/table5_block10.md,829,Recalculated table; main stated-definition or historical source-version output,T5
+output/source_version/table5_block11.md,833,Recalculated table; main stated-definition or historical source-version output,T5
+output/source_version/table5_block12.md,1469,Recalculated table; main stated-definition or historical source-version output,T5
+output/source_version/table5_block13.md,1148,Recalculated table; main stated-definition or historical source-version output,T5
+output/source_version/table5_block9.md,1457,Recalculated table; main stated-definition or historical source-version output,T5
+output/source_version/table6_block14.md,1349,Recalculated table; main stated-definition or historical source-version output,T6
+output/source_version/table6_block15.md,1356,Recalculated table; main stated-definition or historical source-version output,T6
+output/source_version/table7_block16.md,289,Recalculated table; main stated-definition or historical source-version output,T7
+output/source_version/table7_block17.md,1400,Recalculated table; main stated-definition or historical source-version output,T7
+output/source_version/table8_block18.md,1192,Recalculated table; main stated-definition or historical source-version output,T8
+output/source_version/table8_block19.md,378,Recalculated table; main stated-definition or historical source-version output,T8
+output/source_version/table8_block20.md,586,Recalculated table; main stated-definition or historical source-version output,T8
+output/source_version/table9_block21.md,546,Recalculated table; main stated-definition or historical source-version output,T9
+output/source_version/table9_block22.md,535,Recalculated table; main stated-definition or historical source-version output,T9
+output/source_version/table9_block23.md,1133,Recalculated table; main stated-definition or historical source-version output,T9
+output/source_version/tables.json,110233,Inspectable recalculated statistics,T1-T10
+output/strategy_sample_counts_BTC.csv,1146,Inspectable recalculated statistics,T1-T10
+output/strategy_sample_counts_ETH.csv,1146,Inspectable recalculated statistics,T1-T10
+output/table10_block24.md,847,Recalculated table; main stated-definition or historical source-version output,T10
+output/table10_block25.md,848,Recalculated table; main stated-definition or historical source-version output,T10
+output/table1_block1.md,742,Recalculated table; main stated-definition or historical source-version output,T1
+output/table1_block2.md,737,Recalculated table; main stated-definition or historical source-version output,T1
+output/table2_block3.md,1449,Recalculated table; main stated-definition or historical source-version output,T2
+output/table2_block4.md,1448,Recalculated table; main stated-definition or historical source-version output,T2
+output/table3_block5.md,4106,Recalculated table; main stated-definition or historical source-version output,T3
+output/table3_block6.md,673,Recalculated table; main stated-definition or historical source-version output,T3
+output/table4_block7.md,868,Recalculated table; main stated-definition or historical source-version output,T4
+output/table4_block8.md,867,Recalculated table; main stated-definition or historical source-version output,T4
+output/table5_block10.md,829,Recalculated table; main stated-definition or historical source-version output,T5
+output/table5_block11.md,832,Recalculated table; main stated-definition or historical source-version output,T5
+output/table5_block12.md,1467,Recalculated table; main stated-definition or historical source-version output,T5
+output/table5_block13.md,1146,Recalculated table; main stated-definition or historical source-version output,T5
+output/table5_block9.md,1459,Recalculated table; main stated-definition or historical source-version output,T5
+output/table6_block14.md,1349,Recalculated table; main stated-definition or historical source-version output,T6
+output/table6_block15.md,1356,Recalculated table; main stated-definition or historical source-version output,T6
+output/table7_block16.md,289,Recalculated table; main stated-definition or historical source-version output,T7
+output/table7_block17.md,1400,Recalculated table; main stated-definition or historical source-version output,T7
+output/table8_block18.md,1192,Recalculated table; main stated-definition or historical source-version output,T8
+output/table8_block19.md,378,Recalculated table; main stated-definition or historical source-version output,T8
+output/table8_block20.md,586,Recalculated table; main stated-definition or historical source-version output,T8
+output/table9_block21.md,548,Recalculated table; main stated-definition or historical source-version output,T9
+output/table9_block22.md,537,Recalculated table; main stated-definition or historical source-version output,T9
+output/table9_block23.md,1133,Recalculated table; main stated-definition or historical source-version output,T9
+output/tables.json,110234,Inspectable recalculated statistics,T1-T10
+raw_rebuild/API_EXTRACTION_PERIOD.json,228,"Optional raw extraction source, provenance or rebuild reference",T1-T10 F1-F3
+raw_rebuild/RAW_SOURCE_MANIFEST.csv,1582353,"Optional raw extraction source, provenance or rebuild reference",T1-T10 F1-F3
+raw_rebuild/README.md,5053,"Optional raw extraction source, provenance or rebuild reference",T1-T10 F1-F3
+raw_rebuild/SOURCE_CODE_PROVENANCE.csv,6370,"Optional raw extraction source, provenance or rebuild reference",T1-T10 F1-F3
+raw_rebuild/black.py,801,"Optional raw extraction source, provenance or rebuild reference",T1-T10 F1-F3
+raw_rebuild/config.json,395,"Optional raw extraction source, provenance or rebuild reference",T1-T10 F1-F3
+raw_rebuild/download_binance.py,1905,"Optional raw extraction source, provenance or rebuild reference",T1-T10 F1-F3
+raw_rebuild/original_code/01_binance.py,40240,"Optional raw extraction source, provenance or rebuild reference",T1-T10 F1-F3
+raw_rebuild/original_code/02_deribit.py,33873,"Optional raw extraction source, provenance or rebuild reference",T1-T10 F1-F3
+raw_rebuild/original_code/forecast_core.py,11788,"Optional raw extraction source, provenance or rebuild reference",T1-T10 F1-F3
+raw_rebuild/original_code/r2_clean.py,9751,"Optional raw extraction source, provenance or rebuild reference",T1-T10 F1-F3
+raw_rebuild/original_code/r2_clock.py,14159,"Optional raw extraction source, provenance or rebuild reference",T1-T10 F1-F3
+raw_rebuild/original_code/r2_common.py,4239,"Optional raw extraction source, provenance or rebuild reference",T1-T10 F1-F3
+raw_rebuild/original_code/r2_core.py,12737,"Optional raw extraction source, provenance or rebuild reference",T1-T10 F1-F3
+raw_rebuild/original_code/r2_download.py,7954,"Optional raw extraction source, provenance or rebuild reference",T1-T10 F1-F3
+raw_rebuild/original_code/r2_events.py,2314,"Optional raw extraction source, provenance or rebuild reference",T1-T10 F1-F3
+raw_rebuild/original_code/r2_hedge_data.py,4538,"Optional raw extraction source, provenance or rebuild reference",T1-T10 F1-F3
+raw_rebuild/original_code/r3_clock.py,753,"Optional raw extraction source, provenance or rebuild reference",T1-T10 F1-F3
+raw_rebuild/original_code/r3_common.py,6043,"Optional raw extraction source, provenance or rebuild reference",T1-T10 F1-F3
+raw_rebuild/original_code/r3_options.py,9094,"Optional raw extraction source, provenance or rebuild reference",T1-T10 F1-F3
+raw_rebuild/original_code/r3_sources.py,7504,"Optional raw extraction source, provenance or rebuild reference",T1-T10 F1-F3
+raw_rebuild/original_code/r3_timestamps.py,1383,"Optional raw extraction source, provenance or rebuild reference",T1-T10 F1-F3
+raw_rebuild/original_code/r3_zi.py,10344,"Optional raw extraction source, provenance or rebuild reference",T1-T10 F1-F3
+raw_rebuild/original_code/r4_chen_tables.py,10798,"Optional raw extraction source, provenance or rebuild reference",T1-T10 F1-F3
+raw_rebuild/original_code/r4_common.py,4613,"Optional raw extraction source, provenance or rebuild reference",T1-T10 F1-F3
+raw_rebuild/original_code/r4_forecast.py,11777,"Optional raw extraction source, provenance or rebuild reference",T1-T10 F1-F3
+raw_rebuild/original_code/r4_options.py,7880,"Optional raw extraction source, provenance or rebuild reference",T1-T10 F1-F3
+raw_rebuild/original_code/r4_strategy.py,13669,"Optional raw extraction source, provenance or rebuild reference",T1-T10 F1-F3
+raw_rebuild/original_code/r5_common.py,4592,"Optional raw extraction source, provenance or rebuild reference",T1-T10 F1-F3
+raw_rebuild/original_code/r5_forecast.py,13355,"Optional raw extraction source, provenance or rebuild reference",T1-T10 F1-F3
+raw_rebuild/original_code/r5_measurement.py,9723,"Optional raw extraction source, provenance or rebuild reference",T1-T10 F1-F3
+raw_rebuild/original_code/r5_options.py,8564,"Optional raw extraction source, provenance or rebuild reference",T1-T10 F1-F3
+raw_rebuild/original_code/r5_premium.py,7456,"Optional raw extraction source, provenance or rebuild reference",T1-T10 F1-F3
+raw_rebuild/original_code/r5_sources.py,1560,"Optional raw extraction source, provenance or rebuild reference",T1-T10 F1-F3
+raw_rebuild/original_code/r5_strategy.py,11261,"Optional raw extraction source, provenance or rebuild reference",T1-T10 F1-F3
+raw_rebuild/original_code/r9_analyze.py,26313,"Optional raw extraction source, provenance or rebuild reference",T1-T10 F1-F3
+raw_rebuild/original_code/r9_common.py,4766,"Optional raw extraction source, provenance or rebuild reference",T1-T10 F1-F3
+raw_rebuild/original_code/r9_corridor.py,4573,"Optional raw extraction source, provenance or rebuild reference",T1-T10 F1-F3
+raw_rebuild/original_code/r9_prepare.py,12044,"Optional raw extraction source, provenance or rebuild reference",T1-T10 F1-F3
+raw_rebuild/recover_trade_aggregates.py,2890,"Optional raw extraction source, provenance or rebuild reference",T1-T10 F1-F3
+raw_rebuild/reference_calendars/events.csv,45713,"Optional raw extraction source, provenance or rebuild reference",T1-T10 F1-F3
+raw_rebuild/reference_calendars/events_publication.csv,60964,"Optional raw extraction source, provenance or rebuild reference",T1-T10 F1-F3
+requirements.txt,534,"Package documentation, environment or integrity metadata",T1-T10 F1-F3
+run_all.sh,1400,"Package documentation, environment or integrity metadata",T1-T10 F1-F3
+verify/ALL_TABLE_NUMERIC_TOKENS.csv,68849,"Authority extraction, cell comparison, correction or provenance evidence",T1-T10 F1-F3
+verify/AS_STATED_VERIFICATION.csv,435476,"Authority extraction, cell comparison, correction or provenance evidence",T1-T10 F1-F3
+verify/FIGURE_DATA_VERIFICATION.csv,701,"Authority extraction, cell comparison, correction or provenance evidence",T1-T10 F1-F3
+verify/FIGURE_VERIFICATION.csv,314,"Authority extraction, cell comparison, correction or provenance evidence",T1-T10 F1-F3
+verify/FULL_FORECAST_RECONCILIATION.csv,42859,"Authority extraction, cell comparison, correction or provenance evidence",T1-T10 F1-F3
+verify/LOOKAHEAD_AUDIT.csv,4932,"Authority extraction, cell comparison, correction or provenance evidence",T1-T10 F1-F3
+verify/LOOKAHEAD_AUDIT_FULL.csv,5312,"Authority extraction, cell comparison, correction or provenance evidence",T1-T10 F1-F3
+verify/MANUSCRIPT_AUTHORITY.json,214,"Authority extraction, cell comparison, correction or provenance evidence",T1-T10 F1-F3
+verify/MANUSCRIPT_CORRECTIONS.csv,90679,"Authority extraction, cell comparison, correction or provenance evidence",T1-T10 F1-F3
+verify/MCS_TEXT_VERIFICATION.csv,14203,"Authority extraction, cell comparison, correction or provenance evidence",T1-T10 F1-F3
+verify/MISMATCH_REPORT.md,67778,"Authority extraction, cell comparison, correction or provenance evidence",T1-T10 F1-F3
+verify/NOTE_CORRECTIONS.csv,1981,"Authority extraction, cell comparison, correction or provenance evidence",T1-T10 F1-F3
+verify/NOTE_VERIFICATION.csv,6405,"Authority extraction, cell comparison, correction or provenance evidence",T1-T10 F1-F3
+verify/QUICK_FULL_COMPARISON.csv,80447,"Authority extraction, cell comparison, correction or provenance evidence",T1-T10 F1-F3
+verify/SIGNIFICANCE_VERIFICATION.csv,10585,"Authority extraction, cell comparison, correction or provenance evidence",T1-T10 F1-F3
+verify/SOURCE_FILES.csv,31411,"Authority extraction, cell comparison, correction or provenance evidence",T1-T10 F1-F3
+verify/TABLE_FIGURE_LINEAGE.csv,4382,"Authority extraction, cell comparison, correction or provenance evidence",T1-T10 F1-F3
+verify/THREAD_LIMITS.json,96,"Authority extraction, cell comparison, correction or provenance evidence",T1-T10 F1-F3
+verify/VERIFICATION.csv,435476,"Authority extraction, cell comparison, correction or provenance evidence",T1-T10 F1-F3
+verify/VERIFICATION_RATES.csv,174,"Authority extraction, cell comparison, correction or provenance evidence",T1-T10 F1-F3
+verify/VERIFICATION_SUMMARY.md,1764,"Authority extraction, cell comparison, correction or provenance evidence",T1-T10 F1-F3
+verify/figure1_BTC_side_by_side.png,223516,"Authority extraction, cell comparison, correction or provenance evidence",T1-T10 F1-F3
+verify/figure1_ETH_side_by_side.png,206984,"Authority extraction, cell comparison, correction or provenance evidence",T1-T10 F1-F3
+verify/figure2_BTC_side_by_side.png,82146,"Authority extraction, cell comparison, correction or provenance evidence",T1-T10 F1-F3
+verify/figure2_ETH_side_by_side.png,84814,"Authority extraction, cell comparison, correction or provenance evidence",T1-T10 F1-F3
+verify/figure3_side_by_side.png,127208,"Authority extraction, cell comparison, correction or provenance evidence",T1-T10 F1-F3
+verify/figure_source_data.json,99757,"Authority extraction, cell comparison, correction or provenance evidence",T1-T10 F1-F3
+verify/manuscript_image1.png,131871,"Authority extraction, cell comparison, correction or provenance evidence",T1-T10 F1-F3
+verify/manuscript_image2.png,123945,"Authority extraction, cell comparison, correction or provenance evidence",T1-T10 F1-F3
+verify/manuscript_image3.png,49660,"Authority extraction, cell comparison, correction or provenance evidence",T1-T10 F1-F3
+verify/manuscript_image4.png,52270,"Authority extraction, cell comparison, correction or provenance evidence",T1-T10 F1-F3
+verify/manuscript_image5.png,75625,"Authority extraction, cell comparison, correction or provenance evidence",T1-T10 F1-F3
+verify/manuscript_reference.docx,562120,"Authority extraction, cell comparison, correction or provenance evidence",T1-T10 F1-F3
+verify/manuscript_tables.json,56220,"Authority extraction, cell comparison, correction or provenance evidence",T1-T10 F1-F3
+verify/manuscript_text.txt,69567,"Authority extraction, cell comparison, correction or provenance evidence",T1-T10 F1-F3
+verify/source_results/R4_price_direction_bounds.parquet,12345,"Authority extraction, cell comparison, correction or provenance evidence",T1-T10 F1-F3
+verify/source_results/R4_trade_mark_comparison.parquet,11810,"Authority extraction, cell comparison, correction or provenance evidence",T1-T10 F1-F3
+verify/source_results/R5_annual_overview.parquet,11010,"Authority extraction, cell comparison, correction or provenance evidence",T1-T10 F1-F3
+verify/source_results/R5_breakeven_cost.parquet,27158,"Authority extraction, cell comparison, correction or provenance evidence",T1-T10 F1-F3
+verify/source_results/R5_forecast_comparisons.parquet,545946,"Authority extraction, cell comparison, correction or provenance evidence",T1-T10 F1-F3
+verify/source_results/R5_risk_backtests.parquet,22845,"Authority extraction, cell comparison, correction or provenance evidence",T1-T10 F1-F3
+verify/source_results/R5_risk_capital_efficiency.parquet,11879,"Authority extraction, cell comparison, correction or provenance evidence",T1-T10 F1-F3
+verify/source_results/R5_strategy_summary.parquet,3075716,"Authority extraction, cell comparison, correction or provenance evidence",T1-T10 F1-F3
+verify/source_results/R5_tail_statistics.parquet,43032,"Authority extraction, cell comparison, correction or provenance evidence",T1-T10 F1-F3
+verify/source_results/R5_tenor_matrix.parquet,49806,"Authority extraction, cell comparison, correction or provenance evidence",T1-T10 F1-F3
+verify/source_results/R5_term_premium.parquet,617011,"Authority extraction, cell comparison, correction or provenance evidence",T1-T10 F1-F3
+verify/source_results/R9_claude_grid_corrected_decomposition.parquet,14108,"Authority extraction, cell comparison, correction or provenance evidence",T1-T10 F1-F3
+verify/source_version/FIGURE_DATA_VERIFICATION.csv,838,"Authority extraction, cell comparison, correction or provenance evidence",T1-T10 F1-F3
+verify/source_version/FIGURE_VERIFICATION.csv,314,"Authority extraction, cell comparison, correction or provenance evidence",T1-T10 F1-F3
+verify/source_version/MCS_TEXT_VERIFICATION.csv,14203,"Authority extraction, cell comparison, correction or provenance evidence",T1-T10 F1-F3
+verify/source_version/MISMATCH_REPORT.md,3154,"Authority extraction, cell comparison, correction or provenance evidence",T1-T10 F1-F3
+verify/source_version/SIGNIFICANCE_VERIFICATION.csv,10579,"Authority extraction, cell comparison, correction or provenance evidence",T1-T10 F1-F3
+verify/source_version/VERIFICATION.csv,394159,"Authority extraction, cell comparison, correction or provenance evidence",T1-T10 F1-F3
+verify/source_version/VERIFICATION_RATES.csv,160,"Authority extraction, cell comparison, correction or provenance evidence",T1-T10 F1-F3
+verify/source_version/VERIFICATION_SUMMARY.md,1403,"Authority extraction, cell comparison, correction or provenance evidence",T1-T10 F1-F3
+wheels/certifi-2026.10.23-py3-none-any.whl,135082,Pinned offline Python dependency,T1-T10 F1-F3
+wheels/charset_normalizer-3.5.2-cp312-cp312-macosx_10_13_universal2.whl,367780,Pinned offline Python dependency,T1-T10 F1-F3
+wheels/cloudpickle-3.1.2-py3-none-any.whl,22228,Pinned offline Python dependency,T1-T10 F1-F3
+wheels/contourpy-1.4.0-cp312-cp312-macosx_11_0_arm64.whl,284921,Pinned offline Python dependency,T1-T10 F1-F3
+wheels/cycler-0.12.1-py3-none-any.whl,8321,Pinned offline Python dependency,T1-T10 F1-F3
+wheels/fonttools-4.68.0-cp312-cp312-macosx_10_13_universal2.whl,3143556,Pinned offline Python dependency,T1-T10 F1-F3
+wheels/formulaic-1.2.2-py3-none-any.whl,118939,Pinned offline Python dependency,T1-T10 F1-F3
+wheels/idna-3.20-py3-none-any.whl,69583,Pinned offline Python dependency,T1-T10 F1-F3
+wheels/interface_meta-2.0.1-py3-none-any.whl,15330,Pinned offline Python dependency,T1-T10 F1-F3
+wheels/joblib-1.6.0-py3-none-any.whl,306115,Pinned offline Python dependency,T1-T10 F1-F3
+wheels/kiwisolver-1.5.1-cp312-cp312-macosx_11_0_arm64.whl,64660,Pinned offline Python dependency,T1-T10 F1-F3
+wheels/matplotlib-3.10.6-cp312-cp312-macosx_11_0_arm64.whl,8128262,Pinned offline Python dependency,T1-T10 F1-F3
+wheels/narwhals-2.28.0-py3-none-any.whl,490591,Pinned offline Python dependency,T1-T10 F1-F3
+wheels/numpy-2.3.5-cp312-cp312-macosx_14_0_arm64.whl,5088378,Pinned offline Python dependency,T1-T10 F1-F3
+wheels/packaging-26.3-py3-none-any.whl,129956,Pinned offline Python dependency,T1-T10 F1-F3
+wheels/pandas-2.2.3-cp312-cp312-macosx_11_0_arm64.whl,11363475,Pinned offline Python dependency,T1-T10 F1-F3
+wheels/patsy-1.0.3-py2.py3-none-any.whl,233318,Pinned offline Python dependency,T1-T10 F1-F3
+wheels/pillow-13.0.0-cp312-cp312-macosx_11_0_arm64.whl,4852329,Pinned offline Python dependency,T1-T10 F1-F3
+wheels/pyarrow-21.0.0-cp312-cp312-macosx_12_0_arm64.whl,31160305,Pinned offline Python dependency,T1-T10 F1-F3
+wheels/pyparsing-3.3.3-py3-none-any.whl,126420,Pinned offline Python dependency,T1-T10 F1-F3
+wheels/python_dateutil-4.0.0-py3-none-any.whl,92853,Pinned offline Python dependency,T1-T10 F1-F3
+wheels/pytz-2026.6-py2.py3-none-any.whl,506321,Pinned offline Python dependency,T1-T10 F1-F3
+wheels/requests-2.32.5-py3-none-any.whl,64738,Pinned offline Python dependency,T1-T10 F1-F3
+wheels/scikit_learn-1.7.2-cp312-cp312-macosx_12_0_arm64.whl,8636997,Pinned offline Python dependency,T1-T10 F1-F3
+wheels/scipy-1.18.1-cp312-cp312-macosx_14_0_arm64.whl,20475078,Pinned offline Python dependency,T1-T10 F1-F3
+wheels/statsmodels-0.15.0-cp312-cp312-macosx_11_0_arm64.whl,11527231,Pinned offline Python dependency,T1-T10 F1-F3
+wheels/threadpoolctl-3.8.0-py3-none-any.whl,32091,Pinned offline Python dependency,T1-T10 F1-F3
+wheels/typing_extensions-4.16.0-py3-none-any.whl,45571,Pinned offline Python dependency,T1-T10 F1-F3
+wheels/tzdata-2026.6-py2.py3-none-any.whl,348210,Pinned offline Python dependency,T1-T10 F1-F3
+wheels/urllib3-2.8.0-py3-none-any.whl,135717,Pinned offline Python dependency,T1-T10 F1-F3
+wheels/wrapt-2.5.2-cp312-cp312-macosx_11_0_arm64.whl,106264,Pinned offline Python dependency,T1-T10 F1-F3
+MANIFEST.csv,66383,Complete file inventory including metadata sizes,T1-T10 F1-F3
+CHECKSUMS.sha256,59120,SHA-256 snapshot; excludes its own hash,T1-T10 F1-F3

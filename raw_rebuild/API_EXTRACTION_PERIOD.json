@@ -1,0 +1,8 @@
+{
+  "first": "2026-10-07T14:07:37.303749+00:00",
+  "last": "2026-10-07T15:57:49.799531+00:00",
+  "successful_requests": 8063,
+  "urls": [
+    "https://history.deribit.com/api/v2/public/get_last_trades_by_currency_and_time"
+  ]
+}

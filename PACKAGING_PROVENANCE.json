@@ -1,0 +1,18 @@
+{
+  "source_archive": "OneDay_Replication_20261107.zip",
+  "source_archive_sha256": "ac9eefe8ece24590946c0d52c506ab5965406350e5e628227cc325e5472e331d",
+  "source_files_byte_identical": 535,
+  "newer_preserved_source_files": [],
+  "packaging_adaptations": [
+    "README.md",
+    "README_한국어.md",
+    "code/extract.py",
+    "MANIFEST.csv",
+    "CHECKSUMS.sha256"
+  ],
+  "omitted_source_files": [
+    "verify/manuscript_reference.docx"
+  ],
+  "scientific_estimation_rerun": false,
+  "source_files_deleted": false
+}

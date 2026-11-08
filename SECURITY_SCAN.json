@@ -1,0 +1,64 @@
+{
+  "actual_credential_findings": 0,
+  "blocked_files": [],
+  "keyword_only_file_count": 43,
+  "scan_method": "4 worker processes; streamed bytes + nested wheel/ZIP/DOCX entries + PDF extracted text; credential filenames excluded without opening",
+  "reviewed_noncredential_examples": [
+    {
+      "path": "wheels/pandas-2.2.3-cp312-cp312-macosx_11_0_arm64.whl",
+      "members": [
+        {
+          "member": "pandas/tests/io/formats/style/test_html.py",
+          "reason": "Reviewed upstream test/documentation example; fake account/password or URI placeholder, not user authentication data"
+        }
+      ]
+    },
+    {
+      "path": "wheels/certifi-2026.10.23-py3-none-any.whl",
+      "members": [
+        {
+          "member": "certifi/cacert.pem",
+          "reason": "Public CA certificate bundle; no private-key marker"
+        }
+      ]
+    },
+    {
+      "path": "wheels/pyarrow-21.0.0-cp312-cp312-macosx_12_0_arm64.whl",
+      "members": [
+        {
+          "member": "pyarrow/_s3fs.cpython-312-darwin.so",
+          "reason": "Reviewed upstream test/documentation example; fake account/password or URI placeholder, not user authentication data"
+        },
+        {
+          "member": "pyarrow/_s3fs.pyx",
+          "reason": "Reviewed upstream test/documentation example; fake account/password or URI placeholder, not user authentication data"
+        },
+        {
+          "member": "pyarrow/include/arrow/filesystem/s3fs.h",
+          "reason": "Reviewed upstream test/documentation example; fake account/password or URI placeholder, not user authentication data"
+        },
+        {
+          "member": "pyarrow/tests/test_flight.py",
+          "reason": "Reviewed upstream test/documentation example; fake account/password or URI placeholder, not user authentication data"
+        },
+        {
+          "member": "pyarrow/tests/test_fs.py",
+          "reason": "Reviewed upstream test/documentation example; fake account/password or URI placeholder, not user authentication data"
+        }
+      ]
+    },
+    {
+      "path": "wheels/urllib3-2.8.0-py3-none-any.whl",
+      "members": [
+        {
+          "member": "urllib3/util/url.py",
+          "reason": "Reviewed upstream test/documentation example; fake account/password or URI placeholder, not user authentication data"
+        }
+      ]
+    }
+  ],
+  "credential_values_recorded": false,
+  "scope": "Distribution payload before final manifest generation; generated manifests and this report also checked before commit",
+  "filename_policy": "No .env, auth/credentials stores, private keys or manuscript DOCX in Git",
+  "exclusions": "EXCLUDED_FILES.md"
+}

@@ -1,0 +1,207 @@
+START mode=full offline=1 workers=4
+OFFLINE_SOCKET_BLOCK_CONFIRMED
+DONE {'key': 'BTC_wexpanding_log_hour8_h1', 'seconds': 0, 'resumed': True}
+DONE {'key': 'BTC_w500_log_hour8_h1', 'seconds': 0, 'resumed': True}
+DONE {'key': 'BTC_w365_log_hour8_h1', 'seconds': 0, 'resumed': True}
+DONE {'key': 'BTC_w1000_log_hour8_h1', 'seconds': 0, 'resumed': True}
+DONE {'key': 'BTC_rv_binance_perp_subsample', 'seconds': 0, 'resumed': True}
+DONE {'key': 'BTC_rv_binance_perp_rv1', 'seconds': 0, 'resumed': True}
+DONE {'key': 'BTC_rv_deribit_rv5', 'seconds': 0, 'resumed': True}
+DONE {'key': 'BTC_rv_binance_spot_rv5', 'seconds': 0, 'resumed': True}
+DONE {'key': 'BTC_rv_binance_perp_kernel', 'seconds': 0, 'resumed': True}
+DONE {'key': 'BTC_rv_binance_perp_payoff', 'seconds': 0, 'resumed': True}
+DONE {'key': 'ETH_w500_log_hour8_h1', 'seconds': 0, 'resumed': True}
+DONE {'key': 'ETH_w365_log_hour8_h1', 'seconds': 0, 'resumed': True}
+DONE {'key': 'ETH_wexpanding_log_hour8_h1', 'seconds': 0, 'resumed': True}
+DONE {'key': 'ETH_w1000_log_hour8_h1', 'seconds': 0, 'resumed': True}
+DONE {'key': 'ETH_rv_binance_spot_rv5', 'seconds': 0, 'resumed': True}
+DONE {'key': 'ETH_rv_binance_perp_rv1', 'seconds': 0, 'resumed': True}
+DONE {'key': 'ETH_rv_deribit_rv5', 'seconds': 0, 'resumed': True}
+DONE {'key': 'ETH_rv_binance_perp_kernel', 'seconds': 0, 'resumed': True}
+DONE {'key': 'ETH_rv_binance_perp_subsample', 'seconds': 0, 'resumed': True}
+DONE {'key': 'BTC_mark_w500_log_hour8_h1', 'seconds': 0, 'resumed': True}
+DONE {'key': 'ETH_rv_binance_perp_payoff', 'seconds': 0, 'resumed': True}
+DONE {'key': 'BTC_bilateral_w500_log_hour8_h1', 'seconds': 0, 'resumed': True}
+DONE {'key': 'BTC_last15_w500_log_hour8_h1', 'seconds': 0, 'resumed': True}
+DONE {'key': 'BTC_band02_w500_log_hour8_h1', 'seconds': 0, 'resumed': True}
+DONE {'key': 'BTC_band10_w500_log_hour8_h1', 'seconds': 0, 'resumed': True}
+DONE {'key': 'BTC_weighted_w500_log_hour8_h1', 'seconds': 0, 'resumed': True}
+DONE {'key': 'BTC_dropmove1_w500_log_hour8_h1', 'seconds': 0, 'resumed': True}
+DONE {'key': 'BTC_placebo_lag1_w500_log_hour8_h1', 'seconds': 0, 'resumed': True}
+DONE {'key': 'BTC_matrix_h1_k1_w500_log', 'seconds': 0, 'resumed': True}
+DONE {'key': 'BTC_matrix_h1_k2_w500_log', 'seconds': 0, 'resumed': True}
+DONE {'key': 'BTC_matrix_h1_k3_w500_log', 'seconds': 0, 'resumed': True}
+DONE {'key': 'BTC_matrix_h1_k14_w500_log', 'seconds': 0, 'resumed': True}
+DONE {'key': 'BTC_matrix_h1_k7_w500_log', 'seconds': 0, 'resumed': True}
+DONE {'key': 'BTC_matrix_h1_k30_w500_log', 'seconds': 0, 'resumed': True}
+DONE {'key': 'BTC_matrix_h1_kDVOL_w500_log', 'seconds': 0, 'resumed': True}
+DONE {'key': 'BTC_matrix_h2_k1_w500_log', 'seconds': 0, 'resumed': True}
+DONE {'key': 'BTC_matrix_h2_k2_w500_log', 'seconds': 0, 'resumed': True}
+DONE {'key': 'BTC_matrix_h2_k3_w500_log', 'seconds': 0, 'resumed': True}
+DONE {'key': 'BTC_matrix_h2_k7_w500_log', 'seconds': 0, 'resumed': True}
+DONE {'key': 'BTC_matrix_h2_k30_w500_log', 'seconds': 0, 'resumed': True}
+DONE {'key': 'BTC_matrix_h2_k14_w500_log', 'seconds': 0, 'resumed': True}
+DONE {'key': 'BTC_matrix_h2_kDVOL_w500_log', 'seconds': 0, 'resumed': True}
+DONE {'key': 'BTC_matrix_h3_k2_w500_log', 'seconds': 0, 'resumed': True}
+DONE {'key': 'BTC_matrix_h3_k1_w500_log', 'seconds': 0, 'resumed': True}
+DONE {'key': 'BTC_matrix_h3_k3_w500_log', 'seconds': 0, 'resumed': True}
+DONE {'key': 'BTC_matrix_h3_k7_w500_log', 'seconds': 0, 'resumed': True}
+DONE {'key': 'BTC_matrix_h3_k14_w500_log', 'seconds': 0, 'resumed': True}
+DONE {'key': 'BTC_matrix_h3_k30_w500_log', 'seconds': 0, 'resumed': True}
+DONE {'key': 'BTC_matrix_h3_kDVOL_w500_log', 'seconds': 0, 'resumed': True}
+DONE {'key': 'BTC_matrix_h7_k1_w500_log', 'seconds': 0, 'resumed': True}
+DONE {'key': 'BTC_matrix_h7_k2_w500_log', 'seconds': 0, 'resumed': True}
+DONE {'key': 'BTC_matrix_h7_k3_w500_log', 'seconds': 0, 'resumed': True}
+DONE {'key': 'BTC_matrix_h7_k7_w500_log', 'seconds': 0, 'resumed': True}
+DONE {'key': 'BTC_matrix_h7_k14_w500_log', 'seconds': 0, 'resumed': True}
+DONE {'key': 'BTC_matrix_h14_k1_w500_log', 'seconds': 0, 'resumed': True}
+DONE {'key': 'BTC_matrix_h7_k30_w500_log', 'seconds': 0, 'resumed': True}
+DONE {'key': 'BTC_matrix_h7_kDVOL_w500_log', 'seconds': 0, 'resumed': True}
+DONE {'key': 'BTC_matrix_h14_k2_w500_log', 'seconds': 0, 'resumed': True}
+DONE {'key': 'BTC_matrix_h14_k3_w500_log', 'seconds': 0, 'resumed': True}
+DONE {'key': 'BTC_matrix_h14_k7_w500_log', 'seconds': 0, 'resumed': True}
+DONE {'key': 'BTC_matrix_h14_k14_w500_log', 'seconds': 0, 'resumed': True}
+DONE {'key': 'BTC_matrix_h14_k30_w500_log', 'seconds': 0, 'resumed': True}
+DONE {'key': 'BTC_matrix_h14_kDVOL_w500_log', 'seconds': 0, 'resumed': True}
+DONE {'key': 'BTC_matrix_h30_k1_w500_log', 'seconds': 0, 'resumed': True}
+DONE {'key': 'BTC_matrix_h30_k2_w500_log', 'seconds': 0, 'resumed': True}
+DONE {'key': 'BTC_matrix_h30_k3_w500_log', 'seconds': 0, 'resumed': True}
+DONE {'key': 'BTC_matrix_h30_k7_w500_log', 'seconds': 0, 'resumed': True}
+DONE {'key': 'BTC_matrix_h30_k14_w500_log', 'seconds': 0, 'resumed': True}
+DONE {'key': 'BTC_matrix_h30_k30_w500_log', 'seconds': 0, 'resumed': True}
+DONE {'key': 'BTC_matrix_h30_kDVOL_w500_log', 'seconds': 0, 'resumed': True}
+DONE {'key': 'ETH_mark_w500_log_hour8_h1', 'seconds': 0, 'resumed': True}
+DONE {'key': 'ETH_last15_w500_log_hour8_h1', 'seconds': 0, 'resumed': True}
+DONE {'key': 'ETH_bilateral_w500_log_hour8_h1', 'seconds': 0, 'resumed': True}
+DONE {'key': 'ETH_band02_w500_log_hour8_h1', 'seconds': 0, 'resumed': True}
+DONE {'key': 'ETH_dropmove1_w500_log_hour8_h1', 'seconds': 0, 'resumed': True}
+DONE {'key': 'ETH_weighted_w500_log_hour8_h1', 'seconds': 0, 'resumed': True}
+DONE {'key': 'ETH_band10_w500_log_hour8_h1', 'seconds': 0, 'resumed': True}
+DONE {'key': 'ETH_placebo_lag1_w500_log_hour8_h1', 'seconds': 0, 'resumed': True}
+DONE {'key': 'ETH_matrix_h1_k3_w500_log', 'seconds': 0, 'resumed': True}
+DONE {'key': 'ETH_matrix_h1_k1_w500_log', 'seconds': 0, 'resumed': True}
+DONE {'key': 'ETH_matrix_h1_k2_w500_log', 'seconds': 0, 'resumed': True}
+DONE {'key': 'ETH_matrix_h1_k7_w500_log', 'seconds': 0, 'resumed': True}
+DONE {'key': 'ETH_matrix_h1_k14_w500_log', 'seconds': 0, 'resumed': True}
+DONE {'key': 'ETH_matrix_h1_k30_w500_log', 'seconds': 0, 'resumed': True}
+DONE {'key': 'ETH_matrix_h1_kDVOL_w500_log', 'seconds': 0, 'resumed': True}
+DONE {'key': 'ETH_matrix_h2_k1_w500_log', 'seconds': 0, 'resumed': True}
+DONE {'key': 'ETH_matrix_h2_k2_w500_log', 'seconds': 0, 'resumed': True}
+DONE {'key': 'ETH_matrix_h2_k3_w500_log', 'seconds': 0, 'resumed': True}
+DONE {'key': 'ETH_matrix_h2_k7_w500_log', 'seconds': 0, 'resumed': True}
+DONE {'key': 'ETH_matrix_h2_k14_w500_log', 'seconds': 0, 'resumed': True}
+DONE {'key': 'ETH_matrix_h2_k30_w500_log', 'seconds': 0, 'resumed': True}
+DONE {'key': 'ETH_matrix_h3_k1_w500_log', 'seconds': 0, 'resumed': True}
+DONE {'key': 'ETH_matrix_h2_kDVOL_w500_log', 'seconds': 0, 'resumed': True}
+DONE {'key': 'ETH_matrix_h3_k3_w500_log', 'seconds': 0, 'resumed': True}
+DONE {'key': 'ETH_matrix_h3_k2_w500_log', 'seconds': 0, 'resumed': True}
+DONE {'key': 'ETH_matrix_h3_k7_w500_log', 'seconds': 0, 'resumed': True}
+DONE {'key': 'ETH_matrix_h3_k14_w500_log', 'seconds': 0, 'resumed': True}
+DONE {'key': 'ETH_matrix_h3_kDVOL_w500_log', 'seconds': 0, 'resumed': True}
+DONE {'key': 'ETH_matrix_h3_k30_w500_log', 'seconds': 0, 'resumed': True}
+DONE {'key': 'ETH_matrix_h7_k1_w500_log', 'seconds': 0, 'resumed': True}
+DONE {'key': 'ETH_matrix_h7_k2_w500_log', 'seconds': 0, 'resumed': True}
+DONE {'key': 'ETH_matrix_h7_k3_w500_log', 'seconds': 0, 'resumed': True}
+DONE {'key': 'ETH_matrix_h7_k14_w500_log', 'seconds': 0, 'resumed': True}
+DONE {'key': 'ETH_matrix_h7_k7_w500_log', 'seconds': 0, 'resumed': True}
+DONE {'key': 'ETH_matrix_h7_k30_w500_log', 'seconds': 0, 'resumed': True}
+DONE {'key': 'ETH_matrix_h7_kDVOL_w500_log', 'seconds': 0, 'resumed': True}
+DONE {'key': 'ETH_matrix_h14_k2_w500_log', 'seconds': 0, 'resumed': True}
+DONE {'key': 'ETH_matrix_h14_k3_w500_log', 'seconds': 0, 'resumed': True}
+DONE {'key': 'ETH_matrix_h14_k1_w500_log', 'seconds': 0, 'resumed': True}
+DONE {'key': 'ETH_matrix_h14_k7_w500_log', 'seconds': 0, 'resumed': True}
+DONE {'key': 'ETH_matrix_h14_k14_w500_log', 'seconds': 0, 'resumed': True}
+DONE {'key': 'ETH_matrix_h14_k30_w500_log', 'seconds': 0, 'resumed': True}
+DONE {'key': 'ETH_matrix_h14_kDVOL_w500_log', 'seconds': 0, 'resumed': True}
+DONE {'key': 'ETH_matrix_h30_k1_w500_log', 'seconds': 0, 'resumed': True}
+DONE {'key': 'ETH_matrix_h30_k2_w500_log', 'seconds': 0, 'resumed': True}
+DONE {'key': 'ETH_matrix_h30_k3_w500_log', 'seconds': 0, 'resumed': True}
+DONE {'key': 'ETH_matrix_h30_k7_w500_log', 'seconds': 0, 'resumed': True}
+DONE {'key': 'ETH_matrix_h30_k14_w500_log', 'seconds': 0, 'resumed': True}
+DONE {'key': 'ETH_matrix_h30_k30_w500_log', 'seconds': 0, 'resumed': True}
+DONE {'key': 'ETH_matrix_h30_kDVOL_w500_log', 'seconds': 0, 'resumed': True}
+Forecast tables recalculated
+Daily premia tables recalculated
+Grid corrected decomposition recalculated
+Trading and order flow tables recalculated
+VaR and ES tables recalculated
+Computed cells: 1504
+       checked  matched  rate
+table                        
+1           48       48   1.0
+2          122      122   1.0
+3          324      324   1.0
+4           96       96   1.0
+5          300      300   1.0
+6          168      168   1.0
+7           98       98   1.0
+8           98       98   1.0
+9          106      106   1.0
+10         100      100   1.0
+MISMATCHES 0 UNMAPPED 0
+All three figures regenerated; underlying daily/monthly data saved.
+Table note checks: 32 scope discrepancies: 8
+       checked  matched      rate
+table                            
+1           48        0  0.000000
+2          122      122  1.000000
+3          324      324  1.000000
+4           96       96  1.000000
+5          300      210  0.700000
+6          168      168  1.000000
+7           98       98  1.000000
+8           98       98  1.000000
+9          106       42  0.396226
+10         100      100  1.000000
+MISMATCHES 202 UNMAPPED 0
+Table note checks: 32 scope discrepancies: 8
+Stated-definition mismatches: 202 historical version still retained separately.
+{
+  "mode": "full",
+  "offline": true,
+  "wall_seconds": 38.51960383298865,
+  "python": "3.12.15 (main, Sep 30 2026, 22:04:19) [Clang 21.0.0 (clang-2100.3.34.2)]",
+  "platform": "macOS-27.2-arm64-arm-64bit",
+  "machine": "arm64",
+  "workers": 4,
+  "numeric_threads": 1,
+  "memory_budget_gb": 8.5,
+  "seeds": {
+    "forecasts": 20261007,
+    "stationary_bootstrap": 20261007,
+    "mcs": 20261007
+  },
+  "stages": [
+    {
+      "stage": "estimate.py",
+      "seconds": 23.76963904200238
+    },
+    {
+      "stage": "tables.py",
+      "seconds": 7.355078791006235
+    },
+    {
+      "stage": "verify.py",
+      "seconds": 1.2358742910000728
+    },
+    {
+      "stage": "figures.py",
+      "seconds": 3.7480843330122298
+    },
+    {
+      "stage": "notes.py",
+      "seconds": 2.390236167004332
+    }
+  ],
+  "versions": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scipy": "1.18.1",
+    "statsmodels": "0.15.0",
+    "scikit-learn": "1.7.2",
+    "pyarrow": "21.0.0",
+    "matplotlib": "3.10.6",
+    "Pillow": "13.0.0"
+  }
+}
+FINISH mode=full wall_seconds=38

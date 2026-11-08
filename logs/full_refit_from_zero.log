@@ -1,0 +1,735 @@
+START mode=full offline=1 workers=4
+Looking in links: wheels
+Processing ./wheels/certifi-2026.10.23-py3-none-any.whl (from -r requirements.txt (line 1))
+Processing ./wheels/charset_normalizer-3.5.2-cp312-cp312-macosx_10_13_universal2.whl (from -r requirements.txt (line 2))
+Processing ./wheels/cloudpickle-3.1.2-py3-none-any.whl (from -r requirements.txt (line 3))
+Processing ./wheels/contourpy-1.4.0-cp312-cp312-macosx_11_0_arm64.whl (from -r requirements.txt (line 4))
+Processing ./wheels/cycler-0.12.1-py3-none-any.whl (from -r requirements.txt (line 5))
+Processing ./wheels/fonttools-4.68.0-cp312-cp312-macosx_10_13_universal2.whl (from -r requirements.txt (line 6))
+Processing ./wheels/formulaic-1.2.2-py3-none-any.whl (from -r requirements.txt (line 7))
+Processing ./wheels/idna-3.20-py3-none-any.whl (from -r requirements.txt (line 8))
+Processing ./wheels/interface_meta-2.0.1-py3-none-any.whl (from -r requirements.txt (line 9))
+Processing ./wheels/joblib-1.6.0-py3-none-any.whl (from -r requirements.txt (line 10))
+Processing ./wheels/kiwisolver-1.5.1-cp312-cp312-macosx_11_0_arm64.whl (from -r requirements.txt (line 11))
+Processing ./wheels/matplotlib-3.10.6-cp312-cp312-macosx_11_0_arm64.whl (from -r requirements.txt (line 12))
+Processing ./wheels/narwhals-2.28.0-py3-none-any.whl (from -r requirements.txt (line 13))
+Processing ./wheels/numpy-2.3.5-cp312-cp312-macosx_14_0_arm64.whl (from -r requirements.txt (line 14))
+Processing ./wheels/packaging-26.3-py3-none-any.whl (from -r requirements.txt (line 15))
+Processing ./wheels/pandas-2.2.3-cp312-cp312-macosx_11_0_arm64.whl (from -r requirements.txt (line 16))
+Processing ./wheels/patsy-1.0.3-py2.py3-none-any.whl (from -r requirements.txt (line 17))
+Processing ./wheels/pillow-13.0.0-cp312-cp312-macosx_11_0_arm64.whl (from -r requirements.txt (line 18))
+Processing ./wheels/pyarrow-21.0.0-cp312-cp312-macosx_12_0_arm64.whl (from -r requirements.txt (line 19))
+Processing ./wheels/pyparsing-3.3.3-py3-none-any.whl (from -r requirements.txt (line 20))
+Processing ./wheels/python_dateutil-4.0.0-py3-none-any.whl (from -r requirements.txt (line 21))
+Processing ./wheels/pytz-2026.6-py2.py3-none-any.whl (from -r requirements.txt (line 22))
+Processing ./wheels/requests-2.32.5-py3-none-any.whl (from -r requirements.txt (line 23))
+Processing ./wheels/scikit_learn-1.7.2-cp312-cp312-macosx_12_0_arm64.whl (from -r requirements.txt (line 24))
+Processing ./wheels/scipy-1.18.1-cp312-cp312-macosx_14_0_arm64.whl (from -r requirements.txt (line 25))
+Processing ./wheels/statsmodels-0.15.0-cp312-cp312-macosx_11_0_arm64.whl (from -r requirements.txt (line 26))
+Processing ./wheels/threadpoolctl-3.8.0-py3-none-any.whl (from -r requirements.txt (line 27))
+Processing ./wheels/typing_extensions-4.16.0-py3-none-any.whl (from -r requirements.txt (line 28))
+Processing ./wheels/tzdata-2026.6-py2.py3-none-any.whl (from -r requirements.txt (line 29))
+Processing ./wheels/urllib3-2.8.0-py3-none-any.whl (from -r requirements.txt (line 30))
+Processing ./wheels/wrapt-2.5.2-cp312-cp312-macosx_11_0_arm64.whl (from -r requirements.txt (line 31))
+Installing collected packages: pytz, wrapt, urllib3, tzdata, typing_extensions, threadpoolctl, pyparsing, pyarrow, pillow, packaging, numpy, narwhals, kiwisolver, interface_meta, idna, fonttools, cycler, cloudpickle, charset-normalizer, certifi, scipy, requests, python-dateutil, patsy, joblib, contourpy, scikit-learn, pandas, matplotlib, formulaic, statsmodels
+
+Successfully installed certifi-2026.10.23 charset-normalizer-3.5.2 cloudpickle-3.1.2 contourpy-1.4.0 cycler-0.12.1 fonttools-4.68.0 formulaic-1.2.2 idna-3.20 interface_meta-2.0.1 joblib-1.6.0 kiwisolver-1.5.1 matplotlib-3.10.6 narwhals-2.28.0 numpy-2.3.5 packaging-26.3 pandas-2.2.3 patsy-1.0.3 pillow-13.0.0 pyarrow-21.0.0 pyparsing-3.3.3 python-dateutil-4.0.0 pytz-2026.6 requests-2.32.5 scikit-learn-1.7.2 scipy-1.18.1 statsmodels-0.15.0 threadpoolctl-3.8.0 typing_extensions-4.16.0 tzdata-2026.6 urllib3-2.8.0 wrapt-2.5.2
+OFFLINE_SOCKET_BLOCK_CONFIRMED
+R5 BTC/w365_log_hour8_h1/HAR: 1723 forecasts
+辰 预测 BTC/w1000_log_hour8_h1/HAR 有效1205日
+R5 BTC/wexpanding_log_hour8_h1/HAR: 1723 forecasts
+R5 BTC/w365_log_hour8_h1/HAR_S: 1723 forecasts
+辰 预测 BTC/w1000_log_hour8_h1/HAR_S 有效1205日
+R5 BTC/w500_log_hour8_h1/HAR: 1618 forecasts
+R5 BTC/w365_log_hour8_h1/HAR_J: 1723 forecasts
+辰 预测 BTC/w1000_log_hour8_h1/HAR_J 有效1205日
+R5 BTC/wexpanding_log_hour8_h1/HAR_S: 1723 forecasts
+R5 BTC/w500_log_hour8_h1/HAR_S: 1618 forecasts
+R5 BTC/w365_log_hour8_h1/HAR_Q: 1723 forecasts
+辰 预测 BTC/w1000_log_hour8_h1/HAR_Q 有效1205日
+R5 BTC/w500_log_hour8_h1/HAR_J: 1618 forecasts
+R5 BTC/w365_log_hour8_h1/HAR_clock: 1602 forecasts
+辰 预测 BTC/w1000_log_hour8_h1/HAR_clock 有效1005日
+R5 BTC/wexpanding_log_hour8_h1/HAR_J: 1723 forecasts
+R5 BTC/w500_log_hour8_h1/HAR_Q: 1618 forecasts
+R5 BTC/w365_log_hour8_h1/HAR_DVOL: 1542 forecasts
+辰 预测 BTC/w1000_log_hour8_h1/HAR_DVOL 有效1205日
+R5 BTC/w500_log_hour8_h1/HAR_clock: 1602 forecasts
+R5 BTC/wexpanding_log_hour8_h1/HAR_Q: 1723 forecasts
+R5 BTC/w500_log_hour8_h1/HAR_DVOL: 1542 forecasts
+R5 BTC/wexpanding_log_hour8_h1/HAR_clock: 1602 forecasts
+R5 BTC/wexpanding_log_hour8_h1/HAR_DVOL: 1542 forecasts
+辰 预测 BTC/w1000_log_hour8_h1/GB 有效1005日
+辰 预测 BTC/w1000_log_hour8_h1/IV_calibrated 有效1471日
+辰 预测 BTC/w1000_log_hour8_h1/DVOL_calibrated 有效1471日
+辰 预测 BTC/w1000_log_hour8_h1/IV_HAR 有效1205日
+DONE {'key': 'BTC_w1000_log_hour8_h1', 'seconds': 14.532029541005613, 'resumed': False}
+R5 BTC/rv_binance_spot_rv5/HAR: 1649 forecasts
+R5 BTC/rv_binance_spot_rv5/HAR_S: 1649 forecasts
+R5 BTC/rv_binance_spot_rv5/HAR_J: 1649 forecasts
+R5 BTC/rv_binance_spot_rv5/HAR_Q: 1649 forecasts
+R5 BTC/rv_binance_spot_rv5/HAR_clock: 1531 forecasts
+R5 BTC/rv_binance_spot_rv5/HAR_DVOL: 1542 forecasts
+R5 BTC/w365_log_hour8_h1/GB: 1532 forecasts
+R5 BTC/w365_log_hour8_h1/LASSO: 1532 forecasts
+R5 BTC/w500_log_hour8_h1/GB: 1532 forecasts
+R5 BTC/w500_log_hour8_h1/LASSO: 1532 forecasts
+R5 BTC/wexpanding_log_hour8_h1/GB: 1532 forecasts
+R5 BTC/wexpanding_log_hour8_h1/LASSO: 1532 forecasts
+R5 BTC/rv_binance_spot_rv5/GB: 1521 forecasts
+R5 BTC/rv_binance_spot_rv5/LASSO: 1521 forecasts
+R5 BTC/w365_log_hour8_h1/RF: 1532 forecasts
+R5 BTC/w365_log_hour8_h1/IV_calibrated: 2106 forecasts
+R5 BTC/w365_log_hour8_h1/IV_HAR: 1723 forecasts
+R5 BTC/w365_log_hour8_h1/DVOL_calibrated: 1903 forecasts
+DONE {'key': 'BTC_w365_log_hour8_h1', 'seconds': 84.81117995799286, 'resumed': False}
+R5 BTC/rv_deribit_rv5/HAR: 1971 forecasts
+R5 BTC/rv_deribit_rv5/HAR_S: 1971 forecasts
+R5 BTC/rv_deribit_rv5/HAR_J: 1971 forecasts
+R5 BTC/rv_deribit_rv5/HAR_Q: 1971 forecasts
+R5 BTC/rv_deribit_rv5/HAR_clock: 1955 forecasts
+R5 BTC/rv_deribit_rv5/HAR_DVOL: 1903 forecasts
+R5 BTC/w500_log_hour8_h1/RF: 1532 forecasts
+R5 BTC/w500_log_hour8_h1/IV_calibrated: 1971 forecasts
+R5 BTC/w500_log_hour8_h1/IV_HAR: 1618 forecasts
+R5 BTC/w500_log_hour8_h1/DVOL_calibrated: 1903 forecasts
+DONE {'key': 'BTC_w500_log_hour8_h1', 'seconds': 102.88114158299868, 'resumed': False}
+R5 BTC/rv_binance_perp_rv1/HAR: 1618 forecasts
+R5 BTC/rv_binance_perp_rv1/HAR_S: 1618 forecasts
+R5 BTC/rv_binance_perp_rv1/HAR_J: 1618 forecasts
+R5 BTC/rv_binance_perp_rv1/HAR_Q: 1618 forecasts
+R5 BTC/rv_binance_perp_rv1/HAR_clock: 1602 forecasts
+R5 BTC/rv_binance_perp_rv1/HAR_DVOL: 1542 forecasts
+R5 BTC/rv_deribit_rv5/GB: 1877 forecasts
+R5 BTC/rv_deribit_rv5/LASSO: 1877 forecasts
+R5 BTC/rv_binance_spot_rv5/RF: 1521 forecasts
+R5 BTC/rv_binance_spot_rv5/IV_calibrated: 1971 forecasts
+R5 BTC/rv_binance_spot_rv5/IV_HAR: 1649 forecasts
+DONE {'key': 'BTC_rv_binance_spot_rv5', 'seconds': 99.49620649999997, 'resumed': False}
+R5 BTC/rv_binance_perp_subsample/HAR: 1618 forecasts
+R5 BTC/rv_binance_perp_subsample/HAR_S: 1618 forecasts
+R5 BTC/rv_binance_perp_subsample/HAR_J: 1618 forecasts
+R5 BTC/rv_binance_perp_subsample/HAR_Q: 1618 forecasts
+R5 BTC/rv_binance_perp_subsample/HAR_clock: 1602 forecasts
+R5 BTC/rv_binance_perp_subsample/HAR_DVOL: 1542 forecasts
+R5 BTC/rv_binance_perp_rv1/GB: 1532 forecasts
+R5 BTC/rv_binance_perp_rv1/LASSO: 1532 forecasts
+R5 BTC/rv_binance_perp_subsample/GB: 1532 forecasts
+R5 BTC/rv_binance_perp_subsample/LASSO: 1532 forecasts
+R5 BTC/wexpanding_log_hour8_h1/RF: 1532 forecasts
+R5 BTC/wexpanding_log_hour8_h1/IV_calibrated: 2106 forecasts
+R5 BTC/wexpanding_log_hour8_h1/IV_HAR: 1723 forecasts
+R5 BTC/wexpanding_log_hour8_h1/DVOL_calibrated: 1903 forecasts
+DONE {'key': 'BTC_wexpanding_log_hour8_h1', 'seconds': 192.9048052500002, 'resumed': False}
+R5 BTC/rv_binance_perp_kernel/HAR: 1618 forecasts
+R5 BTC/rv_binance_perp_kernel/HAR_S: 1618 forecasts
+R5 BTC/rv_binance_perp_kernel/HAR_J: 1618 forecasts
+R5 BTC/rv_binance_perp_kernel/HAR_Q: 1618 forecasts
+R5 BTC/rv_binance_perp_kernel/HAR_clock: 1602 forecasts
+R5 BTC/rv_binance_perp_kernel/HAR_DVOL: 1542 forecasts
+R5 BTC/rv_binance_perp_rv1/RF: 1532 forecasts
+R5 BTC/rv_binance_perp_rv1/IV_calibrated: 1971 forecasts
+R5 BTC/rv_binance_perp_rv1/IV_HAR: 1618 forecasts
+DONE {'key': 'BTC_rv_binance_perp_rv1', 'seconds': 96.92483437500778, 'resumed': False}
+R5 BTC/rv_binance_perp_payoff/HAR: 1733 forecasts
+R5 BTC/rv_binance_perp_payoff/HAR_S: 1733 forecasts
+R5 BTC/rv_binance_perp_payoff/HAR_J: 1733 forecasts
+R5 BTC/rv_binance_perp_payoff/HAR_Q: 1733 forecasts
+R5 BTC/rv_binance_perp_payoff/HAR_clock: 1710 forecasts
+R5 BTC/rv_binance_perp_payoff/HAR_DVOL: 1657 forecasts
+R5 BTC/rv_binance_perp_kernel/GB: 1532 forecasts
+R5 BTC/rv_binance_perp_kernel/LASSO: 1532 forecasts
+R5 BTC/rv_binance_perp_subsample/RF: 1532 forecasts
+R5 BTC/rv_binance_perp_subsample/IV_calibrated: 1971 forecasts
+R5 BTC/rv_binance_perp_subsample/IV_HAR: 1618 forecasts
+DONE {'key': 'BTC_rv_binance_perp_subsample', 'seconds': 97.9310787919967, 'resumed': False}
+R5 ETH/w500_log_hour8_h1/HAR: 1691 forecasts
+R5 ETH/w500_log_hour8_h1/HAR_S: 1691 forecasts
+R5 ETH/w500_log_hour8_h1/HAR_J: 1691 forecasts
+R5 ETH/w500_log_hour8_h1/HAR_Q: 1691 forecasts
+R5 ETH/w500_log_hour8_h1/HAR_clock: 1675 forecasts
+R5 ETH/w500_log_hour8_h1/HAR_DVOL: 1615 forecasts
+R5 BTC/rv_deribit_rv5/RF: 1877 forecasts
+R5 BTC/rv_deribit_rv5/IV_calibrated: 1971 forecasts
+R5 BTC/rv_deribit_rv5/IV_HAR: 1971 forecasts
+DONE {'key': 'BTC_rv_deribit_rv5', 'seconds': 131.2859417090076, 'resumed': False}
+R5 ETH/w365_log_hour8_h1/HAR: 1796 forecasts
+R5 ETH/w365_log_hour8_h1/HAR_S: 1796 forecasts
+R5 ETH/w365_log_hour8_h1/HAR_J: 1796 forecasts
+R5 ETH/w365_log_hour8_h1/HAR_Q: 1796 forecasts
+R5 ETH/w365_log_hour8_h1/HAR_clock: 1675 forecasts
+R5 ETH/w365_log_hour8_h1/HAR_DVOL: 1615 forecasts
+R5 BTC/rv_binance_perp_payoff/GB: 1640 forecasts
+R5 BTC/rv_binance_perp_payoff/LASSO: 1640 forecasts
+R5 ETH/w365_log_hour8_h1/GB: 1605 forecasts
+R5 ETH/w500_log_hour8_h1/GB: 1605 forecasts
+R5 ETH/w365_log_hour8_h1/LASSO: 1605 forecasts
+R5 ETH/w500_log_hour8_h1/LASSO: 1605 forecasts
+R5 BTC/rv_binance_perp_kernel/RF: 1532 forecasts
+R5 BTC/rv_binance_perp_kernel/IV_calibrated: 1971 forecasts
+R5 BTC/rv_binance_perp_kernel/IV_HAR: 1618 forecasts
+DONE {'key': 'BTC_rv_binance_perp_kernel', 'seconds': 103.92947216698667, 'resumed': False}
+R5 ETH/wexpanding_log_hour8_h1/HAR: 1796 forecasts
+R5 ETH/wexpanding_log_hour8_h1/HAR_S: 1796 forecasts
+R5 ETH/wexpanding_log_hour8_h1/HAR_J: 1796 forecasts
+R5 ETH/wexpanding_log_hour8_h1/HAR_Q: 1796 forecasts
+R5 ETH/wexpanding_log_hour8_h1/HAR_clock: 1675 forecasts
+R5 ETH/wexpanding_log_hour8_h1/HAR_DVOL: 1615 forecasts
+R5 ETH/w365_log_hour8_h1/RF: 1605 forecasts
+R5 ETH/w365_log_hour8_h1/IV_calibrated: 2105 forecasts
+R5 ETH/w365_log_hour8_h1/IV_HAR: 1795 forecasts
+R5 ETH/w365_log_hour8_h1/DVOL_calibrated: 1903 forecasts
+DONE {'key': 'ETH_w365_log_hour8_h1', 'seconds': 92.46639537499868, 'resumed': False}
+辰 预测 ETH/w1000_log_hour8_h1/HAR 有效1248日
+辰 预测 ETH/w1000_log_hour8_h1/HAR_S 有效1248日
+辰 预测 ETH/w1000_log_hour8_h1/HAR_J 有效1248日
+辰 预测 ETH/w1000_log_hour8_h1/HAR_Q 有效1248日
+辰 预测 ETH/w1000_log_hour8_h1/HAR_clock 有效1048日
+辰 预测 ETH/w1000_log_hour8_h1/HAR_DVOL 有效1248日
+R5 BTC/rv_binance_perp_payoff/RF: 1640 forecasts
+R5 BTC/rv_binance_perp_payoff/IV_calibrated: 1971 forecasts
+R5 BTC/rv_binance_perp_payoff/IV_HAR: 1733 forecasts
+DONE {'key': 'BTC_rv_binance_perp_payoff', 'seconds': 114.92498920900107, 'resumed': False}
+R5 ETH/rv_binance_spot_rv5/HAR: 1840 forecasts
+R5 ETH/rv_binance_spot_rv5/HAR_S: 1840 forecasts
+R5 ETH/rv_binance_spot_rv5/HAR_J: 1840 forecasts
+R5 ETH/rv_binance_spot_rv5/HAR_Q: 1840 forecasts
+R5 ETH/rv_binance_spot_rv5/HAR_clock: 1723 forecasts
+R5 ETH/rv_binance_spot_rv5/HAR_DVOL: 1732 forecasts
+辰 预测 ETH/w1000_log_hour8_h1/GB 有效1048日
+辰 预测 ETH/w1000_log_hour8_h1/IV_calibrated 有效1470日
+辰 预测 ETH/w1000_log_hour8_h1/DVOL_calibrated 有效1471日
+辰 预测 ETH/w1000_log_hour8_h1/IV_HAR 有效1247日
+DONE {'key': 'ETH_w1000_log_hour8_h1', 'seconds': 15.324628667003708, 'resumed': False}
+R5 ETH/rv_deribit_rv5/HAR: 1971 forecasts
+R5 ETH/rv_deribit_rv5/HAR_S: 1971 forecasts
+R5 ETH/wexpanding_log_hour8_h1/GB: 1605 forecasts
+R5 ETH/rv_deribit_rv5/HAR_J: 1971 forecasts
+R5 ETH/rv_deribit_rv5/HAR_Q: 1971 forecasts
+R5 ETH/rv_deribit_rv5/HAR_clock: 1961 forecasts
+R5 ETH/rv_deribit_rv5/HAR_DVOL: 1903 forecasts
+R5 ETH/wexpanding_log_hour8_h1/LASSO: 1605 forecasts
+R5 ETH/w500_log_hour8_h1/RF: 1605 forecasts
+R5 ETH/w500_log_hour8_h1/IV_calibrated: 1970 forecasts
+R5 ETH/w500_log_hour8_h1/IV_HAR: 1690 forecasts
+R5 ETH/w500_log_hour8_h1/DVOL_calibrated: 1903 forecasts
+DONE {'key': 'ETH_w500_log_hour8_h1', 'seconds': 117.29626191699936, 'resumed': False}
+R5 ETH/rv_binance_perp_rv1/HAR: 1691 forecasts
+R5 ETH/rv_binance_perp_rv1/HAR_S: 1691 forecasts
+R5 ETH/rv_binance_perp_rv1/HAR_J: 1691 forecasts
+R5 ETH/rv_binance_perp_rv1/HAR_Q: 1691 forecasts
+R5 ETH/rv_binance_perp_rv1/HAR_clock: 1675 forecasts
+R5 ETH/rv_binance_perp_rv1/HAR_DVOL: 1615 forecasts
+R5 ETH/rv_binance_spot_rv5/GB: 1713 forecasts
+R5 ETH/rv_binance_spot_rv5/LASSO: 1713 forecasts
+R5 ETH/rv_deribit_rv5/GB: 1883 forecasts
+R5 ETH/rv_deribit_rv5/LASSO: 1883 forecasts
+R5 ETH/rv_binance_perp_rv1/GB: 1605 forecasts
+R5 ETH/rv_binance_perp_rv1/LASSO: 1605 forecasts
+R5 ETH/rv_binance_spot_rv5/RF: 1713 forecasts
+R5 ETH/rv_binance_spot_rv5/IV_calibrated: 1970 forecasts
+R5 ETH/rv_binance_spot_rv5/IV_HAR: 1839 forecasts
+DONE {'key': 'ETH_rv_binance_spot_rv5', 'seconds': 123.76304233400151, 'resumed': False}
+R5 ETH/rv_binance_perp_subsample/HAR: 1691 forecasts
+R5 ETH/rv_binance_perp_subsample/HAR_S: 1691 forecasts
+R5 ETH/rv_binance_perp_rv1/RF: 1605 forecasts
+R5 ETH/rv_binance_perp_subsample/HAR_J: 1691 forecasts
+R5 ETH/rv_binance_perp_rv1/IV_calibrated: 1970 forecasts
+R5 ETH/rv_binance_perp_subsample/HAR_Q: 1691 forecasts
+R5 ETH/rv_binance_perp_rv1/IV_HAR: 1690 forecasts
+R5 ETH/rv_binance_perp_subsample/HAR_clock: 1675 forecasts
+DONE {'key': 'ETH_rv_binance_perp_rv1', 'seconds': 110.48570166699938, 'resumed': False}
+R5 ETH/rv_binance_perp_subsample/HAR_DVOL: 1615 forecasts
+R5 ETH/rv_binance_perp_kernel/HAR: 1691 forecasts
+R5 ETH/rv_binance_perp_kernel/HAR_S: 1691 forecasts
+R5 ETH/rv_binance_perp_kernel/HAR_J: 1691 forecasts
+R5 ETH/rv_binance_perp_kernel/HAR_Q: 1691 forecasts
+R5 ETH/rv_binance_perp_kernel/HAR_clock: 1675 forecasts
+R5 ETH/rv_binance_perp_kernel/HAR_DVOL: 1615 forecasts
+R5 ETH/rv_binance_perp_subsample/GB: 1605 forecasts
+R5 ETH/rv_binance_perp_kernel/GB: 1605 forecasts
+R5 ETH/rv_binance_perp_subsample/LASSO: 1605 forecasts
+R5 ETH/rv_binance_perp_kernel/LASSO: 1605 forecasts
+R5 ETH/rv_deribit_rv5/RF: 1883 forecasts
+R5 ETH/rv_deribit_rv5/IV_calibrated: 1970 forecasts
+R5 ETH/rv_deribit_rv5/IV_HAR: 1970 forecasts
+DONE {'key': 'ETH_rv_deribit_rv5', 'seconds': 141.54902766599844, 'resumed': False}
+R5 ETH/rv_binance_perp_payoff/HAR: 1764 forecasts
+R5 ETH/rv_binance_perp_payoff/HAR_S: 1764 forecasts
+R5 ETH/rv_binance_perp_payoff/HAR_J: 1764 forecasts
+R5 ETH/rv_binance_perp_payoff/HAR_Q: 1764 forecasts
+R5 ETH/rv_binance_perp_payoff/HAR_clock: 1745 forecasts
+R5 ETH/rv_binance_perp_payoff/HAR_DVOL: 1688 forecasts
+R5 ETH/rv_binance_perp_payoff/GB: 1675 forecasts
+R5 ETH/rv_binance_perp_payoff/LASSO: 1675 forecasts
+R5 ETH/wexpanding_log_hour8_h1/RF: 1605 forecasts
+R5 ETH/wexpanding_log_hour8_h1/IV_calibrated: 2105 forecasts
+R5 ETH/wexpanding_log_hour8_h1/IV_HAR: 1795 forecasts
+R5 ETH/wexpanding_log_hour8_h1/DVOL_calibrated: 1903 forecasts
+DONE {'key': 'ETH_wexpanding_log_hour8_h1', 'seconds': 233.959302208008, 'resumed': False}
+R5 BTC/mark_w500_log_hour8_h1/IV_calibrated: 1971 forecasts
+R5 BTC/mark_w500_log_hour8_h1/IV_HAR: 1618 forecasts
+DONE {'key': 'BTC_mark_w500_log_hour8_h1', 'seconds': 0.4059190830012085, 'resumed': False}
+R5 BTC/bilateral_w500_log_hour8_h1/IV_calibrated: 1970 forecasts
+R5 BTC/bilateral_w500_log_hour8_h1/IV_HAR: 1618 forecasts
+DONE {'key': 'BTC_bilateral_w500_log_hour8_h1', 'seconds': 0.36603858300077263, 'resumed': False}
+R5 BTC/last15_w500_log_hour8_h1/IV_calibrated: 1927 forecasts
+R5 BTC/last15_w500_log_hour8_h1/IV_HAR: 1578 forecasts
+DONE {'key': 'BTC_last15_w500_log_hour8_h1', 'seconds': 0.43569387499883305, 'resumed': False}
+R5 BTC/band02_w500_log_hour8_h1/IV_calibrated: 1971 forecasts
+R5 BTC/band02_w500_log_hour8_h1/IV_HAR: 1618 forecasts
+DONE {'key': 'BTC_band02_w500_log_hour8_h1', 'seconds': 0.3633422090060776, 'resumed': False}
+R5 BTC/band10_w500_log_hour8_h1/IV_calibrated: 1971 forecasts
+R5 BTC/band10_w500_log_hour8_h1/IV_HAR: 1618 forecasts
+DONE {'key': 'BTC_band10_w500_log_hour8_h1', 'seconds': 0.4282050000037998, 'resumed': False}
+R5 BTC/weighted_w500_log_hour8_h1/IV_calibrated: 1971 forecasts
+R5 BTC/weighted_w500_log_hour8_h1/IV_HAR: 1618 forecasts
+DONE {'key': 'BTC_weighted_w500_log_hour8_h1', 'seconds': 0.3683377919951454, 'resumed': False}
+R5 BTC/dropmove1_w500_log_hour8_h1/IV_calibrated: 1875 forecasts
+R5 BTC/dropmove1_w500_log_hour8_h1/IV_HAR: 1537 forecasts
+DONE {'key': 'BTC_dropmove1_w500_log_hour8_h1', 'seconds': 0.3813450000016019, 'resumed': False}
+R5 BTC/placebo_lag1_w500_log_hour8_h1/IV_calibrated: 1972 forecasts
+R5 BTC/placebo_lag1_w500_log_hour8_h1/IV_HAR: 1618 forecasts
+DONE {'key': 'BTC_placebo_lag1_w500_log_hour8_h1', 'seconds': 0.3850755419989582, 'resumed': False}
+R5 BTC/matrix_h1_k1_w500_log/HAR: 1618 forecasts
+R5 BTC/matrix_h1_k1_w500_log/IV_calibrated: 1971 forecasts
+R5 BTC/matrix_h1_k1_w500_log/IV_HAR: 1618 forecasts
+DONE {'key': 'BTC_matrix_h1_k1_w500_log', 'seconds': 0.575719874992501, 'resumed': False}
+R5 BTC/matrix_h1_k2_w500_log/HAR: 1618 forecasts
+R5 BTC/matrix_h1_k2_w500_log/IV_calibrated: 1968 forecasts
+R5 BTC/matrix_h1_k2_w500_log/IV_HAR: 1616 forecasts
+DONE {'key': 'BTC_matrix_h1_k2_w500_log', 'seconds': 0.5812813749944326, 'resumed': False}
+R5 BTC/matrix_h1_k3_w500_log/HAR: 1618 forecasts
+R5 BTC/matrix_h1_k3_w500_log/IV_calibrated: 1968 forecasts
+R5 BTC/matrix_h1_k3_w500_log/IV_HAR: 1616 forecasts
+DONE {'key': 'BTC_matrix_h1_k3_w500_log', 'seconds': 0.5811879170069005, 'resumed': False}
+R5 BTC/matrix_h1_k7_w500_log/HAR: 1618 forecasts
+R5 BTC/matrix_h1_k7_w500_log/IV_calibrated: 1942 forecasts
+R5 BTC/matrix_h1_k7_w500_log/IV_HAR: 1596 forecasts
+DONE {'key': 'BTC_matrix_h1_k7_w500_log', 'seconds': 0.6388195829931647, 'resumed': False}
+R5 BTC/matrix_h1_k14_w500_log/HAR: 1618 forecasts
+R5 BTC/matrix_h1_k14_w500_log/IV_calibrated: 1872 forecasts
+R5 BTC/matrix_h1_k14_w500_log/IV_HAR: 1537 forecasts
+DONE {'key': 'BTC_matrix_h1_k14_w500_log', 'seconds': 0.5612393749906914, 'resumed': False}
+R5 BTC/matrix_h1_k30_w500_log/HAR: 1618 forecasts
+R5 BTC/matrix_h1_k30_w500_log/IV_calibrated: 1596 forecasts
+R5 BTC/matrix_h1_k30_w500_log/IV_HAR: 1306 forecasts
+DONE {'key': 'BTC_matrix_h1_k30_w500_log', 'seconds': 0.4689244160108501, 'resumed': False}
+R5 BTC/matrix_h1_kDVOL_w500_log/HAR: 1618 forecasts
+R5 BTC/matrix_h1_kDVOL_w500_log/IV_calibrated: 1903 forecasts
+R5 BTC/matrix_h1_kDVOL_w500_log/IV_HAR: 1542 forecasts
+DONE {'key': 'BTC_matrix_h1_kDVOL_w500_log', 'seconds': 0.5607072919956408, 'resumed': False}
+R5 BTC/matrix_h2_k1_w500_log/HAR: 1618 forecasts
+R5 BTC/matrix_h2_k1_w500_log/IV_calibrated: 1971 forecasts
+R5 BTC/matrix_h2_k1_w500_log/IV_HAR: 1618 forecasts
+DONE {'key': 'BTC_matrix_h2_k1_w500_log', 'seconds': 0.6291389169928152, 'resumed': False}
+R5 BTC/matrix_h2_k2_w500_log/HAR: 1618 forecasts
+R5 BTC/matrix_h2_k2_w500_log/IV_calibrated: 1968 forecasts
+R5 BTC/matrix_h2_k2_w500_log/IV_HAR: 1616 forecasts
+DONE {'key': 'BTC_matrix_h2_k2_w500_log', 'seconds': 0.6050767910055583, 'resumed': False}
+R5 BTC/matrix_h2_k3_w500_log/HAR: 1618 forecasts
+R5 BTC/matrix_h2_k3_w500_log/IV_calibrated: 1968 forecasts
+R5 BTC/matrix_h2_k3_w500_log/IV_HAR: 1616 forecasts
+DONE {'key': 'BTC_matrix_h2_k3_w500_log', 'seconds': 0.5962490410020109, 'resumed': False}
+R5 BTC/matrix_h2_k7_w500_log/HAR: 1618 forecasts
+R5 BTC/matrix_h2_k7_w500_log/IV_calibrated: 1942 forecasts
+R5 BTC/matrix_h2_k7_w500_log/IV_HAR: 1596 forecasts
+DONE {'key': 'BTC_matrix_h2_k7_w500_log', 'seconds': 0.6129362500068964, 'resumed': False}
+R5 BTC/matrix_h2_k14_w500_log/HAR: 1618 forecasts
+R5 BTC/matrix_h2_k14_w500_log/IV_calibrated: 1872 forecasts
+R5 BTC/matrix_h2_k14_w500_log/IV_HAR: 1537 forecasts
+DONE {'key': 'BTC_matrix_h2_k14_w500_log', 'seconds': 0.6036182500101859, 'resumed': False}
+R5 BTC/matrix_h2_k30_w500_log/HAR: 1618 forecasts
+R5 BTC/matrix_h2_k30_w500_log/IV_calibrated: 1596 forecasts
+R5 BTC/matrix_h2_k30_w500_log/IV_HAR: 1306 forecasts
+DONE {'key': 'BTC_matrix_h2_k30_w500_log', 'seconds': 0.4979970419954043, 'resumed': False}
+R5 BTC/matrix_h2_kDVOL_w500_log/HAR: 1618 forecasts
+R5 BTC/matrix_h2_kDVOL_w500_log/IV_calibrated: 1902 forecasts
+R5 BTC/matrix_h2_kDVOL_w500_log/IV_HAR: 1541 forecasts
+DONE {'key': 'BTC_matrix_h2_kDVOL_w500_log', 'seconds': 0.6258649999945192, 'resumed': False}
+R5 BTC/matrix_h3_k1_w500_log/HAR: 1618 forecasts
+R5 BTC/matrix_h3_k1_w500_log/IV_calibrated: 1971 forecasts
+R5 BTC/matrix_h3_k1_w500_log/IV_HAR: 1618 forecasts
+DONE {'key': 'BTC_matrix_h3_k1_w500_log', 'seconds': 0.6585005000088131, 'resumed': False}
+R5 BTC/matrix_h3_k2_w500_log/HAR: 1618 forecasts
+R5 BTC/matrix_h3_k2_w500_log/IV_calibrated: 1968 forecasts
+R5 BTC/matrix_h3_k2_w500_log/IV_HAR: 1616 forecasts
+DONE {'key': 'BTC_matrix_h3_k2_w500_log', 'seconds': 0.5562659580027685, 'resumed': False}
+R5 BTC/matrix_h3_k3_w500_log/HAR: 1618 forecasts
+R5 BTC/matrix_h3_k3_w500_log/IV_calibrated: 1968 forecasts
+R5 BTC/matrix_h3_k3_w500_log/IV_HAR: 1616 forecasts
+DONE {'key': 'BTC_matrix_h3_k3_w500_log', 'seconds': 0.6115722079994157, 'resumed': False}
+R5 BTC/matrix_h3_k7_w500_log/HAR: 1618 forecasts
+R5 BTC/matrix_h3_k7_w500_log/IV_calibrated: 1942 forecasts
+R5 BTC/matrix_h3_k7_w500_log/IV_HAR: 1596 forecasts
+DONE {'key': 'BTC_matrix_h3_k7_w500_log', 'seconds': 0.5855044170020847, 'resumed': False}
+R5 BTC/matrix_h3_k14_w500_log/HAR: 1618 forecasts
+R5 BTC/matrix_h3_k14_w500_log/IV_calibrated: 1872 forecasts
+R5 BTC/matrix_h3_k14_w500_log/IV_HAR: 1537 forecasts
+DONE {'key': 'BTC_matrix_h3_k14_w500_log', 'seconds': 0.5151319580036215, 'resumed': False}
+R5 BTC/matrix_h3_k30_w500_log/HAR: 1618 forecasts
+R5 BTC/matrix_h3_k30_w500_log/IV_calibrated: 1596 forecasts
+R5 BTC/matrix_h3_k30_w500_log/IV_HAR: 1306 forecasts
+DONE {'key': 'BTC_matrix_h3_k30_w500_log', 'seconds': 0.520328333004727, 'resumed': False}
+R5 BTC/matrix_h3_kDVOL_w500_log/HAR: 1618 forecasts
+R5 BTC/matrix_h3_kDVOL_w500_log/IV_calibrated: 1901 forecasts
+R5 BTC/matrix_h3_kDVOL_w500_log/IV_HAR: 1540 forecasts
+DONE {'key': 'BTC_matrix_h3_kDVOL_w500_log', 'seconds': 0.526400292001199, 'resumed': False}
+R5 BTC/matrix_h7_k1_w500_log/HAR: 1618 forecasts
+R5 BTC/matrix_h7_k1_w500_log/IV_calibrated: 1971 forecasts
+R5 BTC/matrix_h7_k1_w500_log/IV_HAR: 1618 forecasts
+DONE {'key': 'BTC_matrix_h7_k1_w500_log', 'seconds': 0.555585667010746, 'resumed': False}
+R5 BTC/matrix_h7_k2_w500_log/HAR: 1618 forecasts
+R5 BTC/matrix_h7_k2_w500_log/IV_calibrated: 1968 forecasts
+R5 BTC/matrix_h7_k2_w500_log/IV_HAR: 1616 forecasts
+DONE {'key': 'BTC_matrix_h7_k2_w500_log', 'seconds': 0.5935054159926949, 'resumed': False}
+R5 BTC/matrix_h7_k3_w500_log/HAR: 1618 forecasts
+R5 BTC/matrix_h7_k3_w500_log/IV_calibrated: 1968 forecasts
+R5 BTC/matrix_h7_k3_w500_log/IV_HAR: 1616 forecasts
+DONE {'key': 'BTC_matrix_h7_k3_w500_log', 'seconds': 0.5896940829989035, 'resumed': False}
+R5 ETH/rv_binance_perp_subsample/RF: 1605 forecasts
+R5 BTC/matrix_h7_k7_w500_log/HAR: 1618 forecasts
+R5 ETH/rv_binance_perp_subsample/IV_calibrated: 1970 forecasts
+R5 BTC/matrix_h7_k7_w500_log/IV_calibrated: 1942 forecasts
+R5 ETH/rv_binance_perp_subsample/IV_HAR: 1690 forecasts
+R5 BTC/matrix_h7_k7_w500_log/IV_HAR: 1596 forecasts
+DONE {'key': 'BTC_matrix_h7_k7_w500_log', 'seconds': 0.6103911670070374, 'resumed': False}
+DONE {'key': 'ETH_rv_binance_perp_subsample', 'seconds': 109.94695929199224, 'resumed': False}
+R5 BTC/matrix_h7_k14_w500_log/HAR: 1618 forecasts
+R5 BTC/matrix_h7_k30_w500_log/HAR: 1618 forecasts
+R5 BTC/matrix_h7_k14_w500_log/IV_calibrated: 1872 forecasts
+R5 BTC/matrix_h7_k30_w500_log/IV_calibrated: 1596 forecasts
+R5 BTC/matrix_h7_k14_w500_log/IV_HAR: 1537 forecasts
+R5 BTC/matrix_h7_k30_w500_log/IV_HAR: 1306 forecasts
+DONE {'key': 'BTC_matrix_h7_k14_w500_log', 'seconds': 0.5340807079919614, 'resumed': False}
+DONE {'key': 'BTC_matrix_h7_k30_w500_log', 'seconds': 0.5012811659980798, 'resumed': False}
+R5 BTC/matrix_h7_kDVOL_w500_log/HAR: 1618 forecasts
+R5 BTC/matrix_h14_k1_w500_log/HAR: 1618 forecasts
+R5 BTC/matrix_h7_kDVOL_w500_log/IV_calibrated: 1897 forecasts
+R5 BTC/matrix_h14_k1_w500_log/IV_calibrated: 1971 forecasts
+R5 ETH/rv_binance_perp_kernel/RF: 1605 forecasts
+R5 BTC/matrix_h7_kDVOL_w500_log/IV_HAR: 1536 forecasts
+R5 BTC/matrix_h14_k1_w500_log/IV_HAR: 1618 forecasts
+R5 ETH/rv_binance_perp_kernel/IV_calibrated: 1970 forecasts
+DONE {'key': 'BTC_matrix_h14_k1_w500_log', 'seconds': 0.5476449580019107, 'resumed': False}
+DONE {'key': 'BTC_matrix_h7_kDVOL_w500_log', 'seconds': 0.5618963749875547, 'resumed': False}
+R5 ETH/rv_binance_perp_kernel/IV_HAR: 1690 forecasts
+R5 BTC/matrix_h14_k2_w500_log/HAR: 1618 forecasts
+R5 BTC/matrix_h14_k3_w500_log/HAR: 1618 forecasts
+R5 BTC/matrix_h14_k3_w500_log/IV_calibrated: 1968 forecasts
+DONE {'key': 'ETH_rv_binance_perp_kernel', 'seconds': 110.06585104200349, 'resumed': False}
+R5 BTC/matrix_h14_k2_w500_log/IV_calibrated: 1968 forecasts
+R5 BTC/matrix_h14_k3_w500_log/IV_HAR: 1616 forecasts
+R5 BTC/matrix_h14_k2_w500_log/IV_HAR: 1616 forecasts
+R5 BTC/matrix_h14_k7_w500_log/HAR: 1618 forecasts
+DONE {'key': 'BTC_matrix_h14_k3_w500_log', 'seconds': 0.5203932910080766, 'resumed': False}
+DONE {'key': 'BTC_matrix_h14_k2_w500_log', 'seconds': 0.5376641670009121, 'resumed': False}
+R5 BTC/matrix_h14_k7_w500_log/IV_calibrated: 1942 forecasts
+R5 BTC/matrix_h14_k14_w500_log/HAR: 1618 forecasts
+R5 BTC/matrix_h14_k30_w500_log/HAR: 1618 forecasts
+R5 BTC/matrix_h14_k7_w500_log/IV_HAR: 1596 forecasts
+R5 BTC/matrix_h14_k30_w500_log/IV_calibrated: 1596 forecasts
+R5 BTC/matrix_h14_k14_w500_log/IV_calibrated: 1872 forecasts
+DONE {'key': 'BTC_matrix_h14_k7_w500_log', 'seconds': 0.5512627500138478, 'resumed': False}
+R5 BTC/matrix_h14_k30_w500_log/IV_HAR: 1306 forecasts
+R5 BTC/matrix_h14_k14_w500_log/IV_HAR: 1537 forecasts
+DONE {'key': 'BTC_matrix_h14_k30_w500_log', 'seconds': 0.4872434999997495, 'resumed': False}
+DONE {'key': 'BTC_matrix_h14_k14_w500_log', 'seconds': 0.5035335829888936, 'resumed': False}
+R5 BTC/matrix_h14_kDVOL_w500_log/HAR: 1618 forecasts
+R5 BTC/matrix_h30_k1_w500_log/HAR: 1618 forecasts
+R5 BTC/matrix_h14_kDVOL_w500_log/IV_calibrated: 1890 forecasts
+R5 BTC/matrix_h30_k2_w500_log/HAR: 1618 forecasts
+R5 BTC/matrix_h30_k1_w500_log/IV_calibrated: 1971 forecasts
+R5 BTC/matrix_h14_kDVOL_w500_log/IV_HAR: 1529 forecasts
+R5 BTC/matrix_h30_k2_w500_log/IV_calibrated: 1968 forecasts
+DONE {'key': 'BTC_matrix_h14_kDVOL_w500_log', 'seconds': 0.5367249590053689, 'resumed': False}
+R5 BTC/matrix_h30_k1_w500_log/IV_HAR: 1618 forecasts
+DONE {'key': 'BTC_matrix_h30_k1_w500_log', 'seconds': 0.52791000000434, 'resumed': False}
+R5 BTC/matrix_h30_k2_w500_log/IV_HAR: 1616 forecasts
+R5 BTC/matrix_h30_k3_w500_log/HAR: 1618 forecasts
+DONE {'key': 'BTC_matrix_h30_k2_w500_log', 'seconds': 0.589533999998821, 'resumed': False}
+R5 BTC/matrix_h30_k3_w500_log/IV_calibrated: 1968 forecasts
+R5 BTC/matrix_h30_k7_w500_log/HAR: 1618 forecasts
+R5 BTC/matrix_h30_k14_w500_log/HAR: 1618 forecasts
+R5 BTC/matrix_h30_k7_w500_log/IV_calibrated: 1942 forecasts
+R5 BTC/matrix_h30_k3_w500_log/IV_HAR: 1616 forecasts
+R5 BTC/matrix_h30_k14_w500_log/IV_calibrated: 1872 forecasts
+DONE {'key': 'BTC_matrix_h30_k3_w500_log', 'seconds': 0.5424282909953035, 'resumed': False}
+R5 BTC/matrix_h30_k7_w500_log/IV_HAR: 1596 forecasts
+R5 BTC/matrix_h30_k14_w500_log/IV_HAR: 1537 forecasts
+DONE {'key': 'BTC_matrix_h30_k7_w500_log', 'seconds': 0.5324943750019884, 'resumed': False}
+DONE {'key': 'BTC_matrix_h30_k14_w500_log', 'seconds': 0.4899924169876613, 'resumed': False}
+R5 BTC/matrix_h30_k30_w500_log/HAR: 1618 forecasts
+R5 BTC/matrix_h30_k30_w500_log/IV_calibrated: 1596 forecasts
+R5 BTC/matrix_h30_kDVOL_w500_log/HAR: 1618 forecasts
+R5 ETH/mark_w500_log_hour8_h1/IV_calibrated: 1970 forecasts
+R5 BTC/matrix_h30_k30_w500_log/IV_HAR: 1306 forecasts
+DONE {'key': 'BTC_matrix_h30_k30_w500_log', 'seconds': 0.4477197090018308, 'resumed': False}
+R5 BTC/matrix_h30_kDVOL_w500_log/IV_calibrated: 1874 forecasts
+R5 ETH/mark_w500_log_hour8_h1/IV_HAR: 1690 forecasts
+DONE {'key': 'ETH_mark_w500_log_hour8_h1', 'seconds': 0.41924795899831224, 'resumed': False}
+R5 BTC/matrix_h30_kDVOL_w500_log/IV_HAR: 1513 forecasts
+R5 ETH/bilateral_w500_log_hour8_h1/IV_calibrated: 1964 forecasts
+DONE {'key': 'BTC_matrix_h30_kDVOL_w500_log', 'seconds': 0.5073697090119822, 'resumed': False}
+R5 ETH/last15_w500_log_hour8_h1/IV_calibrated: 1905 forecasts
+R5 ETH/bilateral_w500_log_hour8_h1/IV_HAR: 1684 forecasts
+R5 ETH/band02_w500_log_hour8_h1/IV_calibrated: 1969 forecasts
+DONE {'key': 'ETH_bilateral_w500_log_hour8_h1', 'seconds': 0.3938895000028424, 'resumed': False}
+R5 ETH/last15_w500_log_hour8_h1/IV_HAR: 1635 forecasts
+DONE {'key': 'ETH_last15_w500_log_hour8_h1', 'seconds': 0.4307949579961132, 'resumed': False}
+R5 ETH/band10_w500_log_hour8_h1/IV_calibrated: 1970 forecasts
+R5 ETH/band02_w500_log_hour8_h1/IV_HAR: 1689 forecasts
+DONE {'key': 'ETH_band02_w500_log_hour8_h1', 'seconds': 0.41938083300192375, 'resumed': False}
+R5 ETH/weighted_w500_log_hour8_h1/IV_calibrated: 1970 forecasts
+R5 ETH/band10_w500_log_hour8_h1/IV_HAR: 1690 forecasts
+DONE {'key': 'ETH_band10_w500_log_hour8_h1', 'seconds': 0.40690991599694826, 'resumed': False}
+R5 ETH/dropmove1_w500_log_hour8_h1/IV_calibrated: 1763 forecasts
+R5 ETH/weighted_w500_log_hour8_h1/IV_HAR: 1690 forecasts
+R5 ETH/dropmove1_w500_log_hour8_h1/IV_HAR: 1510 forecasts
+DONE {'key': 'ETH_weighted_w500_log_hour8_h1', 'seconds': 0.4411813749902649, 'resumed': False}
+R5 ETH/placebo_lag1_w500_log_hour8_h1/IV_calibrated: 1971 forecasts
+DONE {'key': 'ETH_dropmove1_w500_log_hour8_h1', 'seconds': 0.4367741250025574, 'resumed': False}
+R5 ETH/placebo_lag1_w500_log_hour8_h1/IV_HAR: 1690 forecasts
+DONE {'key': 'ETH_placebo_lag1_w500_log_hour8_h1', 'seconds': 0.40617099999508355, 'resumed': False}
+R5 ETH/matrix_h1_k1_w500_log/HAR: 1691 forecasts
+R5 ETH/matrix_h1_k2_w500_log/HAR: 1691 forecasts
+R5 ETH/matrix_h1_k1_w500_log/IV_calibrated: 1970 forecasts
+R5 ETH/matrix_h1_k3_w500_log/HAR: 1691 forecasts
+R5 ETH/matrix_h1_k2_w500_log/IV_calibrated: 1965 forecasts
+R5 ETH/matrix_h1_k3_w500_log/IV_calibrated: 1952 forecasts
+R5 ETH/matrix_h1_k1_w500_log/IV_HAR: 1690 forecasts
+R5 ETH/matrix_h1_k2_w500_log/IV_HAR: 1686 forecasts
+DONE {'key': 'ETH_matrix_h1_k1_w500_log', 'seconds': 0.678276917009498, 'resumed': False}
+DONE {'key': 'ETH_matrix_h1_k2_w500_log', 'seconds': 0.6672158750006929, 'resumed': False}
+R5 ETH/matrix_h1_k3_w500_log/IV_HAR: 1675 forecasts
+DONE {'key': 'ETH_matrix_h1_k3_w500_log', 'seconds': 0.6307166250044247, 'resumed': False}
+R5 ETH/matrix_h1_k7_w500_log/HAR: 1691 forecasts
+R5 ETH/matrix_h1_k14_w500_log/HAR: 1691 forecasts
+R5 ETH/matrix_h1_k7_w500_log/IV_calibrated: 1882 forecasts
+R5 ETH/matrix_h1_k14_w500_log/IV_calibrated: 1724 forecasts
+R5 ETH/matrix_h1_k30_w500_log/HAR: 1691 forecasts
+R5 ETH/matrix_h1_k30_w500_log/IV_calibrated: 1286 forecasts
+R5 ETH/matrix_h1_k14_w500_log/IV_HAR: 1461 forecasts
+R5 ETH/matrix_h1_k7_w500_log/IV_HAR: 1608 forecasts
+R5 ETH/matrix_h1_k30_w500_log/IV_HAR: 1052 forecasts
+DONE {'key': 'ETH_matrix_h1_k7_w500_log', 'seconds': 0.5846403749892488, 'resumed': False}
+DONE {'key': 'ETH_matrix_h1_k14_w500_log', 'seconds': 0.5606079169956502, 'resumed': False}
+DONE {'key': 'ETH_matrix_h1_k30_w500_log', 'seconds': 0.4462167919991771, 'resumed': False}
+R5 ETH/matrix_h1_kDVOL_w500_log/HAR: 1691 forecasts
+R5 ETH/matrix_h2_k1_w500_log/HAR: 1691 forecasts
+R5 ETH/matrix_h2_k2_w500_log/HAR: 1691 forecasts
+R5 ETH/matrix_h1_kDVOL_w500_log/IV_calibrated: 1903 forecasts
+R5 ETH/matrix_h2_k1_w500_log/IV_calibrated: 1970 forecasts
+R5 ETH/matrix_h2_k2_w500_log/IV_calibrated: 1965 forecasts
+R5 ETH/matrix_h1_kDVOL_w500_log/IV_HAR: 1615 forecasts
+R5 ETH/matrix_h2_k1_w500_log/IV_HAR: 1690 forecasts
+R5 ETH/matrix_h2_k2_w500_log/IV_HAR: 1686 forecasts
+DONE {'key': 'ETH_matrix_h1_kDVOL_w500_log', 'seconds': 0.6249240839970298, 'resumed': False}
+DONE {'key': 'ETH_matrix_h2_k1_w500_log', 'seconds': 0.619926667000982, 'resumed': False}
+DONE {'key': 'ETH_matrix_h2_k2_w500_log', 'seconds': 0.6215754169970751, 'resumed': False}
+R5 ETH/matrix_h2_k3_w500_log/HAR: 1691 forecasts
+R5 ETH/matrix_h2_k14_w500_log/HAR: 1691 forecasts
+R5 ETH/matrix_h2_k7_w500_log/HAR: 1691 forecasts
+R5 ETH/matrix_h2_k3_w500_log/IV_calibrated: 1952 forecasts
+R5 ETH/matrix_h2_k14_w500_log/IV_calibrated: 1724 forecasts
+R5 ETH/matrix_h2_k7_w500_log/IV_calibrated: 1882 forecasts
+R5 ETH/matrix_h2_k14_w500_log/IV_HAR: 1461 forecasts
+R5 ETH/matrix_h2_k7_w500_log/IV_HAR: 1608 forecasts
+DONE {'key': 'ETH_matrix_h2_k14_w500_log', 'seconds': 0.5862542920076521, 'resumed': False}
+R5 ETH/matrix_h2_k3_w500_log/IV_HAR: 1675 forecasts
+DONE {'key': 'ETH_matrix_h2_k7_w500_log', 'seconds': 0.6517112500005169, 'resumed': False}
+DONE {'key': 'ETH_matrix_h2_k3_w500_log', 'seconds': 0.6660956669948064, 'resumed': False}
+R5 ETH/matrix_h2_k30_w500_log/HAR: 1691 forecasts
+R5 ETH/matrix_h3_k1_w500_log/HAR: 1691 forecasts
+R5 ETH/matrix_h2_kDVOL_w500_log/HAR: 1691 forecasts
+R5 ETH/matrix_h2_k30_w500_log/IV_calibrated: 1286 forecasts
+R5 ETH/matrix_h2_k30_w500_log/IV_HAR: 1052 forecasts
+R5 ETH/matrix_h3_k1_w500_log/IV_calibrated: 1970 forecasts
+DONE {'key': 'ETH_matrix_h2_k30_w500_log', 'seconds': 0.47611308399064, 'resumed': False}
+R5 ETH/matrix_h2_kDVOL_w500_log/IV_calibrated: 1902 forecasts
+R5 ETH/matrix_h3_k1_w500_log/IV_HAR: 1690 forecasts
+R5 ETH/matrix_h2_kDVOL_w500_log/IV_HAR: 1614 forecasts
+R5 ETH/matrix_h3_k2_w500_log/HAR: 1691 forecasts
+DONE {'key': 'ETH_matrix_h3_k1_w500_log', 'seconds': 0.6457520830008434, 'resumed': False}
+DONE {'key': 'ETH_matrix_h2_kDVOL_w500_log', 'seconds': 0.660364583003684, 'resumed': False}
+R5 ETH/matrix_h3_k2_w500_log/IV_calibrated: 1965 forecasts
+R5 ETH/matrix_h3_k3_w500_log/HAR: 1691 forecasts
+R5 ETH/matrix_h3_k7_w500_log/HAR: 1691 forecasts
+R5 ETH/matrix_h3_k2_w500_log/IV_HAR: 1686 forecasts
+R5 ETH/matrix_h3_k3_w500_log/IV_calibrated: 1952 forecasts
+R5 ETH/matrix_h3_k7_w500_log/IV_calibrated: 1882 forecasts
+DONE {'key': 'ETH_matrix_h3_k2_w500_log', 'seconds': 0.6406759170058649, 'resumed': False}
+R5 ETH/matrix_h3_k7_w500_log/IV_HAR: 1608 forecasts
+R5 ETH/matrix_h3_k3_w500_log/IV_HAR: 1675 forecasts
+DONE {'key': 'ETH_matrix_h3_k7_w500_log', 'seconds': 0.6052628340112278, 'resumed': False}
+DONE {'key': 'ETH_matrix_h3_k3_w500_log', 'seconds': 0.6161711250024382, 'resumed': False}
+R5 ETH/matrix_h3_k14_w500_log/HAR: 1691 forecasts
+R5 ETH/matrix_h3_k14_w500_log/IV_calibrated: 1724 forecasts
+R5 ETH/matrix_h3_k30_w500_log/HAR: 1691 forecasts
+R5 ETH/matrix_h3_kDVOL_w500_log/HAR: 1691 forecasts
+R5 ETH/matrix_h3_k14_w500_log/IV_HAR: 1461 forecasts
+R5 ETH/matrix_h3_k30_w500_log/IV_calibrated: 1286 forecasts
+DONE {'key': 'ETH_matrix_h3_k14_w500_log', 'seconds': 0.5279211250017397, 'resumed': False}
+R5 ETH/matrix_h3_kDVOL_w500_log/IV_calibrated: 1901 forecasts
+R5 ETH/matrix_h3_k30_w500_log/IV_HAR: 1050 forecasts
+DONE {'key': 'ETH_matrix_h3_k30_w500_log', 'seconds': 0.43351045799499843, 'resumed': False}
+R5 ETH/matrix_h7_k1_w500_log/HAR: 1691 forecasts
+R5 ETH/matrix_h3_kDVOL_w500_log/IV_HAR: 1613 forecasts
+DONE {'key': 'ETH_matrix_h3_kDVOL_w500_log', 'seconds': 0.5877860839973437, 'resumed': False}
+R5 ETH/matrix_h7_k2_w500_log/HAR: 1691 forecasts
+R5 ETH/matrix_h7_k1_w500_log/IV_calibrated: 1970 forecasts
+R5 ETH/matrix_h7_k3_w500_log/HAR: 1691 forecasts
+R5 ETH/matrix_h7_k2_w500_log/IV_calibrated: 1965 forecasts
+R5 ETH/matrix_h7_k1_w500_log/IV_HAR: 1690 forecasts
+DONE {'key': 'ETH_matrix_h7_k1_w500_log', 'seconds': 0.5796263329975773, 'resumed': False}
+R5 ETH/matrix_h7_k3_w500_log/IV_calibrated: 1952 forecasts
+R5 ETH/matrix_h7_k2_w500_log/IV_HAR: 1686 forecasts
+DONE {'key': 'ETH_matrix_h7_k2_w500_log', 'seconds': 0.5927042919938685, 'resumed': False}
+R5 ETH/matrix_h7_k7_w500_log/HAR: 1691 forecasts
+R5 ETH/matrix_h7_k3_w500_log/IV_HAR: 1675 forecasts
+DONE {'key': 'ETH_matrix_h7_k3_w500_log', 'seconds': 0.5764269170031184, 'resumed': False}
+R5 ETH/matrix_h7_k14_w500_log/HAR: 1691 forecasts
+R5 ETH/matrix_h7_k7_w500_log/IV_calibrated: 1882 forecasts
+R5 ETH/matrix_h7_k14_w500_log/IV_calibrated: 1724 forecasts
+R5 ETH/matrix_h7_k30_w500_log/HAR: 1691 forecasts
+R5 ETH/matrix_h7_k7_w500_log/IV_HAR: 1608 forecasts
+R5 ETH/matrix_h7_k30_w500_log/IV_calibrated: 1281 forecasts
+DONE {'key': 'ETH_matrix_h7_k7_w500_log', 'seconds': 0.5503761250001844, 'resumed': False}
+R5 ETH/matrix_h7_k14_w500_log/IV_HAR: 1461 forecasts
+DONE {'key': 'ETH_matrix_h7_k14_w500_log', 'seconds': 0.5225257499987492, 'resumed': False}
+R5 ETH/matrix_h7_k30_w500_log/IV_HAR: 1045 forecasts
+DONE {'key': 'ETH_matrix_h7_k30_w500_log', 'seconds': 0.43831325000792276, 'resumed': False}
+R5 ETH/matrix_h7_kDVOL_w500_log/HAR: 1691 forecasts
+R5 ETH/matrix_h14_k1_w500_log/HAR: 1691 forecasts
+R5 ETH/matrix_h14_k2_w500_log/HAR: 1691 forecasts
+R5 ETH/matrix_h7_kDVOL_w500_log/IV_calibrated: 1897 forecasts
+R5 ETH/matrix_h14_k1_w500_log/IV_calibrated: 1970 forecasts
+R5 ETH/matrix_h14_k2_w500_log/IV_calibrated: 1965 forecasts
+R5 ETH/matrix_h7_kDVOL_w500_log/IV_HAR: 1609 forecasts
+DONE {'key': 'ETH_matrix_h7_kDVOL_w500_log', 'seconds': 0.617120665992843, 'resumed': False}
+R5 ETH/matrix_h14_k1_w500_log/IV_HAR: 1690 forecasts
+R5 ETH/matrix_h14_k2_w500_log/IV_HAR: 1686 forecasts
+DONE {'key': 'ETH_matrix_h14_k1_w500_log', 'seconds': 0.6409810839977581, 'resumed': False}
+DONE {'key': 'ETH_matrix_h14_k2_w500_log', 'seconds': 0.6008032079989789, 'resumed': False}
+R5 ETH/matrix_h14_k3_w500_log/HAR: 1691 forecasts
+R5 ETH/matrix_h14_k3_w500_log/IV_calibrated: 1952 forecasts
+R5 ETH/matrix_h14_k7_w500_log/HAR: 1691 forecasts
+R5 ETH/matrix_h14_k14_w500_log/HAR: 1691 forecasts
+R5 ETH/matrix_h14_k14_w500_log/IV_calibrated: 1724 forecasts
+R5 ETH/matrix_h14_k7_w500_log/IV_calibrated: 1882 forecasts
+R5 ETH/matrix_h14_k3_w500_log/IV_HAR: 1675 forecasts
+DONE {'key': 'ETH_matrix_h14_k3_w500_log', 'seconds': 0.5880401250033174, 'resumed': False}
+R5 ETH/matrix_h14_k14_w500_log/IV_HAR: 1461 forecasts
+R5 ETH/matrix_h14_k7_w500_log/IV_HAR: 1608 forecasts
+DONE {'key': 'ETH_matrix_h14_k14_w500_log', 'seconds': 0.5715836659946945, 'resumed': False}
+DONE {'key': 'ETH_matrix_h14_k7_w500_log', 'seconds': 0.6233229159988696, 'resumed': False}
+R5 ETH/matrix_h14_k30_w500_log/HAR: 1691 forecasts
+R5 ETH/matrix_h14_k30_w500_log/IV_calibrated: 1274 forecasts
+R5 ETH/matrix_h14_kDVOL_w500_log/HAR: 1691 forecasts
+R5 ETH/matrix_h30_k1_w500_log/HAR: 1691 forecasts
+R5 ETH/matrix_h14_k30_w500_log/IV_HAR: 1034 forecasts
+DONE {'key': 'ETH_matrix_h14_k30_w500_log', 'seconds': 0.4483642080012942, 'resumed': False}
+R5 ETH/matrix_h14_kDVOL_w500_log/IV_calibrated: 1890 forecasts
+R5 ETH/matrix_h30_k1_w500_log/IV_calibrated: 1970 forecasts
+R5 ETH/matrix_h30_k2_w500_log/HAR: 1691 forecasts
+R5 ETH/matrix_h14_kDVOL_w500_log/IV_HAR: 1602 forecasts
+R5 ETH/matrix_h30_k1_w500_log/IV_HAR: 1690 forecasts
+DONE {'key': 'ETH_matrix_h14_kDVOL_w500_log', 'seconds': 0.5973511249903822, 'resumed': False}
+DONE {'key': 'ETH_matrix_h30_k1_w500_log', 'seconds': 0.5749309579987312, 'resumed': False}
+R5 ETH/matrix_h30_k2_w500_log/IV_calibrated: 1965 forecasts
+R5 ETH/matrix_h30_k3_w500_log/HAR: 1691 forecasts
+R5 ETH/matrix_h30_k7_w500_log/HAR: 1691 forecasts
+R5 ETH/matrix_h30_k2_w500_log/IV_HAR: 1686 forecasts
+R5 ETH/matrix_h30_k3_w500_log/IV_calibrated: 1952 forecasts
+DONE {'key': 'ETH_matrix_h30_k2_w500_log', 'seconds': 0.6138337919983314, 'resumed': False}
+R5 ETH/matrix_h30_k7_w500_log/IV_calibrated: 1882 forecasts
+R5 ETH/matrix_h30_k3_w500_log/IV_HAR: 1675 forecasts
+R5 ETH/matrix_h30_k7_w500_log/IV_HAR: 1608 forecasts
+R5 ETH/matrix_h30_k14_w500_log/HAR: 1691 forecasts
+DONE {'key': 'ETH_matrix_h30_k3_w500_log', 'seconds': 0.5564351670036558, 'resumed': False}
+DONE {'key': 'ETH_matrix_h30_k7_w500_log', 'seconds': 0.5580222499993397, 'resumed': False}
+R5 ETH/matrix_h30_k14_w500_log/IV_calibrated: 1724 forecasts
+R5 ETH/matrix_h30_k30_w500_log/HAR: 1691 forecasts
+R5 ETH/matrix_h30_kDVOL_w500_log/HAR: 1691 forecasts
+R5 ETH/matrix_h30_k14_w500_log/IV_HAR: 1442 forecasts
+R5 ETH/matrix_h30_k30_w500_log/IV_calibrated: 1260 forecasts
+DONE {'key': 'ETH_matrix_h30_k14_w500_log', 'seconds': 0.4951592500001425, 'resumed': False}
+R5 ETH/matrix_h30_kDVOL_w500_log/IV_calibrated: 1874 forecasts
+R5 ETH/matrix_h30_k30_w500_log/IV_HAR: 1019 forecasts
+DONE {'key': 'ETH_matrix_h30_k30_w500_log', 'seconds': 0.4061737499869196, 'resumed': False}
+R5 ETH/matrix_h30_kDVOL_w500_log/IV_HAR: 1586 forecasts
+DONE {'key': 'ETH_matrix_h30_kDVOL_w500_log', 'seconds': 0.5285713749908609, 'resumed': False}
+R5 ETH/rv_binance_perp_payoff/RF: 1675 forecasts
+R5 ETH/rv_binance_perp_payoff/IV_calibrated: 1970 forecasts
+R5 ETH/rv_binance_perp_payoff/IV_HAR: 1763 forecasts
+DONE {'key': 'ETH_rv_binance_perp_payoff', 'seconds': 111.12980670901015, 'resumed': False}
+Forecast tables recalculated
+Daily premia tables recalculated
+Grid corrected decomposition recalculated
+Trading and order flow tables recalculated
+VaR and ES tables recalculated
+Computed cells: 1504
+       checked  matched  rate
+table                        
+1           48       48   1.0
+2          122      122   1.0
+3          324      324   1.0
+4           96       96   1.0
+5          300      300   1.0
+6          168      168   1.0
+7           98       98   1.0
+8           98       98   1.0
+9          106      106   1.0
+10         100      100   1.0
+MISMATCHES 0 UNMAPPED 0
+All three figures regenerated; underlying daily/monthly data saved.
+Table note checks: 32 scope discrepancies: 8
+{
+  "mode": "full",
+  "offline": true,
+  "wall_seconds": 614.2897976670065,
+  "python": "3.12.15 (main, Sep 30 2026, 22:04:19) [Clang 21.0.0 (clang-2100.3.34.2)]",
+  "platform": "macOS-27.2-arm64-arm-64bit",
+  "machine": "arm64",
+  "workers": 4,
+  "numeric_threads": 1,
+  "memory_budget_gb": 8.5,
+  "seeds": {
+    "forecasts": 20261007,
+    "stationary_bootstrap": 20261007,
+    "mcs": 20261007
+  },
+  "stages": [
+    {
+      "stage": "estimate.py",
+      "seconds": 596.5033070000063
+    },
+    {
+      "stage": "tables.py",
+      "seconds": 10.046283750009025
+    },
+    {
+      "stage": "verify.py",
+      "seconds": 1.2176167079887819
+    },
+    {
+      "stage": "figures.py",
+      "seconds": 5.4090620830102125
+    },
+    {
+      "stage": "notes.py",
+      "seconds": 1.0926742919982644
+    }
+  ],
+  "versions": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scipy": "1.18.1",
+    "statsmodels": "0.15.0",
+    "scikit-learn": "1.7.2",
+    "pyarrow": "21.0.0",
+    "matplotlib": "3.10.6",
+    "Pillow": "13.0.0"
+  }
+}
+FINISH mode=full wall_seconds=627

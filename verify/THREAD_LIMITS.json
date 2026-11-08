@@ -1,0 +1,6 @@
+{
+  "workers": 4,
+  "arrow_cpu_threads": 1,
+  "arrow_io_threads": 1,
+  "numeric_libraries": []
+}

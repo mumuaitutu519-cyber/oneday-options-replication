@@ -1,0 +1,13 @@
+figure,currency,series,points,all_equal,precision,max_abs_error
+1,BTC,iv,82,True,4 decimals in paper/build/tables5.json,
+1,BTC,rv,82,True,4 decimals in paper/build/tables5.json,
+2,BTC,trade_ATM,6,True,absolute tolerance 1e-10,2.220446049250313e-16
+2,BTC,mark,6,True,absolute tolerance 1e-10,8.326672684688674e-17
+2,BTC,model_free_grid_deducted,6,True,absolute tolerance 1e-10,0.0
+3,BTC,cumulative premium,2422,True,"x 4 decimals, y 6 decimals in source JSON",
+1,ETH,iv,81,True,4 decimals in paper/build/tables5.json,
+1,ETH,rv,81,True,4 decimals in paper/build/tables5.json,
+2,ETH,trade_ATM,6,True,absolute tolerance 1e-10,0.0
+2,ETH,mark,6,True,absolute tolerance 1e-10,0.0
+2,ETH,model_free_grid_deducted,6,True,absolute tolerance 1e-10,4.440892098500626e-16
+3,ETH,cumulative premium,2323,True,"x 4 decimals, y 6 decimals in source JSON",

@@ -1,0 +1,9 @@
+table,item,manuscript,recomputed,consistent,reason,source
+1 / Figure 1,IV / RV measurement window BTC,23 hours,24–24 hours,False,The archived R4 term panel uses fixed-maturity interpolation to 09:00 next day. Recovered rows are preserved in R5 trade_ATM.,data/premium_BTC.parquet
+9,Panel A sample begins BTC,2020-01 (global manuscript sample),2017-11-16,False,Includes 89 days and 576 trades before 2020. Table values reproduce the wider source sample.,data/atm_trade_daily_by_side.parquet
+5,One-day rows A–C and Panel D maturity BTC,23 hours (equation (3) reference),24 hours,False,"The historical one-day term row and variance-unit premia use a fixed 24-hour interpolated panel, different from the one-day actual-expiry definition.",data/premium_BTC.parquet
+9,Panel B maturity BTC,23 hours (one-day definition; Panel B equation (3) reference),24 hours in Panel B and annual premia in Panel C,False,Side-specific premium is calculated from the same interpolated fixed-day panel as Table 5.,data/premium_BTC.parquet
+1 / Figure 1,IV / RV measurement window ETH,23 hours,24–24 hours,False,The archived R4 term panel uses fixed-maturity interpolation to 09:00 next day. Recovered rows are preserved in R5 trade_ATM.,data/premium_ETH.parquet
+9,Panel A sample begins ETH,2020-01 (global manuscript sample),2019-04-11,False,Includes 22 days and 47 trades before 2020. Table values reproduce the wider source sample.,data/atm_trade_daily_by_side.parquet
+5,One-day rows A–C and Panel D maturity ETH,23 hours (equation (3) reference),24 hours,False,"The historical one-day term row and variance-unit premia use a fixed 24-hour interpolated panel, different from the one-day actual-expiry definition.",data/premium_ETH.parquet
+9,Panel B maturity ETH,23 hours (one-day definition; Panel B equation (3) reference),24 hours in Panel B and annual premia in Panel C,False,Side-specific premium is calculated from the same interpolated fixed-day panel as Table 5.,data/premium_ETH.parquet

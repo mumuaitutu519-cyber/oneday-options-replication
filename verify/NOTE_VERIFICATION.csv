@@ -1,0 +1,41 @@
+table,item,manuscript,recomputed,consistent,reason,source
+1 / Figure 1,IV / RV measurement window BTC,23 hours,24–24 hours,False,The archived R4 term panel uses fixed-maturity interpolation to 09:00 next day. Recovered rows are preserved in R5 trade_ATM.,data/premium_BTC.parquet
+2,evaluation days BTC,1522,1522,True,,data/forecast_cache/BTC_w500_log_hour8_h1.parquet
+2,first evaluation date BTC,2021-08-09,2021-08-09,True,,data/forecast_cache
+2,last evaluation date BTC,2026-10-05,2026-10-05,True,,data/forecast_cache
+2,forecast window BTC,23 hours,[23.0],True,Actual next-day 08:00 expiry.,data/forecast_inputs
+3,Window 1000 starts BTC,2024-01-31,2024-01-31,True,,data/forecast_cache
+5,fixed-maturity hours BTC h=1,24,24.0,True,Table 5 note uses row maturity; Section 2 equation (3) describes the separate 23-hour measure.,data/premium_BTC.parquet
+5,fixed-maturity hours BTC h=2,48,48.0,True,Table 5 note uses row maturity; Section 2 equation (3) describes the separate 23-hour measure.,data/premium_BTC.parquet
+5,fixed-maturity hours BTC h=3,72,72.0,True,Table 5 note uses row maturity; Section 2 equation (3) describes the separate 23-hour measure.,data/premium_BTC.parquet
+5,fixed-maturity hours BTC h=7,168,168.0,True,Table 5 note uses row maturity; Section 2 equation (3) describes the separate 23-hour measure.,data/premium_BTC.parquet
+5,fixed-maturity hours BTC h=14,336,336.0,True,Table 5 note uses row maturity; Section 2 equation (3) describes the separate 23-hour measure.,data/premium_BTC.parquet
+5,fixed-maturity hours BTC h=30,720,720.0,True,Table 5 note uses row maturity; Section 2 equation (3) describes the separate 23-hour measure.,data/premium_BTC.parquet
+9,Panel A sample begins BTC,2020-01 (global manuscript sample),2017-11-16,False,Includes 89 days and 576 trades before 2020. Table values reproduce the wider source sample.,data/atm_trade_daily_by_side.parquet
+5,One-day rows A–C and Panel D maturity BTC,23 hours (equation (3) reference),24 hours,False,"The historical one-day term row and variance-unit premia use a fixed 24-hour interpolated panel, different from the one-day actual-expiry definition.",data/premium_BTC.parquet
+9,Panel B maturity BTC,23 hours (one-day definition; Panel B equation (3) reference),24 hours in Panel B and annual premia in Panel C,False,Side-specific premium is calculated from the same interpolated fixed-day panel as Table 5.,data/premium_BTC.parquet
+1 / Figure 1,IV / RV measurement window ETH,23 hours,24–24 hours,False,The archived R4 term panel uses fixed-maturity interpolation to 09:00 next day. Recovered rows are preserved in R5 trade_ATM.,data/premium_ETH.parquet
+2,evaluation days ETH,1596,1596,True,,data/forecast_cache/ETH_w500_log_hour8_h1.parquet
+2,first evaluation date ETH,2021-08-09,2021-08-09,True,,data/forecast_cache
+2,last evaluation date ETH,2026-10-05,2026-10-05,True,,data/forecast_cache
+2,forecast window ETH,23 hours,[23.0],True,Actual next-day 08:00 expiry.,data/forecast_inputs
+3,Window 1000 starts ETH,2024-01-31,2024-01-31,True,,data/forecast_cache
+5,fixed-maturity hours ETH h=1,24,24.0,True,Table 5 note uses row maturity; Section 2 equation (3) describes the separate 23-hour measure.,data/premium_ETH.parquet
+5,fixed-maturity hours ETH h=2,48,48.0,True,Table 5 note uses row maturity; Section 2 equation (3) describes the separate 23-hour measure.,data/premium_ETH.parquet
+5,fixed-maturity hours ETH h=3,72,72.0,True,Table 5 note uses row maturity; Section 2 equation (3) describes the separate 23-hour measure.,data/premium_ETH.parquet
+5,fixed-maturity hours ETH h=7,168,168.0,True,Table 5 note uses row maturity; Section 2 equation (3) describes the separate 23-hour measure.,data/premium_ETH.parquet
+5,fixed-maturity hours ETH h=14,336,336.0,True,Table 5 note uses row maturity; Section 2 equation (3) describes the separate 23-hour measure.,data/premium_ETH.parquet
+5,fixed-maturity hours ETH h=30,720,720.0,True,Table 5 note uses row maturity; Section 2 equation (3) describes the separate 23-hour measure.,data/premium_ETH.parquet
+9,Panel A sample begins ETH,2020-01 (global manuscript sample),2019-04-11,False,Includes 22 days and 47 trades before 2020. Table values reproduce the wider source sample.,data/atm_trade_daily_by_side.parquet
+5,One-day rows A–C and Panel D maturity ETH,23 hours (equation (3) reference),24 hours,False,"The historical one-day term row and variance-unit premia use a fixed 24-hour interpolated panel, different from the one-day actual-expiry definition.",data/premium_ETH.parquet
+9,Panel B maturity ETH,23 hours (one-day definition; Panel B equation (3) reference),24 hours in Panel B and annual premia in Panel C,False,Side-specific premium is calculated from the same interpolated fixed-day panel as Table 5.,data/premium_ETH.parquet
+8,eligible days BTC last sell,2458,2458,True,Idle eligible days included; unavailable market/funding days excluded.,output/strategy_sample_counts_BTC.csv
+8,eligible days BTC mark sell,2458,2458,True,Idle eligible days included; unavailable market/funding days excluded.,output/strategy_sample_counts_BTC.csv
+8,eligible days BTC sell sell,2451,2451,True,Idle eligible days included; unavailable market/funding days excluded.,output/strategy_sample_counts_BTC.csv
+8,eligible days BTC buy buy,2451,2451,True,Idle eligible days included; unavailable market/funding days excluded.,output/strategy_sample_counts_BTC.csv
+8,eligible days ETH last sell,2431,2431,True,Idle eligible days included; unavailable market/funding days excluded.,output/strategy_sample_counts_ETH.csv
+8,eligible days ETH mark sell,2431,2431,True,Idle eligible days included; unavailable market/funding days excluded.,output/strategy_sample_counts_ETH.csv
+8,eligible days ETH sell sell,2417,2417,True,Idle eligible days included; unavailable market/funding days excluded.,output/strategy_sample_counts_ETH.csv
+8,eligible days ETH buy buy,2412,2412,True,Idle eligible days included; unavailable market/funding days excluded.,output/strategy_sample_counts_ETH.csv
+8,stationary bootstrap draws,95% interval,4999,True,"4999 replicates, mean block length 7, seed 20261007; daily gaps restored for bootstrap.",code/tables.py::bootstrap_weights
+10,equal-coverage scaling,evaluation-period scaling,full evaluation sample,True,Descriptive capital comparison; multiplier uses realized evaluation-period losses as stated in the manuscript note.,code/tables.py::tables_risk

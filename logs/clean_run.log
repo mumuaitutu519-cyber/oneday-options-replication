@@ -1,0 +1,128 @@
+START mode=quick offline=1 workers=4
+Looking in links: wheels
+Processing ./wheels/certifi-2026.10.23-py3-none-any.whl (from -r requirements.txt (line 1))
+Processing ./wheels/charset_normalizer-3.5.2-cp312-cp312-macosx_10_13_universal2.whl (from -r requirements.txt (line 2))
+Processing ./wheels/cloudpickle-3.1.2-py3-none-any.whl (from -r requirements.txt (line 3))
+Processing ./wheels/contourpy-1.4.0-cp312-cp312-macosx_11_0_arm64.whl (from -r requirements.txt (line 4))
+Processing ./wheels/cycler-0.12.1-py3-none-any.whl (from -r requirements.txt (line 5))
+Processing ./wheels/fonttools-4.68.0-cp312-cp312-macosx_10_13_universal2.whl (from -r requirements.txt (line 6))
+Processing ./wheels/formulaic-1.2.2-py3-none-any.whl (from -r requirements.txt (line 7))
+Processing ./wheels/idna-3.20-py3-none-any.whl (from -r requirements.txt (line 8))
+Processing ./wheels/interface_meta-2.0.1-py3-none-any.whl (from -r requirements.txt (line 9))
+Processing ./wheels/joblib-1.6.0-py3-none-any.whl (from -r requirements.txt (line 10))
+Processing ./wheels/kiwisolver-1.5.1-cp312-cp312-macosx_11_0_arm64.whl (from -r requirements.txt (line 11))
+Processing ./wheels/matplotlib-3.10.6-cp312-cp312-macosx_11_0_arm64.whl (from -r requirements.txt (line 12))
+Processing ./wheels/narwhals-2.28.0-py3-none-any.whl (from -r requirements.txt (line 13))
+Processing ./wheels/numpy-2.3.5-cp312-cp312-macosx_14_0_arm64.whl (from -r requirements.txt (line 14))
+Processing ./wheels/packaging-26.3-py3-none-any.whl (from -r requirements.txt (line 15))
+Processing ./wheels/pandas-2.2.3-cp312-cp312-macosx_11_0_arm64.whl (from -r requirements.txt (line 16))
+Processing ./wheels/patsy-1.0.3-py2.py3-none-any.whl (from -r requirements.txt (line 17))
+Processing ./wheels/pillow-13.0.0-cp312-cp312-macosx_11_0_arm64.whl (from -r requirements.txt (line 18))
+Processing ./wheels/pyarrow-21.0.0-cp312-cp312-macosx_12_0_arm64.whl (from -r requirements.txt (line 19))
+Processing ./wheels/pyparsing-3.3.3-py3-none-any.whl (from -r requirements.txt (line 20))
+Processing ./wheels/python_dateutil-4.0.0-py3-none-any.whl (from -r requirements.txt (line 21))
+Processing ./wheels/pytz-2026.6-py2.py3-none-any.whl (from -r requirements.txt (line 22))
+Processing ./wheels/requests-2.32.5-py3-none-any.whl (from -r requirements.txt (line 23))
+Processing ./wheels/scikit_learn-1.7.2-cp312-cp312-macosx_12_0_arm64.whl (from -r requirements.txt (line 24))
+Processing ./wheels/scipy-1.18.1-cp312-cp312-macosx_14_0_arm64.whl (from -r requirements.txt (line 25))
+Processing ./wheels/statsmodels-0.15.0-cp312-cp312-macosx_11_0_arm64.whl (from -r requirements.txt (line 26))
+Processing ./wheels/threadpoolctl-3.8.0-py3-none-any.whl (from -r requirements.txt (line 27))
+Processing ./wheels/typing_extensions-4.16.0-py3-none-any.whl (from -r requirements.txt (line 28))
+Processing ./wheels/tzdata-2026.6-py2.py3-none-any.whl (from -r requirements.txt (line 29))
+Processing ./wheels/urllib3-2.8.0-py3-none-any.whl (from -r requirements.txt (line 30))
+Processing ./wheels/wrapt-2.5.2-cp312-cp312-macosx_11_0_arm64.whl (from -r requirements.txt (line 31))
+Installing collected packages: pytz, wrapt, urllib3, tzdata, typing_extensions, threadpoolctl, pyparsing, pyarrow, pillow, packaging, numpy, narwhals, kiwisolver, interface_meta, idna, fonttools, cycler, cloudpickle, charset-normalizer, certifi, scipy, requests, python-dateutil, patsy, joblib, contourpy, scikit-learn, pandas, matplotlib, formulaic, statsmodels
+
+Successfully installed certifi-2026.10.23 charset-normalizer-3.5.2 cloudpickle-3.1.2 contourpy-1.4.0 cycler-0.12.1 fonttools-4.68.0 formulaic-1.2.2 idna-3.20 interface_meta-2.0.1 joblib-1.6.0 kiwisolver-1.5.1 matplotlib-3.10.6 narwhals-2.28.0 numpy-2.3.5 packaging-26.3 pandas-2.2.3 patsy-1.0.3 pillow-13.0.0 pyarrow-21.0.0 pyparsing-3.3.3 python-dateutil-4.0.0 pytz-2026.6 requests-2.32.5 scikit-learn-1.7.2 scipy-1.18.1 statsmodels-0.15.0 threadpoolctl-3.8.0 typing_extensions-4.16.0 tzdata-2026.6 urllib3-2.8.0 wrapt-2.5.2
+OFFLINE_SOCKET_BLOCK_CONFIRMED
+Authority DOCX extracted: 10 tables, 25 physical blocks, 5 figure panels
+Forecast tables recalculated
+Daily premia tables recalculated
+Grid corrected decomposition recalculated
+Trading and order flow tables recalculated
+VaR and ES tables recalculated
+Computed cells: 1504
+       checked  matched  rate
+table                        
+1           48       48   1.0
+2          122      122   1.0
+3          324      324   1.0
+4           96       96   1.0
+5          300      300   1.0
+6          168      168   1.0
+7           98       98   1.0
+8           98       98   1.0
+9          106      106   1.0
+10         100      100   1.0
+MISMATCHES 0 UNMAPPED 0
+All three figures regenerated; underlying daily/monthly data saved.
+Table note checks: 40 scope discrepancies: 8
+       checked  matched      rate
+table                            
+1           48        0  0.000000
+2          122      122  1.000000
+3          324      324  1.000000
+4           96       96  1.000000
+5          300      210  0.700000
+6          168      168  1.000000
+7           98       98  1.000000
+8           98       98  1.000000
+9          106       42  0.396226
+10         100      100  1.000000
+MISMATCHES 202 UNMAPPED 0
+Table note checks: 40 scope discrepancies: 8
+Stated-definition mismatches: 202 historical version still retained separately.
+Time-cutoff audit complete: 120 specifications
+{
+  "mode": "quick",
+  "offline": true,
+  "wall_seconds": 42.543211041003815,
+  "python": "3.12.15 (main, Sep 30 2026, 22:04:19) [Clang 21.0.0 (clang-2100.3.34.2)]",
+  "platform": "macOS-27.2-arm64-arm-64bit",
+  "machine": "arm64",
+  "workers": 4,
+  "numeric_threads": 1,
+  "memory_budget_gb": 8.5,
+  "seeds": {
+    "forecasts": 20261007,
+    "stationary_bootstrap": 20261007,
+    "mcs": 20261007
+  },
+  "stages": [
+    {
+      "stage": "extract.py",
+      "seconds": 0.13074016700556967
+    },
+    {
+      "stage": "tables.py",
+      "seconds": 30.96617845799483
+    },
+    {
+      "stage": "verify.py",
+      "seconds": 1.2194798330019694
+    },
+    {
+      "stage": "figures.py",
+      "seconds": 4.295034166003461
+    },
+    {
+      "stage": "notes.py",
+      "seconds": 3.0509327500039944
+    },
+    {
+      "stage": "audit_inputs.py",
+      "seconds": 2.8473114160005935
+    }
+  ],
+  "versions": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scipy": "1.18.1",
+    "statsmodels": "0.15.0",
+    "scikit-learn": "1.7.2",
+    "pyarrow": "21.0.0",
+    "matplotlib": "3.10.6",
+    "Pillow": "13.0.0"
+  }
+}
+FINISH mode=quick wall_seconds=61
